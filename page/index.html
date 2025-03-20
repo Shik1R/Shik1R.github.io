@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://Shik1R.github.io/page/'>
 
-<link rel="stylesheet" href="/scss/style.min.b9c8156d464c343bdacaf14a871581fb94cbbdb9dd5cbce4ba017361187cc930.css"><meta property='og:title' content="Pages">
+<link rel="stylesheet" href="/scss/style.min.d6a6fb087e909545744b574b6e77af1604f3f8676a684c86b4ebb442c2600356.css"><meta property='og:title' content="Pages">
 <meta property='og:description' content="一些生活与记录">
 <meta property='og:url' content='https://Shik1R.github.io/page/'>
 <meta property='og:site_name' content='M1ka&#39;s Blog'>
@@ -322,6 +322,7 @@
         
             
                 <section class="widget tagCloud">
+    
     <div class="widget-icon">
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
@@ -346,6 +347,10 @@
         
     </div>
 </section>
+<span class="tagCloud-count-main"></span>
+
+
+
             
         
     </aside>
@@ -412,13 +417,81 @@
         
         2025 Shik1R
     </section>
+
     
+    <section class="totalcount">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        发表了16篇文章 ·
+        总计3万0千字
+        <br>
+
+    </section>
+
+
     <section class="powerby">
         使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
         主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
     </section>
+       
+         
+<section class="running-time">
+    本博客已稳定运行
+    <span id="runningdays" class="running-days"></span>
+    </section>
 </footer>
 
+
+
+
+   
+    
 
             </main>
         </div>
@@ -439,5 +512,36 @@
     }());
 </script>
 
+<script>
+    let s1 = '2023-3-11'; 
+    s1 = new Date(s1.replace(/-/g, "/"));
+    let s2 = new Date();
+   
+    
+    let diffInMilliseconds = s2.getTime() - s1.getTime();
+    let totalDays = Math.floor(diffInMilliseconds / (1000 * 60 * 60 * 24));
+   
+    
+    let years = s2.getFullYear() - s1.getFullYear();
+    let months = s2.getMonth() - s1.getMonth();
+    let days = s2.getDate() - s1.getDate();
+   
+    
+    if (days < 0) {
+      months -= 1;
+      let prevMonth = new Date(s2.getFullYear(), s2.getMonth(), 0); 
+      days += prevMonth.getDate();
+    }
+    if (months < 0) {
+      years -= 1;
+      months += 12;
+    }
+   
+    
+    let result = `${years}年${months}月${days}天`;
+    document.getElementById('runningdays').innerHTML = result;
+   </script>
+   
+   
     </body>
 </html>

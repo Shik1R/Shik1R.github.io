@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="一些生活与记录">
-<title>About</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="MacOS风格代码 https://thirdshire.com/hugo-stack-renovation-part-three/\n在归档页增加标签云Tags 在layouts/_default/archives.html里的后面加上如下代码\n{{- $taxonomy := $.Site.GetPage &ldquo;taxonomyTerm&rdquo; &ldquo;tags&rdquo; -}} {{- $terms := $taxonomy.Pages -}} {{ if $terms }}\n{{ $taxonomy.Title }} &lt;div class=&quot;tagCloud-tags&quot;&gt; {{ if ne (len $.Site.Taxonomies.tags) 0 }} {{ range $name, $taxonomy := $.Site.Taxonomies.tags }} {{ $tagCount := len $taxonomy.Pages }} &lt;a href=&quot;{{ &quot;/tags/&quot; | relURL }}{{ $name | urlize }}&quot; class=&quot;tagCloud-tags&quot;&gt; {{ $name }}&lt;span class=&quot;tagCloud-count&quot;&gt;{{ $tagCount }}&lt;/span&gt; &lt;/a&gt; {{ end }} {{ end }} &lt;/div&gt; {{ end }} 以上代码用了tagCloud-count来修饰tag后面的数字，所以还需要在assets/scss/partials/widgets.scss里面加上如下代码，让数字变成浅灰： .tagCloud { .tagCloud-count { color: var(&ndash;body-text-color); } }\n">
+<title></title>
 
-<link rel='canonical' href='https://Shik1R.github.io/about/'>
+<link rel='canonical' href='https://Shik1R.github.io/drfat/hugo%E6%9B%B4%E6%96%B0/'>
 
-<link rel="stylesheet" href="/scss/style.min.d6a6fb087e909545744b574b6e77af1604f3f8676a684c86b4ebb442c2600356.css"><meta property='og:title' content="About">
-<meta property='og:description' content="一些生活与记录">
-<meta property='og:url' content='https://Shik1R.github.io/about/'>
+<link rel="stylesheet" href="/scss/style.min.d6a6fb087e909545744b574b6e77af1604f3f8676a684c86b4ebb442c2600356.css"><meta property='og:title' content="">
+<meta property='og:description' content="MacOS风格代码 https://thirdshire.com/hugo-stack-renovation-part-three/\n在归档页增加标签云Tags 在layouts/_default/archives.html里的后面加上如下代码\n{{- $taxonomy := $.Site.GetPage &ldquo;taxonomyTerm&rdquo; &ldquo;tags&rdquo; -}} {{- $terms := $taxonomy.Pages -}} {{ if $terms }}\n{{ $taxonomy.Title }} &lt;div class=&quot;tagCloud-tags&quot;&gt; {{ if ne (len $.Site.Taxonomies.tags) 0 }} {{ range $name, $taxonomy := $.Site.Taxonomies.tags }} {{ $tagCount := len $taxonomy.Pages }} &lt;a href=&quot;{{ &quot;/tags/&quot; | relURL }}{{ $name | urlize }}&quot; class=&quot;tagCloud-tags&quot;&gt; {{ $name }}&lt;span class=&quot;tagCloud-count&quot;&gt;{{ $tagCount }}&lt;/span&gt; &lt;/a&gt; {{ end }} {{ end }} &lt;/div&gt; {{ end }} 以上代码用了tagCloud-count来修饰tag后面的数字，所以还需要在assets/scss/partials/widgets.scss里面加上如下代码，让数字变成浅灰： .tagCloud { .tagCloud-count { color: var(&ndash;body-text-color); } }\n">
+<meta property='og:url' content='https://Shik1R.github.io/drfat/hugo%E6%9B%B4%E6%96%B0/'>
 <meta property='og:site_name' content='M1ka&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Page' /><meta property='article:published_time' content='2023-03-24T16:51:18&#43;00:00'/><meta property='article:modified_time' content='2025-03-18T16:51:11&#43;00:00'/>
-<meta name="twitter:title" content="About">
-<meta name="twitter:description" content="一些生活与记录">
+<meta property='og:type' content='article'><meta property='article:section' content='Drfat' />
+<meta name="twitter:title" content="">
+<meta name="twitter:description" content="MacOS风格代码 https://thirdshire.com/hugo-stack-renovation-part-three/\n在归档页增加标签云Tags 在layouts/_default/archives.html里的后面加上如下代码\n{{- $taxonomy := $.Site.GetPage &ldquo;taxonomyTerm&rdquo; &ldquo;tags&rdquo; -}} {{- $terms := $taxonomy.Pages -}} {{ if $terms }}\n{{ $taxonomy.Title }} &lt;div class=&quot;tagCloud-tags&quot;&gt; {{ if ne (len $.Site.Taxonomies.tags) 0 }} {{ range $name, $taxonomy := $.Site.Taxonomies.tags }} {{ $tagCount := len $taxonomy.Pages }} &lt;a href=&quot;{{ &quot;/tags/&quot; | relURL }}{{ $name | urlize }}&quot; class=&quot;tagCloud-tags&quot;&gt; {{ $name }}&lt;span class=&quot;tagCloud-count&quot;&gt;{{ $tagCount }}&lt;/span&gt; &lt;/a&gt; {{ end }} {{ end }} &lt;/div&gt; {{ end }} 以上代码用了tagCloud-count来修饰tag后面的数字，所以还需要在assets/scss/partials/widgets.scss里面加上如下代码，让数字变成浅灰： .tagCloud { .tagCloud-count { color: var(&ndash;body-text-color); } }\n">
     </head>
     <body class="
     article-page
@@ -116,7 +116,7 @@
         </li>
         
         
-        <li  class='current' >
+        <li >
             <a href='/about/' >
                 
                 
@@ -202,7 +202,41 @@
     </ol>
 </aside>
 
-    
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#macos风格代码">MacOS风格代码</a></li>
+    <li><a href="#在归档页增加标签云tags">在归档页增加标签云Tags</a></li>
+    <li><a href="#首页标签云显示数目">首页标签云显示数目</a></li>
+    <li><a href="#字数显示不正确">字数显示不正确</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
 
             <main class="main full-width">
     <article class="main-article">
@@ -213,13 +247,9 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/about/">About</a>
+            <a href="/drfat/hugo%E6%9B%B4%E6%96%B0/"></a>
         </h2>
     
-        
-        <h3 class="article-subtitle">
-            一些生活与记录
-        </h3>
         
     </div>
 
@@ -228,19 +258,6 @@
     
     
     <footer class="article-time">
-        
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
-  <circle cx="18" cy="18" r="4" />
-  <path d="M15 3v4" />
-  <path d="M7 3v4" />
-  <path d="M3 11h16" />
-  <path d="M18 16.496v1.504l1 1" />
-</svg>
-                <time class="article-time--published">Mar 24, 2023</time>
-            </div>
         
 
         
@@ -269,7 +286,50 @@
     <section class="article-content">
     
     
-    <p>转转悠悠，又似乎还是回到了这里，沿着一直的思绪后续会逐步的完善，今年争取多写一点能够输出的东西</p>
+    <h2 id="macos风格代码">MacOS风格代码
+</h2><p><a class="link" href="https://thirdshire.com/hugo-stack-renovation-part-three/"  target="_blank" rel="noopener"
+    >https://thirdshire.com/hugo-stack-renovation-part-three/</a></p>
+<h2 id="在归档页增加标签云tags">在归档页增加标签云Tags
+</h2><p>在layouts/_default/archives.html里的</header>后面加上如下代码</p>
+<p>{{- $taxonomy := $.Site.GetPage &ldquo;taxonomyTerm&rdquo; &ldquo;tags&rdquo; -}}
+{{- $terms := $taxonomy.Pages -}}
+{{ if $terms }}</p>
+<section class="widget tagCloud">
+<h2 class="section-title">{{ $taxonomy.Title }}</h2>
+<pre><code>&lt;div class=&quot;tagCloud-tags&quot;&gt;
+    {{ if ne (len $.Site.Taxonomies.tags) 0 }}
+        {{ range $name, $taxonomy := $.Site.Taxonomies.tags }}
+            {{ $tagCount := len $taxonomy.Pages }}
+            &lt;a href=&quot;{{ &quot;/tags/&quot; | relURL }}{{ $name | urlize }}&quot; class=&quot;tagCloud-tags&quot;&gt;
+                {{ $name }}&lt;span class=&quot;tagCloud-count&quot;&gt;{{ $tagCount }}&lt;/span&gt;
+            &lt;/a&gt;
+        {{ end }}
+    {{ end }}
+&lt;/div&gt;
+</code></pre>
+<section>
+{{ end }}
+<p>以上代码用了tagCloud-count来修饰tag后面的数字，所以还需要在assets/scss/partials/widgets.scss里面加上如下代码，让数字变成浅灰：
+.tagCloud {
+.tagCloud-count {
+color: var(&ndash;body-text-color);
+}
+}</p>
+<h2 id="首页标签云显示数目">首页标签云显示数目
+</h2><p>在前情提要 Part.1 在归档页增加标签云 tags 里，已经在归档页增加了标签云及其数目，但首页的标签云还没有显示数量，这里也补充一下。在下述文件增加代码：</p>
+<p>assets/scss/partials/widgets.scss</p>
+<p>.tagCloud-count-main {
+margin-left: 7px; // Use a separate setting so that it didn&rsquo;t affect the style in archive page
+color: var(&ndash;body-text-color);
+}</p>
+<p>layouts/partials/widget/tag-cloud.html</p>
+<p>{{ .Page.Title }}<span class="tagCloud-count-main">{{ .Count }}&lt;/span</p>
+<h2 id="字数显示不正确">字数显示不正确
+</h2><p>hugo 默认统计的是英文的字符，如果有中文需要在 config.toml 中设置 hasCJKLanguage = true 。如：</p>
+<h1 id="site-settings">Site settings
+</h1><p>languageCode = &ldquo;zh-cn&rdquo;</p>
+<h1 id="网站有-cjk-字符中日韩统一表意文字设置-hascjklanguage--true">网站有 CJK 字符（中日韩统一表意文字），设置 hasCJKLanguage = true
+</h1><p>hasCJKLanguage = true</p>
 
 </section>
 
@@ -287,21 +347,9 @@
 
 
 
-        <span>CC BY-NC-ND</span>
+        <span>Licensed under CC BY-NC-SA 4.0</span>
     </section>
-    <section class="article-lastmod">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-        <span>
-            最后更新于 Mar 18, 2025 16:51 UTC
-        </span>
-    </section></footer>
+    </footer>
 
 
     

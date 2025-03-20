@@ -1062,6 +1062,58 @@ JIN-仁- 完結編&lt;/p&gt;
 </description>
         </item>
         <item>
+        <title></title>
+        <link>https://Shik1R.github.io/drfat/hugo%E6%9B%B4%E6%96%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://Shik1R.github.io/drfat/hugo%E6%9B%B4%E6%96%B0/</guid>
+        <description>&lt;h2 id=&#34;macos风格代码&#34;&gt;MacOS风格代码
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://thirdshire.com/hugo-stack-renovation-part-three/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://thirdshire.com/hugo-stack-renovation-part-three/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;在归档页增加标签云tags&#34;&gt;在归档页增加标签云Tags
+&lt;/h2&gt;&lt;p&gt;在layouts/_default/archives.html里的&lt;/header&gt;后面加上如下代码&lt;/p&gt;
+&lt;p&gt;{{- $taxonomy := $.Site.GetPage &amp;ldquo;taxonomyTerm&amp;rdquo; &amp;ldquo;tags&amp;rdquo; -}}
+{{- $terms := $taxonomy.Pages -}}
+{{ if $terms }}&lt;/p&gt;
+&lt;section class=&#34;widget tagCloud&#34;&gt;
+&lt;h2 class=&#34;section-title&#34;&gt;{{ $taxonomy.Title }}&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;tagCloud-tags&amp;quot;&amp;gt;
+    {{ if ne (len $.Site.Taxonomies.tags) 0 }}
+        {{ range $name, $taxonomy := $.Site.Taxonomies.tags }}
+            {{ $tagCount := len $taxonomy.Pages }}
+            &amp;lt;a href=&amp;quot;{{ &amp;quot;/tags/&amp;quot; | relURL }}{{ $name | urlize }}&amp;quot; class=&amp;quot;tagCloud-tags&amp;quot;&amp;gt;
+                {{ $name }}&amp;lt;span class=&amp;quot;tagCloud-count&amp;quot;&amp;gt;{{ $tagCount }}&amp;lt;/span&amp;gt;
+            &amp;lt;/a&amp;gt;
+        {{ end }}
+    {{ end }}
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;section&gt;
+{{ end }}
+&lt;p&gt;以上代码用了tagCloud-count来修饰tag后面的数字，所以还需要在assets/scss/partials/widgets.scss里面加上如下代码，让数字变成浅灰：
+.tagCloud {
+.tagCloud-count {
+color: var(&amp;ndash;body-text-color);
+}
+}&lt;/p&gt;
+&lt;h2 id=&#34;首页标签云显示数目&#34;&gt;首页标签云显示数目
+&lt;/h2&gt;&lt;p&gt;在前情提要 Part.1 在归档页增加标签云 tags 里，已经在归档页增加了标签云及其数目，但首页的标签云还没有显示数量，这里也补充一下。在下述文件增加代码：&lt;/p&gt;
+&lt;p&gt;assets/scss/partials/widgets.scss&lt;/p&gt;
+&lt;p&gt;.tagCloud-count-main {
+margin-left: 7px; // Use a separate setting so that it didn&amp;rsquo;t affect the style in archive page
+color: var(&amp;ndash;body-text-color);
+}&lt;/p&gt;
+&lt;p&gt;layouts/partials/widget/tag-cloud.html&lt;/p&gt;
+&lt;p&gt;{{ .Page.Title }}&lt;span class=&#34;tagCloud-count-main&#34;&gt;{{ .Count }}&amp;lt;/span&lt;/p&gt;
+&lt;h2 id=&#34;字数显示不正确&#34;&gt;字数显示不正确
+&lt;/h2&gt;&lt;p&gt;hugo 默认统计的是英文的字符，如果有中文需要在 config.toml 中设置 hasCJKLanguage = true 。如：&lt;/p&gt;
+&lt;h1 id=&#34;site-settings&#34;&gt;Site settings
+&lt;/h1&gt;&lt;p&gt;languageCode = &amp;ldquo;zh-cn&amp;rdquo;&lt;/p&gt;
+&lt;h1 id=&#34;网站有-cjk-字符中日韩统一表意文字设置-hascjklanguage--true&#34;&gt;网站有 CJK 字符（中日韩统一表意文字），设置 hasCJKLanguage = true
+&lt;/h1&gt;&lt;p&gt;hasCJKLanguage = true&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Search</title>
         <link>https://Shik1R.github.io/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
