@@ -247,9 +247,9 @@
     <li><a href="#04-运行时间统计">04 运行时间统计</a></li>
     <li><a href="#05-修改archive页的分类样式">05 修改Archive页的分类样式</a></li>
     <li><a href="#06-修改tag响应式风格统一分类与tag风格">06 修改tag响应式风格，统一分类与tag风格</a></li>
-    <li><a href="#07-用不蒜子显示网站总访问量和总访问数并初始化">07 用不蒜子显示网站总访问量和总访问数，并初始化</a></li>
-    <li><a href="#08-代码框圆角效果">08 代码框圆角效果</a></li>
-    <li><a href="#09-archive中分类增加计数">09 Archive中分类增加计数</a></li>
+    <li><a href="#07-代码框圆角效果">07 代码框圆角效果</a></li>
+    <li><a href="#08-archive中分类增加计数">08 Archive中分类增加计数</a></li>
+    <li><a href="#09-添加google-analytics">09 添加Google Analytics</a></li>
   </ul>
 </nav>
     </div>
@@ -904,8 +904,7 @@ hugo 默认统计的是英文的字符，如果有中文需要在 config.toml �
 </div>
 </div><hr>
 <p>Update 2025.03.24</p>
-<h2 id="07-用不蒜子显示网站总访问量和总访问数并初始化">07 用不蒜子显示网站总访问量和总访问数，并初始化
-</h2><h2 id="08-代码框圆角效果">08 代码框圆角效果
+<h2 id="07-代码框圆角效果">07 代码框圆角效果
 </h2><p>在assets/scss/partials/layout/article.scss里，对应增加5-8行的圆角代码</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -929,7 +928,7 @@ hugo 默认统计的是英文的字符，如果有中文需要在 config.toml �
 </span></span><span class="line"><span class="cl">    <span class="k">box-shadow</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">shadow</span><span class="o">-</span><span class="n">l1</span><span class="p">)</span> <span class="cp">!important</span><span class="p">;</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="09-archive中分类增加计数">09 Archive中分类增加计数
+</div><h2 id="08-archive中分类增加计数">08 Archive中分类增加计数
 </h2><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -958,6 +957,88 @@ hugo 默认统计的是英文的字符，如果有中文需要在 config.toml �
 </span></span><span class="line"><span class="cl">                {{ end }}
 </span></span><span class="line"><span class="cl">        <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl">        {{ end }}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="09-添加google-analytics">09 添加Google Analytics
+</h2><p>用 Google 账户，按顺序走完 GA 创建流程后，可以拿ID 代码 <code>G-XXXXXXXXXX</code></p>
+<p>Hugo Stack模板本身支持 GA，在<code>hugo.yaml</code>中添加如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">services</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c"># GA Tracking ID</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">googleAnalytics</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l">G-XXXXXXXXXX  </span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>按 Hugo 官方文档，在<code>layouts\partials</code>下面重新添加了<code>google_analytics.html</code>文件，内容copy 自官方文档，如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">{{ if not site.Config.Privacy.GoogleAnalytics.Disable }}
+</span></span><span class="line"><span class="cl">  {{- with site.Config.Services.GoogleAnalytics.ID }}
+</span></span><span class="line"><span class="cl">    {{- if strings.HasPrefix (lower .) &#34;ua-&#34; }}
+</span></span><span class="line"><span class="cl">      {{- warnf &#34;Google Analytics 4 (GA4) replaced Google Universal Analytics (UA) effective 1 July 2023. See https://support.google.com/analytics/answer/11583528. Create a GA4 property and data stream, then replace the Google Analytics ID in your site configuration with the new value.&#34; }}
+</span></span><span class="line"><span class="cl">    {{- else }}
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">script</span> <span class="na">async</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://www.googletagmanager.com/gtag/js?id={{ . }}&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">var</span> <span class="nx">doNotTrack</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">({{</span> <span class="nx">site</span><span class="p">.</span><span class="nx">Config</span><span class="p">.</span><span class="nx">Privacy</span><span class="p">.</span><span class="nx">GoogleAnalytics</span><span class="p">.</span><span class="nx">RespectDoNotTrack</span> <span class="p">}})</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">          <span class="kd">var</span> <span class="nx">dnt</span> <span class="o">=</span> <span class="p">(</span><span class="nx">navigator</span><span class="p">.</span><span class="nx">doNotTrack</span> <span class="o">||</span> <span class="nb">window</span><span class="p">.</span><span class="nx">doNotTrack</span> <span class="o">||</span> <span class="nx">navigator</span><span class="p">.</span><span class="nx">msDoNotTrack</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">          <span class="kd">var</span> <span class="nx">doNotTrack</span> <span class="o">=</span> <span class="p">(</span><span class="nx">dnt</span> <span class="o">==</span> <span class="s2">&#34;1&#34;</span> <span class="o">||</span> <span class="nx">dnt</span> <span class="o">==</span> <span class="s2">&#34;yes&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">doNotTrack</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">          <span class="nb">window</span><span class="p">.</span><span class="nx">dataLayer</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">dataLayer</span> <span class="o">||</span> <span class="p">[];</span>
+</span></span><span class="line"><span class="cl">          <span class="kd">function</span> <span class="nx">gtag</span><span class="p">(){</span><span class="nx">dataLayer</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">arguments</span><span class="p">);}</span>
+</span></span><span class="line"><span class="cl">          <span class="nx">gtag</span><span class="p">(</span><span class="s1">&#39;js&#39;</span><span class="p">,</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl">          <span class="nx">gtag</span><span class="p">(</span><span class="s1">&#39;config&#39;</span><span class="p">,</span> <span class="s1">&#39;{{ . }}&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    {{- end }}
+</span></span><span class="line"><span class="cl">  {{- end }}
+</span></span><span class="line"><span class="cl">{{- end -}}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>备注：上面这一步我也不知道是否有用，但确实也没找到原始的文件在哪，这么完成后 GA 的测试是可以通过的。</p>
+<p>防止本地数据污染，可以禁用本地运行调试时的数据采集，可在<code>layouts\partials\head\head.html</code>下面添加</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">{{ if not hugo.IsServer }}
+</span></span><span class="line"><span class="cl">{{- template &#34;_internal/google_analytics.html&#34; . -}}
+</span></span><span class="line"><span class="cl">{{ end }}
 </span></span></code></pre></td></tr></table>
 </div>
 </div>
