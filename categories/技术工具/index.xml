@@ -725,7 +725,11 @@ hugo 默认统计的是英文的字符，如果有中文需要在 config.toml �
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{ end }}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description>
+&lt;/div&gt;&lt;h2 id=&#34;10-配置-waline-评论&#34;&gt;10 配置 waline 评论
+&lt;/h2&gt;&lt;p&gt;参考官方文档一步步做即可，由于 Hugo已内置waline，只需要在 yaml 文件中，打开评论，设置为 waline，将最后一步的服务器 URL 写到 yaml 文件中即可。
+&lt;a class=&#34;link&#34; href=&#34;https://waline.js.org/guide/get-started/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;waline 官方文档&lt;/a&gt;&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>Hexo 搭建记录</title>
