@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Run 这周在家里带娃，间隔了好几天没跑步了，时隔近一年的时间，再一次跑了个5km，考虑到太久没跑了，速度压的很低，总体还算舒适，还是要继续下去，任何事情最怕停下来，只要不停下来，慢一点也没什么，会比抢着做些事快很多。\n">
-<title>20241211 Daily</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="记录一些Typecho 搭建记录中方案&坑">
+<title>Typecho方案&amp;坑</title>
 
-<link rel='canonical' href='https://Shik1R.github.io/p/20241211-daily/'>
+<link rel='canonical' href='https://Shik1R.github.io/p/typecho%E6%96%B9%E6%A1%88-%E5%9D%91/'>
 
-<link rel="stylesheet" href="/scss/style.min.288d118cd6ff034c2efc86ac79aa57e8c26c529937a5b2a54d34a9d69aa05ba0.css"><meta property='og:title' content="20241211 Daily">
-<meta property='og:description' content="Run 这周在家里带娃，间隔了好几天没跑步了，时隔近一年的时间，再一次跑了个5km，考虑到太久没跑了，速度压的很低，总体还算舒适，还是要继续下去，任何事情最怕停下来，只要不停下来，慢一点也没什么，会比抢着做些事快很多。\n">
-<meta property='og:url' content='https://Shik1R.github.io/p/20241211-daily/'>
+<link rel="stylesheet" href="/scss/style.min.7987a37013b65bd78d3e9b200afb82e8d7b236b7bff4944a4238d19b2e80529a.css"><meta property='og:title' content="Typecho方案&坑">
+<meta property='og:description' content="记录一些Typecho 搭建记录中方案&坑">
+<meta property='og:url' content='https://Shik1R.github.io/p/typecho%E6%96%B9%E6%A1%88-%E5%9D%91/'>
 <meta property='og:site_name' content='M1ka&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Daily' /><meta property='article:published_time' content='2024-12-12T08:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-12-12T08:00:00&#43;00:00'/>
-<meta name="twitter:title" content="20241211 Daily">
-<meta name="twitter:description" content="Run 这周在家里带娃，间隔了好几天没跑步了，时隔近一年的时间，再一次跑了个5km，考虑到太久没跑了，速度压的很低，总体还算舒适，还是要继续下去，任何事情最怕停下来，只要不停下来，慢一点也没什么，会比抢着做些事快很多。\n">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2021-06-30T03:58:00&#43;00:00'/><meta property='article:modified_time' content='2021-06-30T03:58:00&#43;00:00'/><meta property='og:image' content='https://Shik1R.github.io/pictures/Bing%20%283%29.webp' />
+<meta name="twitter:title" content="Typecho方案&坑">
+<meta name="twitter:description" content="记录一些Typecho 搭建记录中方案&坑"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://Shik1R.github.io/pictures/Bing%20%283%29.webp' />
     </head>
     <body class="
     article-page
@@ -56,7 +57,7 @@
                     
                     
                         
-                        <img src="/img/avatar_hu_1c44b40706874b3f.png" width="300"
+                        <img src="/img/avatar_hu_6c8df0f74d8998e6.png" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -225,10 +226,15 @@
     <div class="widget--toc">
         <nav id="TableOfContents">
   <ul>
-    <li><a href="#run">Run</a></li>
-    <li><a href="#work">Work</a></li>
-    <li><a href="#life">Life</a></li>
-    <li><a href="#game">Game</a></li>
+    <li><a href="#安装">安装</a></li>
+    <li><a href="#模板插件">模板&amp;插件</a>
+      <ul>
+        <li><a href="#typecho-的-echo-模板文件名">Typecho 的 Echo 模板文件名</a></li>
+        <li><a href="#增加卜算子计数-plugin">增加卜算子计数 Plugin</a></li>
+        <li><a href="#在-typecho-中添加文章的最后更新时间功能">在 typecho 中添加文章的最后更新时间功能</a></li>
+      </ul>
+    </li>
+    <li><a href="#注意问题">注意问题</a></li>
   </ul>
 </nav>
     </div>
@@ -240,25 +246,29 @@
 
 
             <main class="main full-width">
-    <article class="main-article">
+    <article class="has-image main-article">
     <header class="article-header">
+        <div class="article-image">
+            <a href="/p/typecho%E6%96%B9%E6%A1%88-%E5%9D%91/">
+                
+                    <img src="/pictures/Bing%20%283%29.webp" loading="lazy" alt="Featured image of post Typecho方案&amp;坑" />
+                
+            </a>
+        </div>
+    
 
     <div class="article-details">
-    
-    <header class="article-category">
-        
-            <a href="/categories/daily/" >
-                Daily
-            </a>
-        
-    </header>
     
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/20241211-daily/">20241211 Daily</a>
+            <a href="/p/typecho%E6%96%B9%E6%A1%88-%E5%9D%91/">Typecho方案&amp;坑</a>
         </h2>
     
+        
+        <h3 class="article-subtitle">
+            记录一些Typecho 搭建记录中方案&amp;坑
+        </h3>
         
     </div>
 
@@ -278,7 +288,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Dec 12, 2024</time>
+                <time class="article-time--published">Jun 30, 2021</time>
             </div>
         
         
@@ -288,7 +298,7 @@
         <div>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pencil-icon lucide-pencil"><path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"/><path d="m15 5 4 4"/></svg>  
             <time class="article-time">
-                522字
+                319字
             </time>
         </div>
 
@@ -302,7 +312,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 2 分钟
+                    阅读时长: 1 分钟
                 </time>
             </div>
         
@@ -317,27 +327,44 @@
     <section class="article-content">
     
     
-    <h2 id="run">Run
-</h2><p>这周在家里带娃，间隔了好几天没跑步了，时隔近一年的时间，再一次跑了个5km，考虑到太久没跑了，速度压的很低，总体还算舒适，还是要继续下去，任何事情最怕停下来，只要不停下来，慢一点也没什么，会比抢着做些事快很多。</p>
-<h2 id="work">Work
-</h2><p>这周到公司完成了述职，确实感觉今年有即将结束的感觉了，也确实是的，马上最后一个月也过了一半了，在这半个月里，做好收尾，想好规划，为明年做打算吧。</p>
-<h2 id="life">Life
-</h2><p>前两天去收房了，等待了一年的时间，激动倒是不至于，只是一件件事情顺利的落地，顺利的启动还是让人安心的，后面装修要多考量下，不过和家人已达成一致尽量简单，毕竟将来究竟在哪，其实还是随着孩子的，暂时没有必要搞的太麻烦。</p>
-<h2 id="game">Game
-</h2><p>最近几天在玩 Satisfactory 幸福工厂，这游戏大概2-3年前我就买了，当时还是很早期的early access，买的缘由也很简单，因为戴森球计划玩的差不多了，当时因为是3D又不是那么习惯建造逻辑，玩了一个多小时就放着了。
-最近看着已经正式版发布了，玩了2-3个小时，还是觉得略有些冗杂了，不过这游戏如果2-3人一起玩倒是乐趣不小，一个人还是太过繁琐，尤其是纯3D铺设也较为复杂，玩过其他建造很容易觉得这里还是有些浪费时间了，估摸着只能短期闲来无事娱乐下，很难真的玩下去了，除非有朋友一起。</p>
+    <h2 id="安装">安装
+</h2><h2 id="模板插件">模板&amp;插件
+</h2><h3 id="typecho-的-echo-模板文件名">Typecho 的 Echo 模板文件名
+</h3><p>从 GitHub 下载后，需要将文件名称从“<code>echo-master</code>”修改为“<code>echo</code>”才能正确配置。</p>
+<h3 id="增加卜算子计数-plugin">增加卜算子计数 Plugin
+</h3><p>待补充</p>
+<h3 id="在-typecho-中添加文章的最后更新时间功能">在 typecho 中添加文章的最后更新时间功能
+</h3><p>文章发布的时间及最后一次编辑时间都在数据库中，提取即可。</p>
+<ol>
+<li>在需要插入的位置插入如下代码：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">blockquote</span><span class="p">&gt;&lt;</span><span class="nt">p</span><span class="p">&gt;</span> 文章最后更新时间为：<span class="cp">&lt;?php echo date(&#39;Y 年 m 月 d 日 H:i:s&#39; , $this-&gt;modified); ?&gt;</span><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;&lt;/</span><span class="nt">blockquote</span><span class="p">&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="2">
+<li>
+<p>注意修改时区</p>
+<p>Typecho 默认的时区是 UTC 协调世界时，我们需要将它改为 <code>Asia/Shanghai</code>。</p>
+<p>在网站的根目录下的 <code>var/Widget/Init.php ​</code> 文件中找到以下字段进行修改</p>
+<p>@date_default_timezone_set(&lsquo;UTC&rsquo;); 将其中的 UTC 改成 Asia/Shanghai 或你需要的时区</p>
+</li>
+</ol>
+<h2 id="注意问题">注意问题
+</h2><ul>
+<li>请在服务器上安装以下PHP扩展中的至少一个: <code>mysqli</code>, <code>sqlite3</code>,<code>​ pgsql</code>, <code>pdo_mysql</code>, <code>pdo_sqlite,</code> <code>pdo_pgsql</code></li>
+<li>Typecho nginx会出现404问题，需要配置修改，建议直接用<code>apache 2.4</code></li>
+</ul>
 
 </section>
 
 
     <footer class="article-footer">
     
-    <section class="article-tags">
-        
-            <a href="/tags/daily/">Daily</a>
-        
-    </section>
-
 
     
     <section class="article-copyright">
@@ -355,72 +382,35 @@
 
 
     
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.body, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+    
 </article>
 
     
 
     
-
-<aside class="related-content--wrapper">
-    <h2 class="section-title">相关文章</h2>
-    <div class="related-content">
-        <div class="flex article-list--tile">
-            
-                
-<article class="">
-    <a href="/p/20241213-daily/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">20241213 Daily</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/p/20241126-daily/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">20241126 Daily</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/p/20241124-daily/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">20241124 Daily</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/p/20241121-daily/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">20241121 Daily</h2>
-        </div>
-    </a>
-</article>
-
-            
-        </div>
-    </div>
-</aside>
 
      
     
@@ -452,7 +442,7 @@
         
             2017 - 
         
-        2025 M1ka
+        2026 M1ka
     </section>
 
     
@@ -498,19 +488,9 @@
         
         
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
 
-        发表了19篇文章 ·
-        总计4万0千字
+        发表了15篇文章 ·
+        总计3万8千字
         <br>
 
     </section>
