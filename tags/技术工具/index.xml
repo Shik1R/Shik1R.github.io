@@ -222,11 +222,7 @@
 &lt;p&gt;对应修改：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;layouts/partials/footer/footer.html&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="17-小结"&gt;17 小结
-&lt;/h2&gt;&lt;p&gt;这两天这轮修改，主要还是围绕“更适合长期使用”来做的。&lt;br&gt;
-一方面把首页结构、Archive 页面、文章页信息、footer 统计这些地方整理得更统一；另一方面也把评论和访问统计拆开处理，减少互相牵连的情况。&lt;/p&gt;
-&lt;p&gt;整体看下来，这一轮不算大改，但已经把这个模板从“能用”继续往“更顺手、更稳定、更方便后面继续改”推进了一步。&lt;/p&gt;</description></item><item><title>Hugo Stack主题装修记录</title><link>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95/</link><pubDate>Mon, 24 Mar 2025 02:00:41 +0000</pubDate><guid>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95/</guid><description>&lt;blockquote&gt;
+&lt;/ul&gt;</description></item><item><title>Hugo Stack主题装修记录</title><link>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95/</link><pubDate>Mon, 24 Mar 2025 02:00:41 +0000</pubDate><guid>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95/</guid><description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;本修改主要参考如下：
 &lt;a class="link" href="https://thirdshire.com/hugo-stack-renovation-part-three/" target="_blank" rel="noopener"
 &gt;Hugo Stack 主题装修笔记- 第三夏尔 &lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
