@@ -728,7 +728,44 @@ loading="lazy"
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; {{ end }}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Hexo 搭建记录</title><link>https://Shik1R.github.io/p/hexo-%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</link><pubDate>Sun, 23 Sep 2018 18:43:26 +0000</pubDate><guid>https://Shik1R.github.io/p/hexo-%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</guid><description>&lt;h2 id="github-repository"&gt;GitHub Repository
+&lt;/div&gt;</description></item><item><title>苹果美区账号注册记录</title><link>https://Shik1R.github.io/p/%E8%8B%B9%E6%9E%9C%E7%BE%8E%E5%8C%BA%E8%B4%A6%E5%8F%B7%E6%B3%A8%E5%86%8C%E8%AE%B0%E5%BD%95/</link><pubDate>Sat, 27 Aug 2022 23:31:00 +0000</pubDate><guid>https://Shik1R.github.io/p/%E8%8B%B9%E6%9E%9C%E7%BE%8E%E5%8C%BA%E8%B4%A6%E5%8F%B7%E6%B3%A8%E5%86%8C%E8%AE%B0%E5%BD%95/</guid><description>&lt;h2 id="账号申请"&gt;账号申请
+&lt;/h2&gt;&lt;p&gt;按流程直接申请即可。&lt;/p&gt;
+&lt;h2 id="apple-store申请"&gt;Apple Store申请
+&lt;/h2&gt;&lt;p&gt;仅注册了账号还无法使用Apple Store，主要难点在于没有美区的信用卡，需要先完成申请，再通过GiftCard去完成充值。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;解决方案&lt;/strong&gt;：&lt;code&gt;一定要挂美区梯子再申请Apple Store&lt;/code&gt;，在申请Apple Store时才可以直接跳过信用卡阶段，否则会一定要求通过PayPal或者信用卡注册。&lt;/p&gt;
+&lt;h2 id="apple-giftcard"&gt;Apple Giftcard
+&lt;/h2&gt;&lt;p&gt;最开始我也是在TB上买，后来发现挂梯子是可以直接购买美区Apple Gift Card的，此处购买使用&lt;code&gt;非美区 Visa/MasterCard ​&lt;/code&gt;就可以，地址信息网上查询一个即可。&lt;/p&gt;</description></item><item><title>Typecho方案&amp;坑</title><link>https://Shik1R.github.io/p/typecho%E6%96%B9%E6%A1%88-%E5%9D%91/</link><pubDate>Wed, 30 Jun 2021 03:58:00 +0000</pubDate><guid>https://Shik1R.github.io/p/typecho%E6%96%B9%E6%A1%88-%E5%9D%91/</guid><description>&lt;h2 id="安装"&gt;安装
+&lt;/h2&gt;&lt;h2 id="模板插件"&gt;模板&amp;amp;插件
+&lt;/h2&gt;&lt;h3 id="typecho-的-echo-模板文件名"&gt;Typecho 的 Echo 模板文件名
+&lt;/h3&gt;&lt;p&gt;从 GitHub 下载后，需要将文件名称从“&lt;code&gt;echo-master&lt;/code&gt;”修改为“&lt;code&gt;echo&lt;/code&gt;”才能正确配置。&lt;/p&gt;
+&lt;h3 id="增加卜算子计数-plugin"&gt;增加卜算子计数 Plugin
+&lt;/h3&gt;&lt;p&gt;待补充&lt;/p&gt;
+&lt;h3 id="在-typecho-中添加文章的最后更新时间功能"&gt;在 typecho 中添加文章的最后更新时间功能
+&lt;/h3&gt;&lt;p&gt;文章发布的时间及最后一次编辑时间都在数据库中，提取即可。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在需要插入的位置插入如下代码：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;blockquote&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt; 文章最后更新时间为：&lt;span class="cp"&gt;&amp;lt;?php echo date(&amp;#39;Y 年 m 月 d 日 H:i:s&amp;#39; , $this-&amp;gt;modified); ?&amp;gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;blockquote&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="2"&gt;
+&lt;li&gt;
+&lt;p&gt;注意修改时区&lt;/p&gt;
+&lt;p&gt;Typecho 默认的时区是 UTC 协调世界时，我们需要将它改为 &lt;code&gt;Asia/Shanghai&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;在网站的根目录下的 &lt;code&gt;var/Widget/Init.php ​&lt;/code&gt; 文件中找到以下字段进行修改&lt;/p&gt;
+&lt;p&gt;@date_default_timezone_set(&amp;lsquo;UTC&amp;rsquo;); 将其中的 UTC 改成 Asia/Shanghai 或你需要的时区&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="注意问题"&gt;注意问题
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;请在服务器上安装以下PHP扩展中的至少一个: &lt;code&gt;mysqli&lt;/code&gt;, &lt;code&gt;sqlite3&lt;/code&gt;,&lt;code&gt;​ pgsql&lt;/code&gt;, &lt;code&gt;pdo_mysql&lt;/code&gt;, &lt;code&gt;pdo_sqlite,&lt;/code&gt; &lt;code&gt;pdo_pgsql&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Typecho nginx会出现404问题，需要配置修改，建议直接用&lt;code&gt;apache 2.4&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Hexo 搭建记录</title><link>https://Shik1R.github.io/p/hexo-%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</link><pubDate>Sun, 23 Sep 2018 18:43:26 +0000</pubDate><guid>https://Shik1R.github.io/p/hexo-%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</guid><description>&lt;h2 id="github-repository"&gt;GitHub Repository
 &lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;创建名为name.github.io的repository&lt;/li&gt;
 &lt;li&gt;启用GitHub Pages，会显示相应网页地址。&lt;/li&gt;
@@ -948,6 +985,37 @@ loading="lazy"
 &lt;li&gt;添加开机自行 &lt;code&gt;sudo gedit /etc/fstab&lt;/code&gt;
 最后一行添加&lt;code&gt;/dev/sda3 /mnt/sda3 ext4 defaults, 0 1&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;使用&lt;code&gt;df -ah&lt;/code&gt;查看分区结果&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Apache服务器本地浏览配置</title><link>https://Shik1R.github.io/p/apache%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%9C%AC%E5%9C%B0%E6%B5%8F%E8%A7%88%E9%85%8D%E7%BD%AE/</link><pubDate>Tue, 10 Apr 2018 20:14:08 +0000</pubDate><guid>https://Shik1R.github.io/p/apache%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%9C%AC%E5%9C%B0%E6%B5%8F%E8%A7%88%E9%85%8D%E7%BD%AE/</guid><description>&lt;p&gt;很久以前也遇到过这个问题,弄了好久才弄出来,这次又弄了很久,问题其实很简单,记录一下备忘。&lt;/p&gt;
+&lt;h2 id="注意以下问题即可"&gt;注意以下问题即可
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;windows下防火墙的80端口是否打开&lt;/li&gt;
+&lt;li&gt;Apache2.2与2.4版本控制方法不一样,需要修改.
+2.2
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Order deny,allow
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Allow from all
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Allow from host ip
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;2.4
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Require all granted
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Require host ip
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;修改&lt;code&gt;httpd.conf&lt;/code&gt;和&lt;code&gt;httpd-vhosts.conf&lt;/code&gt;两个文件&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>关于双拼</title><link>https://Shik1R.github.io/p/%E5%85%B3%E4%BA%8E%E5%8F%8C%E6%8B%BC/</link><pubDate>Wed, 19 Jul 2017 07:35:00 +0000</pubDate><guid>https://Shik1R.github.io/p/%E5%85%B3%E4%BA%8E%E5%8F%8C%E6%8B%BC/</guid><description>&lt;p&gt;有段时间一直在想着双拼、全拼、五笔的一些问题，此文为看到《数学之美》第21章“拼音输入法的数学原理”后有感所写。&lt;/p&gt;
 &lt;p&gt;以前是不知道双拼这个东西的，偶然从知乎了解之后，觉得可以尝试一下，便选取了好评很多的小鹤双拼，直到今天也两年了。如果有兴趣，希望各位也能了解一下双拼输入，我认为是最少的成本花费下最高效的输入方式。&lt;/p&gt;
 &lt;hr&gt;
