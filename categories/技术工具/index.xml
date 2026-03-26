@@ -53,7 +53,24 @@
 &lt;li&gt;&lt;code&gt;layouts/_default/archives.html&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;assets/scss/custom.scss&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="04-首页文章按年份分组显示"&gt;04 首页文章按年份分组显示
+&lt;h2 id="04-搜索页样式同步调整"&gt;04 搜索页样式同步调整
+&lt;/h2&gt;&lt;p&gt;除了 Archive 页面，这次也顺手把搜索页的结果列表样式统一整理了一遍。&lt;/p&gt;
+&lt;p&gt;原本搜索结果区和 Archive 列表在风格上有些割裂，这次主要把搜索页结果容器、条目 hover 反馈以及列表分隔方式，统一到和 Archive 页接近的视觉逻辑里。&lt;br&gt;
+这样搜索页在使用时，不会再像是另一套独立样式，整体和站点其他列表页面会更协调一些。&lt;/p&gt;
+&lt;p&gt;对应修改文件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;layouts/partials/widget/search.html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom.scss&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="05-toc-组件样式调整"&gt;05 TOC 组件样式调整
+&lt;/h2&gt;&lt;p&gt;这次也一起调整了文章页目录组件的样式，主要是让 TOC 和右侧其他小组件之间的观感更统一一点。&lt;/p&gt;
+&lt;p&gt;这部分改动不算大，主要还是集中在边距、层次和整体块状感的协调上，让目录区不会显得过于突兀，同时也尽量保留 Hugo Stack 原本比较简洁的结构。&lt;/p&gt;
+&lt;p&gt;对应修改文件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;layouts/partials/widget/toc.html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom.scss&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="06-首页文章按年份分组显示"&gt;06 首页文章按年份分组显示
 &lt;/h2&gt;&lt;p&gt;之前首页文章是直接顺着往下排，文章数量多了以后，不同年份的内容混在一起，看起来没有那么直观。&lt;br&gt;
 这次把首页文章列表按年份做了分组，在每一组文章左上角增加了年份标题，效果上更接近 Archive 页，但间距和字号会比 Archive 更紧凑一点，避免首页显得太松散。&lt;/p&gt;
 &lt;p&gt;实现上还是基于 Hugo 自带分页，只是在当前分页结果上增加了一层 &lt;code&gt;GroupByDate &amp;quot;2006&amp;quot;&lt;/code&gt;。&lt;br&gt;
@@ -63,25 +80,7 @@
 &lt;li&gt;&lt;code&gt;assets/scss/custom.scss&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这样首页在文章数量逐渐变多后，按年份浏览会更清楚一些。&lt;/p&gt;
-&lt;h2 id="05-首页分页从-6-篇调整为-10-篇"&gt;05 首页分页从 6 篇调整为 10 篇
-&lt;/h2&gt;&lt;p&gt;原本首页每页只显示 6 篇文章，文章稍微多一点后就要翻很多页，阅读起来比较碎。&lt;br&gt;
-这里直接把 Hugo 的分页参数改成了每页 10 篇，让首页浏览时不需要频繁翻页。&lt;/p&gt;
-&lt;p&gt;修改文件：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;hugo.yaml&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
-&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
-&lt;/span&gt;&lt;span class="lnt"&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;pagination&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;pagerSize&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;10&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;这个改动本身不复杂，但对日常浏览的影响还是比较明显的。&lt;/p&gt;
-&lt;h2 id="06-首页文章卡片点击区域优化"&gt;06 首页文章卡片点击区域优化
+&lt;h2 id="07-首页文章卡片点击区域优化"&gt;07 首页文章卡片点击区域优化
 &lt;/h2&gt;&lt;p&gt;原来的首页卡片只有标题可以点击进入文章正文，白色卡片的大部分区域都不能点，交互上有些不自然。&lt;br&gt;
 这次把首页文章卡片的点击区域做了扩大，除了分类标签本身保留独立点击以外，其余白色卡片区域都可以直接进入文章。&lt;/p&gt;
 &lt;p&gt;同时标签区域边缘也稍微留了一点空间，避免误触。&lt;br&gt;
@@ -90,7 +89,7 @@
 &lt;li&gt;&lt;code&gt;assets/scss/custom.scss&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这样首页卡片的交互就会更接近常见博客的阅读习惯。&lt;/p&gt;
-&lt;h2 id="07-统一文章页与首页的元信息显示"&gt;07 统一文章页与首页的元信息显示
+&lt;h2 id="08-统一文章页与首页的元信息显示"&gt;08 统一文章页与首页的元信息显示
 &lt;/h2&gt;&lt;p&gt;这次把文章页和首页卡片右侧那一组信息重新整理了一下，统一为：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;发布时间&lt;/li&gt;
@@ -107,7 +106,7 @@
 &lt;li&gt;&lt;code&gt;themes/hugo-theme-stack/assets/icons/eye.svg&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;另外首页这块也反复微调了间距、字号和图标排列，尽量让日期、字数、阅读时间、访问次数在视觉上保持同一节奏。&lt;/p&gt;
-&lt;h2 id="08-合并首页和文章页重复-partial"&gt;08 合并首页和文章页重复 partial
+&lt;h2 id="09-合并首页和文章页重复-partial"&gt;09 合并首页和文章页重复 partial
 &lt;/h2&gt;&lt;p&gt;前面在调整首页和文章页信息结构的时候，发现标题区和元信息区有不少重复模板。&lt;br&gt;
 如果首页一套、文章页一套分别改，后面很容易出现“文章页改了，首页忘了同步”的情况，所以这次顺手做了一次整理。&lt;/p&gt;
 &lt;p&gt;原本拆开的：&lt;/p&gt;
@@ -124,7 +123,7 @@
 &lt;/ul&gt;
 &lt;p&gt;再通过 &lt;code&gt;Mode&lt;/code&gt; 参数区分首页和文章页的差异。&lt;br&gt;
 这样以后如果还要继续改标题区、访问次数、字数、阅读时间，维护起来会更稳一些。&lt;/p&gt;
-&lt;h2 id="09-统一文章页页头分类和页尾标签颜色"&gt;09 统一文章页页头分类和页尾标签颜色
+&lt;h2 id="10-统一文章页页头分类和页尾标签颜色"&gt;10 统一文章页页头分类和页尾标签颜色
 &lt;/h2&gt;&lt;p&gt;之前文章页页头的分类标签，和正文末尾的 tags 颜色并不是同一套逻辑。&lt;br&gt;
 页头颜色是单独算的，页尾 tags 还是走主题默认 accent 色，所以同一篇文章前后看起来会有一点割裂。&lt;/p&gt;
 &lt;p&gt;这次把页尾 tags 也改成复用页头那套颜色变量，让页头和页尾保持一致。&lt;br&gt;
@@ -135,7 +134,21 @@
 &lt;li&gt;&lt;code&gt;assets/scss/custom.scss&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这样一来，同一篇文章前后的标签风格就统一了。&lt;/p&gt;
-&lt;h2 id="10-关闭相关文章显示"&gt;10 关闭相关文章显示
+&lt;h2 id="11-交互效果优化"&gt;11 交互效果优化
+&lt;/h2&gt;&lt;p&gt;这两天也顺手整理了一些页面交互细节，主要是把 hover 状态下的视觉反馈做得更自然一点。&lt;/p&gt;
+&lt;p&gt;前面一度尝试过更明显的背景块和位移动画，但实际效果有点突兀，而且容易影响原本的版面节奏，所以最后收成了一版更克制的写法：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;hover 时文字和图标轻微加深&lt;/li&gt;
+&lt;li&gt;局部区域增加较轻的高亮反馈&lt;/li&gt;
+&lt;li&gt;尽量不改变原本的尺寸和布局&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这部分主要体现在侧边栏菜单、Archive 列表以及部分卡片交互上。&lt;br&gt;
+整体目标不是把动画做得很重，而是让页面在鼠标移入时有一点明确反馈，但又不破坏 Hugo Stack 原本比较干净的风格。&lt;/p&gt;
+&lt;p&gt;对应修改：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom.scss&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="12-关闭相关文章显示"&gt;12 关闭相关文章显示
 &lt;/h2&gt;&lt;p&gt;原本文章页底部会显示相关文章，但这次整体更想保留一个相对简洁的阅读流，所以先把相关文章这一块关掉了。&lt;/p&gt;
 &lt;p&gt;修改方式是：&lt;/p&gt;
 &lt;ol&gt;
@@ -148,7 +161,7 @@
 &lt;li&gt;&lt;code&gt;themes/hugo-theme-stack/layouts/_default/single.html&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这样以后如果还想重新启用，也只需要改一行配置即可。&lt;/p&gt;
-&lt;h2 id="11-评论系统切换为-twikoo"&gt;11 评论系统切换为 Twikoo
+&lt;h2 id="13-评论系统切换为-twikoo"&gt;13 评论系统切换为 Twikoo
 &lt;/h2&gt;&lt;p&gt;原来评论系统使用的是 Waline，但这次因为后端配置和维护上的问题，最后切换成了 Twikoo。&lt;br&gt;
 主题本身已经支持 Twikoo，所以这里只需要打开评论、切换 provider，并填入后端地址即可。&lt;/p&gt;
 &lt;p&gt;对应修改：&lt;/p&gt;
@@ -169,7 +182,7 @@
 &lt;li&gt;&lt;code&gt;content/page/about/index.md&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这样最终的效果就是：普通文章页可以显示评论区，About 页面保持关闭。&lt;/p&gt;
-&lt;h2 id="12-访问统计从-twikoo-改为-goatcounter"&gt;12 访问统计从 Twikoo 改为 GoatCounter
+&lt;h2 id="14-访问统计从-twikoo-改为-goatcounter"&gt;14 访问统计从 Twikoo 改为 GoatCounter
 &lt;/h2&gt;&lt;p&gt;一开始也尝试过直接使用 Twikoo 的访问统计，但在首页和文章页统一展示时并不算稳定，所以最后把访问统计单独拆出来，改用 GoatCounter。&lt;/p&gt;
 &lt;p&gt;这样评论和访问统计就各做各的：&lt;/p&gt;
 &lt;ul&gt;
@@ -184,7 +197,7 @@
 &lt;li&gt;&lt;code&gt;layouts/partials/footer/footer.html&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;文章页、首页卡片以及 footer 的总访客数字，都改成从 GoatCounter 取值。&lt;/p&gt;
-&lt;h2 id="13-为-goatcounter-增加失败降级"&gt;13 为 GoatCounter 增加失败降级
+&lt;h2 id="15-为-goatcounter-增加失败降级"&gt;15 为 GoatCounter 增加失败降级
 &lt;/h2&gt;&lt;p&gt;GoatCounter 这套访客计数，前提是后台要开启 visitor counter 的公开接口。&lt;br&gt;
 如果接口没开放，页面就拿不到数字。&lt;/p&gt;
 &lt;p&gt;为了避免页面直接显示 &lt;code&gt;0&lt;/code&gt; 或者 &lt;code&gt;XX&lt;/code&gt; 这种不太自然的占位状态，这里顺手补了一个失败降级逻辑：&lt;/p&gt;
@@ -197,7 +210,7 @@
 &lt;li&gt;&lt;code&gt;assets/ts/custom.ts&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这样即使统计接口暂时不可用，页面也不会显得像坏掉了一样。&lt;/p&gt;
-&lt;h2 id="14-修正-footer-的统计口径"&gt;14 修正 footer 的统计口径
+&lt;h2 id="16-修正-footer-的统计口径"&gt;16 修正 footer 的统计口径
 &lt;/h2&gt;&lt;p&gt;原来 footer 里的文章数和字数统计，直接遍历了站点里所有 &lt;code&gt;Kind = &amp;quot;page&amp;quot;&lt;/code&gt; 的页面，这样 About、Archives 之类页面也会被算进去，口径并不一致。&lt;/p&gt;
 &lt;p&gt;这次把 footer 的统计方式改成了只统计主内容分区中的正文文章，并且排除 &lt;code&gt;hidden&lt;/code&gt; 内容。&lt;br&gt;
 这样 footer 里显示的：&lt;/p&gt;
@@ -210,7 +223,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;layouts/partials/footer/footer.html&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="15-小结"&gt;15 小结
+&lt;h2 id="17-小结"&gt;17 小结
 &lt;/h2&gt;&lt;p&gt;这两天这轮修改，主要还是围绕“更适合长期使用”来做的。&lt;br&gt;
 一方面把首页结构、Archive 页面、文章页信息、footer 统计这些地方整理得更统一；另一方面也把评论和访问统计拆开处理，减少互相牵连的情况。&lt;/p&gt;
 &lt;p&gt;整体看下来，这一轮不算大改，但已经把这个模板从“能用”继续往“更顺手、更稳定、更方便后面继续改”推进了一步。&lt;/p&gt;</description></item><item><title>Hugo Stack主题装修记录</title><link>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95/</link><pubDate>Mon, 24 Mar 2025 02:00:41 +0000</pubDate><guid>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95/</guid><description>&lt;blockquote&gt;
