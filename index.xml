@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>M1ka's Blog</title><link>https://Shik1R.github.io/</link><description>Recent content on M1ka's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>M1ka</copyright><lastBuildDate>Thu, 26 Mar 2026 23:26:08 +0800</lastBuildDate><atom:link href="https://Shik1R.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Stack主题装修记录（二）</title><link>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95%E4%BA%8C/</link><pubDate>Thu, 26 Mar 2026 23:26:08 +0800</pubDate><guid>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95%E4%BA%8C/</guid><description>&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>M1ka's Blog</title><link>https://Shik1R.github.io/</link><description>Recent content on M1ka's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>M1ka</copyright><lastBuildDate>Thu, 30 Jul 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://Shik1R.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Stack主题装修记录（二）</title><link>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95%E4%BA%8C/</link><pubDate>Thu, 26 Mar 2026 23:26:08 +0800</pubDate><guid>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95%E4%BA%8C/</guid><description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;本次主要记录这两天对 Hugo Stack 模板做的一轮整理，主要集中在：首页结构、Archive 页面重做、文章页统一、评论与访问统计，以及 footer 统计修正。&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Update 2026.03.26&lt;/p&gt;
@@ -222,34 +222,34 @@
 &lt;p&gt;对应修改：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;layouts/partials/footer/footer.html&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Bangumi 2025年杂记</title><link>https://Shik1R.github.io/p/bgm-2020%E5%B9%B4%E6%9D%82%E8%AE%B0/</link><pubDate>Sun, 14 Dec 2025 20:50:00 +0000</pubDate><guid>https://Shik1R.github.io/p/bgm-2020%E5%B9%B4%E6%9D%82%E8%AE%B0/</guid><description>&lt;p&gt;&lt;strong&gt;序 1&lt;/strong&gt;
-回想前两年，想起要写年终杂记的时候，差不多已是夏去冬至，寒风日渐凌冽之时，临近冬天的寒风不断提醒着冬日的到来，甚至想要起笔之时都会觉得是不是太早了些，今年倒是极为反常了，11 月初时本来也就想着要开始写，但那时竟仍然偶尔穿着短袖，似乎夏天都未完全过去，秋日正值当头，从生理上自然就不会有着想要一年要结束之感，想着要不再等等，哪料到这 12 月中旬，寒风依旧未至，秋日正值此时，这种感觉在往年是完全没有的。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;序 2&lt;/strong&gt;
-24 年时我曾写到是最为扎实精进的一年，从今年看，整个 25 年较 24 年像是把一切探索与精进落地，让一切井然有序逐渐开花落地的一年，回望过去的好多年，25 年的探索与迷茫是最少的，似乎从开年之时许多事情就已经想清楚了，而这一年却是这几年来获得的成果最多的，减少了“变化”，工作与生活从实质上也有了显著的提升。&lt;/p&gt;
+&lt;/ul&gt;</description></item><item><title>Bangumi 2025年杂记</title><link>https://Shik1R.github.io/p/bgm-2025%E5%B9%B4%E6%9D%82%E8%AE%B0/</link><pubDate>Sun, 14 Dec 2025 20:50:00 +0000</pubDate><guid>https://Shik1R.github.io/p/bgm-2025%E5%B9%B4%E6%9D%82%E8%AE%B0/</guid><description>&lt;h2 id="序-1"&gt;序 1
+&lt;/h2&gt;&lt;p&gt;回想前两年，想起要写年终杂记的时候，差不多已是夏去冬至，寒风日渐凌冽之时，临近冬天的寒风不断提醒着冬日的到来，甚至想要起笔之时都会觉得是不是太早了些，今年倒是极为反常了，11 月初时本来也就想着要开始写，但那时竟仍然偶尔穿着短袖，似乎夏天都未完全过去，秋日正值当头，从生理上自然就不会有着想要一年要结束之感，想着要不再等等，哪料到这 12 月中旬，寒风依旧未至，秋日正值此时，这种感觉在往年是完全没有的。&lt;/p&gt;
+&lt;h2 id="序-2"&gt;序 2
+&lt;/h2&gt;&lt;p&gt;24 年时我曾写到是最为扎实精进的一年，从今年看，整个 25 年较 24 年像是把一切探索与精进落地，让一切井然有序逐渐开花落地的一年，回望过去的好多年，25 年的探索与迷茫是最少的，似乎从开年之时许多事情就已经想清楚了，而这一年却是这几年来获得的成果最多的，减少了“变化”，工作与生活从实质上也有了显著的提升。&lt;/p&gt;
 &lt;p&gt;毫无疑问的来讲，此刻的我是这将近 30 年来最好的时刻，在这离着 30 岁满最后的一年时光里，即使当下就交出这份答卷也足以让自己满意，但从当下看我还有一年的时间可以去探索，或许这就是明年的我需要去做的事了。&lt;/p&gt;
 &lt;p&gt;回到这里，还是聊聊今年的影视番剧吧。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;1&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;「 我独自升级 第二季 」&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="1"&gt;1
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;「 我独自升级 第二季 」&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;今年想要聊的日漫并不多，这一整年的时间，我其实没有怎么看日漫，或者来讲日漫已有些提不起兴趣了，而独自升级这样一部韩漫改的系统龙傲天是让我最为记忆犹新的。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;日漫已经失去了讲故事的能力&lt;/strong&gt;，这是我从去年就有的判断的。或许这个话讲的有些太过笼统，会有诸多可以反驳的例子，我这两年却是新番也看的非常少了，但总体而言感觉上就是这种趋势，好的番剧一定要会讲故事，而不是通过各种奇技淫巧来串联一个故事，无论是 Mygo、芙莉莲还是孤独摇滚，皆是如此，讲故事的内核越来越少，一些可谓是常见的技巧来推进剧情越来越多。日漫发展至今，已经有太多的通过技巧来衔接作品的能力，但只要看下 Bangumi 靠前的那些作品就会清晰的看到，到底什么是真正的核心，从这个角度上，这几年的日漫甚至是不如一些质量上乘的国产短剧的，自不必也无法去对标那些起点二三十年才留下的几部经典长篇。&lt;/p&gt;
 &lt;p&gt;越是这么想，越是会觉得我独自升级只是做好了本身应该做的，但即使如此却是极为难得，做好本应该做好的事，似乎就已经是十分难得了。&lt;/p&gt;
 &lt;p&gt;**备注：**这是这部分写完的时候才发现的，24 年的年终我也单独提到了我独自升级，这让我有些意外，但似乎也没什么毛病。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;2&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;「凡人修仙传」&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="2"&gt;2
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;「凡人修仙传」&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;今年总体上想想还是以几部国漫为主，凡人，仙逆，遮天，吞噬星空以及已然残废的斗破苍穹。&lt;/p&gt;
 &lt;p&gt;毫无疑问的今年仍旧是首推凡人修仙传了，从事实上看，凡人仍然是远远超过其他所有国漫，这种进步是极为令人欣慰的，今年电视剧的播出为凡人又带来了一倍以上的流量，从今年看，这相较其他任何番剧 IP，已然做到了独一无二的优秀，按如此继续下去，剩下的只剩静待时光开花了。&lt;/p&gt;
 &lt;p&gt;从当下的评价，制作组的持续发力，让这个产品已远远超过最初几年的能看、优秀或者比肩顶级作品，而是真的要成为番剧历史上另一独一无二的 IP，直至任何长篇日漫均无法比肩的存在。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;3&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;「 F1 狂飙飞车 」&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="3"&gt;3
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;「 F1 狂飙飞车 」&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;这算是今年非常意外的一部作品，今年总计看了两次电影，两次都是献给了狂飙飞车，观感却是太好了，这几年海外的电影因为政治正确或一些其他的外在因素，质量显著下降是有目共睹的，而狂飙飞车这样一个王道而恰当的故事，似乎恍然回到了那个辉煌年代，并不复杂的剧情，IMAX 下极致的观感享受，其实想想这两年的日漫也是有这样的问题，乃至看到了一部恰到好处的作品会觉得非常的优秀，当然恰当本身亦即是优秀，只是多少有些感叹了。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;尾言&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;从 2018 年开始的一个偶然想法，到现在数数已有 7 年，今年这是第 8 篇，从那时一年仍能看 50+番剧到现在越来越少，若非偶发的怀旧以及例行的国漫，基本上新番剧已经基本上就没有在看了，从事实上看我已基本上离开了这里，生活本身相较前几年有了更多值得我去探索的东西。&lt;/p&gt;
+&lt;h2 id="尾言"&gt;尾言
+&lt;/h2&gt;&lt;p&gt;从 2018 年开始的一个偶然想法，到现在数数已有 7 年，今年这是第 8 篇，从那时一年仍能看 50+番剧到现在越来越少，若非偶发的怀旧以及例行的国漫，基本上新番剧已经基本上就没有在看了，从事实上看我已基本上离开了这里，生活本身相较前几年有了更多值得我去探索的东西。&lt;/p&gt;
 &lt;p&gt;那么，从今年的这一篇结束，这持续了 7 年的习惯也就要告一段落了，现在还没有想好未来如何，但其实这两年关注的一些博主已经看到了一些较好的样例，我还是很喜欢的，从当下看我更希望是月报的样式，这样能回溯与体现更多的短期关注，之前的许多类似的更多的保留在了与朋友的沟通当中，少量形成了文字留于个人思考的杂记，但若是能够展示，我觉得仍然是很好的。&lt;/p&gt;
 &lt;p&gt;Bangumi 以前来讲还是较为小众的一个平台，我写的东西也非常的偏向个人记录，也没有什么推流，不知道能够有多少人看过这几年写的杂记，大概几十人？或许吧，但这都不重要了。&lt;/p&gt;
 &lt;p&gt;能留下点东西真的还是挺好的，回望那些文字，总能够看到那时的足迹，虽说写的是番剧，但串起的其实是人生的痕迹，但番剧的故事暂时到这里结束了，未来还在继续走着，也会有更多的事物出现在我的生活里，如此想想也算是甚好了。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;附录&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Anime&lt;/strong&gt;
-01.07 无职转生 第二季 ～到了异世界就拿出真本事～ 無職転生Ⅱ ～異世界行ったら本気だす～
+&lt;h2 id="附录"&gt;附录
+&lt;/h2&gt;&lt;h3 id="anime"&gt;Anime
+&lt;/h3&gt;&lt;p&gt;01.07 无职转生 第二季 ～到了异世界就拿出真本事～ 無職転生Ⅱ ～異世界行ったら本気だす～
 01.10 我心里危险的东西 僕の心のヤバイやつ
 01.15 我心里危险的东西 第二季 僕の心のヤバイやつ 第2期
 03.25 仙逆 年番
@@ -262,10 +262,10 @@
 04.29 One Room 第三季 One Room サードシーズン
 06.17 遮天 第一季 缘起
 08.30 遮天 第二季 初芒&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Movie&lt;/strong&gt;
-07.05 F1 狂飙飞车&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;TV&lt;/strong&gt;
-03.18 大明王朝 1566&lt;/p&gt;
+&lt;h3 id="movie"&gt;Movie
+&lt;/h3&gt;&lt;p&gt;07.05 F1 狂飙飞车&lt;/p&gt;
+&lt;h3 id="tv"&gt;TV
+&lt;/h3&gt;&lt;p&gt;03.18 大明王朝 1566&lt;/p&gt;
 &lt;p&gt;初稿于 2025.12.14 20:50&lt;/p&gt;</description></item><item><title>Hugo Stack主题装修记录</title><link>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95/</link><pubDate>Mon, 24 Mar 2025 02:00:41 +0000</pubDate><guid>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95/</guid><description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;本修改主要参考如下：
 &lt;a class="link" href="https://thirdshire.com/hugo-stack-renovation-part-three/" target="_blank" rel="noopener"
@@ -1130,7 +1130,22 @@ loading="lazy"
 08.24 孤注一掷 &lt;br&gt;
 09.17 奥本海默 Oppenheimer&lt;/p&gt;
 &lt;p&gt;起笔于 2023.11.03 &lt;br&gt;
-初稿于 2023.11.24 01:54&lt;/p&gt;</description></item><item><title>关于</title><link>https://Shik1R.github.io/%E5%85%B3%E4%BA%8E/</link><pubDate>Fri, 24 Mar 2023 16:51:18 +0000</pubDate><guid>https://Shik1R.github.io/%E5%85%B3%E4%BA%8E/</guid><description>&lt;p&gt;转转悠悠，又似乎还是回到了这里，沿着一直的思绪后续会逐步的完善，今年争取多写一点能够输出的东西&lt;/p&gt;</description></item><item><title>Bangumi 2022年杂记</title><link>https://Shik1R.github.io/p/bgm-2022%E5%B9%B4%E6%9D%82%E8%AE%B0/</link><pubDate>Sun, 25 Dec 2022 23:39:00 +0000</pubDate><guid>https://Shik1R.github.io/p/bgm-2022%E5%B9%B4%E6%9D%82%E8%AE%B0/</guid><description>&lt;h2 id="序"&gt;&lt;strong&gt;序&lt;/strong&gt;
+初稿于 2023.11.24 01:54&lt;/p&gt;</description></item><item><title>关于</title><link>https://Shik1R.github.io/%E5%85%B3%E4%BA%8E/</link><pubDate>Fri, 24 Mar 2023 16:51:18 +0000</pubDate><guid>https://Shik1R.github.io/%E5%85%B3%E4%BA%8E/</guid><description>&lt;p&gt;这里是 M1ka 的个人博客，用来保存一些生活、兴趣与技术实践中的长期记录。&lt;/p&gt;
+&lt;p&gt;相比即时的信息流，我更喜欢把值得回看的内容整理成文章。它们未必都是完整的教程或结论，也可能只是某个阶段真实留下的思考与经验。&lt;/p&gt;
+&lt;h2 id="主要内容"&gt;主要内容
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;生活杂记&lt;/strong&gt;：影视、动画与日常生活中的阶段性记录。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;技术工具&lt;/strong&gt;：软件使用、环境搭建，以及维护这个博客时遇到的问题和解决方式。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="关于本站"&gt;关于本站
+&lt;/h2&gt;&lt;p&gt;这个博客最早可以追溯到 2017 年，经历过 Hexo、Typecho，后来迁移到 Hugo，并在 Stack 主题基础上逐步调整成现在的样子。&lt;/p&gt;
+&lt;p&gt;站点仍会随着内容慢慢完善。比起频繁更新，我更希望这里留下的文章在几年后依然值得重新打开。&lt;/p&gt;
+&lt;h2 id="找到我"&gt;找到我
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="link" href="https://github.com/Shik1R" target="_blank" rel="noopener"
+&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://Shik1R.github.io/index.xml" &gt;RSS 订阅&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Bangumi 2022年杂记</title><link>https://Shik1R.github.io/p/bgm-2022%E5%B9%B4%E6%9D%82%E8%AE%B0/</link><pubDate>Sun, 25 Dec 2022 23:39:00 +0000</pubDate><guid>https://Shik1R.github.io/p/bgm-2022%E5%B9%B4%E6%9D%82%E8%AE%B0/</guid><description>&lt;h2 id="序"&gt;&lt;strong&gt;序&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;若是多年后回望，2022年无疑是特殊而又复杂的一年。&lt;/p&gt;
 &lt;p&gt;与2018到2019年时的困苦转变不同，已然活在现实的我，在这一年里无论是生活上还是工作上，都根本性的往前走了一步。&lt;/p&gt;
 &lt;p&gt;但望着这一年国内形势的变化，尤其是临近年底周遭的环境情况，波云诡谲，无法看清，即使早就明白我们已经身处危机之中，但真的在面临到各种因素叠加的困境时，即使抛开当前的短暂困境，这种无法明显改变的形势究竟会让未来如何，总是不免隐隐的对未来生忧，只是亦是未曾料到，在急转之中变化来得如此之快，如此的彻底，闯关固然是会有牺牲的，只是如果这是必须要走的路，那我会始终相信着并走向前方。&lt;/p&gt;
@@ -1571,7 +1586,7 @@ Part2. 2021/12/18 00:06&lt;/p&gt;</description></item><item><title>Typecho方案
 3.31 “文学少女”-恋爱插画集3、4、“文学少女”与渴望死亡的小丑 &lt;br&gt;
 4.6 半熟作家与文学少女编辑&lt;/p&gt;
 &lt;p&gt;2020.1.29 14:37 初稿完&lt;br&gt;
-2020.4.12 11:12 V1.1 补充文学少女小说阅读Timeline&lt;/p&gt;</description></item><item><title>Archives</title><link>https://Shik1R.github.io/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://Shik1R.github.io/archives/</guid><description/></item><item><title>Bangumi 2018年杂记</title><link>https://Shik1R.github.io/p/bgm-2018%E5%B9%B4%E6%9D%82%E8%AE%B0/</link><pubDate>Sat, 05 Jan 2019 06:43:00 +0000</pubDate><guid>https://Shik1R.github.io/p/bgm-2018%E5%B9%B4%E6%9D%82%E8%AE%B0/</guid><description>&lt;h2 id="序"&gt;序
+2020.4.12 11:12 V1.1 补充文学少女小说阅读Timeline&lt;/p&gt;</description></item><item><title>归档</title><link>https://Shik1R.github.io/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://Shik1R.github.io/archives/</guid><description/></item><item><title>Bangumi 2018年杂记</title><link>https://Shik1R.github.io/p/bgm-2018%E5%B9%B4%E6%9D%82%E8%AE%B0/</link><pubDate>Sat, 05 Jan 2019 06:43:00 +0000</pubDate><guid>https://Shik1R.github.io/p/bgm-2018%E5%B9%B4%E6%9D%82%E8%AE%B0/</guid><description>&lt;h2 id="序"&gt;序
 &lt;/h2&gt;&lt;p&gt;一直在想着，如果年末的时候能回顾一下，那总归是好的，虽然bgm注册的不晚，但真正开用却是去年年中了，今年年中的时候似乎就起了每年写一篇的想法，这个想法也延续到了年末，于是就有了这个，不知道能写多少，也不知道明年的这个时候会怎么想，但至少今年开个头吧，不过是一点很个人化的东西，本质上也只是写给我自己的记录罢了。若有人无意中看到了，能多少有点共鸣那已是再好不过了。&lt;/p&gt;
 &lt;h2 id="1"&gt;1
 &lt;/h2&gt;&lt;p&gt;每到年末时，总是觉得今年又是日渐脱宅的一年，可是回想起2017整个上半年只看过寥寥数部的时候，今年多少是有些回暖的迹象的，上半年的数量并不少，只是越往年末，倒是越少了，回想起一路发生的事情，也自是了然。不管如何，这漫长又糅杂着些许苦涩的2018年即将落下帷幕，亦是些许叹息，亦是些许无奈，只是我也早就明白，很多事情即使让我再来一次，世界线也终将收束于一处，唯有这一点却是不可变的。既然已经过去了，便随之去吧，只愿来年能看到一点新的东西，能看到一点新的希望，来填补或隐埋这&amp;quot;伽蓝之洞&amp;quot;。&lt;/p&gt;
