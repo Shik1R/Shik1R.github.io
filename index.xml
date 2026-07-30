@@ -1,4 +1,332 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>M1ka's Blog</title><link>https://Shik1R.github.io/</link><description>Recent content on M1ka's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>M1ka</copyright><lastBuildDate>Thu, 30 Jul 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://Shik1R.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Stack主题装修记录（二）</title><link>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95%E4%BA%8C/</link><pubDate>Thu, 26 Mar 2026 23:26:08 +0800</pubDate><guid>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95%E4%BA%8C/</guid><description>&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>M1ka's Blog</title><link>https://Shik1R.github.io/</link><description>Recent content on M1ka's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>M1ka</copyright><lastBuildDate>Thu, 30 Jul 2026 23:39:05 +0800</lastBuildDate><atom:link href="https://Shik1R.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>2026H1半年拾遗</title><link>https://Shik1R.github.io/p/2026h1%E5%8D%8A%E5%B9%B4%E6%8B%BE%E9%81%97/</link><pubDate>Thu, 30 Jul 2026 23:39:05 +0800</pubDate><guid>https://Shik1R.github.io/p/2026h1%E5%8D%8A%E5%B9%B4%E6%8B%BE%E9%81%97/</guid><description>&lt;h1 id="序"&gt;序
+&lt;/h1&gt;&lt;p&gt;总结这个事，这半年来的时间一直在想着，但总没有真的去切入落地。&lt;/p&gt;
+&lt;p&gt;就像许多想要做的事也一直未开始一样，但念想总归是在的，倒也并不是因为忙的没有时间，只是单纯的没有开始而已。&lt;/p&gt;
+&lt;p&gt;人总是如此，知道要做什么并不等同于会去做什么，空闲的时候以为自己会多花些时间去研究点什么，但更多的大抵只是被娱乐消耗，并非娱乐不好，只是陈述这样一个事实罢了。&lt;/p&gt;
+&lt;p&gt;从 19 年开始，每年初我都会写一篇过去一年的影视杂记，几年前日漫看的比较多，工作以后急剧渐少，演化到这两年，似乎也只是在聊一些看过的电影电视与国漫了，但要说也更像是依托一些看过的东西夹杂着一点思索与回忆。只是生活的变化让这样一个形式与我的想法并不匹配，又见着一些 个人Blog博主月度的更新，我也产生了想要去做这样事的想法，一直以来的日记我都不那么希望去聊具体的事，而更希望去追寻一些思考的痕迹，但如今想来这都是很重要的东西。&lt;/p&gt;
+&lt;p&gt;所以，无论如何，从这一篇开始，做一点输出与小结，既然半年已经度过，那不如一起写了，让一切从这篇半年拾遗开始吧。&lt;/p&gt;
+&lt;h1 id="01-足迹"&gt;01 足迹
+&lt;/h1&gt;&lt;p&gt;今年的上半年，回过头来看，虽用的时间不多，但还算是去了不少地方。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;「云南：&lt;/strong&gt; 昆明、大理 &lt;strong&gt;」&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;年初趁着同学婚礼去了趟云南，逛了下滇池，又赶忙的环了一圈洱海，25年初沿着昆明大理进入德钦梅里之时，没有在这里驻足，这次倒是完整的逛了一圈，滇池的海鸥成群结队，数不胜数，晨光中的洱海在巍峨苍山之下，近看波光粼粼，远见深沉雄厚，只是看水这种事，也总归不至于意外的惊喜，只能说感受到了不同地域的风光，整个过程倒算的上是满意，唯独的槽点却是租的一辆24款ModelY体验远低于预期了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;「马来西亚：&lt;/strong&gt; 新山、槟城 &lt;strong&gt;」&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;年初就有预料，上半年果然也出了一趟国门。&lt;/p&gt;
+&lt;p&gt;因工作的原因实现了第一次的出国，在AI时代出行已变得无比方便，出国这件事本身变得不那么遥远，但似乎又有种当年第一次坐上火车的感觉，世界本无界限，只要真的往前行走，真的想要去做一些事，自然就会到达一些地方，不必变得好像如何特别一样，恰是因为我们的业务到了这里，所以自然的来到了这里，如是而已，那么在未来这样的足迹必然只会更多，不过是因为到了这样的阶段罢了。&lt;/p&gt;
+&lt;p&gt;这次出差的一个插曲，我的一部备用手机落在了出租上，经过一番辗转联系上了司机，幸而是位父辈就来到马来会讲中文的中年人，略经周转当晚就找到拿回了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;「南太行：&lt;/strong&gt; 南太行、新乡 &lt;strong&gt;」&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;以往的行程我总是习惯从家开车出发，导致第一天和最后一天总是一直在路上，也没有什么风景，这是我第一次距离不远时到达当地再租车的行程。&lt;/p&gt;
+&lt;p&gt;南太行临近郑州、新乡，原本想着郑州进返，又看时间有些充裕，不如去新乡也逛一逛，于是逛完不算大的河南博物院之后，直接坐车来到了新乡，到了新乡必然要去趟胖东来，坦率而言，这里的感觉也就是一种地区性质的山姆，或说是满足当地个性化需求的山姆，中国足够大，其实是容得起更多的本土企业，只是真要说好到哪里去，我却也不敢苟同，毕竟即使是当下在中国大热的山姆之类我觉得也不过是个商场罢了，那天去的时候已经比较晚，本想买些面包但剩下的很少就空手而归了。&lt;/p&gt;
+&lt;p&gt;新乡的芦记奶酪和1987红焖羊肉让我印象非常深刻，算得上有些耳目一新的感觉。&lt;/p&gt;
+&lt;p&gt;第二天一早自驾上山，南太行的路并不算复杂，整个路程不算长，沿路遇到了不少来跑山的车辆，但中间还是有一些路段是比较窄的，若是节假日堵车是必然的，另外冬天的部分路段容易结冰，一些路段又是长段上行或下行，天气太冷也就并不推荐了，最合适的还是初春时节找个周末不长的时间就能够感受一份远离城市的欢愉，这种体验还是相当不错的。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;「小川西：&lt;/strong&gt; 都江堰、四姑娘山、理小路、大熊猫、三星堆 &lt;strong&gt;」&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;挺是意外的一个周末，周五晚上到达的成都，在都江堰住了一晚，第二天一早从都江堰出发，逛了一整圈双桥沟景区，原计划是在四姑娘山住上一晚，但那天回程时看着时间尚早，且四姑娘山的天气一般，当场决定改道直接回成都，沿着理小路一路返回，第二天增加了大熊猫参观的行程。&lt;/p&gt;
+&lt;p&gt;算得上是一次紧凑而充实的行程，一切起始于三星堆的门票。记得这两年看过几次三星堆的门票，都是售罄的状态，这次终于有机会买到了票，去的时候也还是人数最多的景点。&lt;/p&gt;
+&lt;p&gt;有时候还是会羡慕成都的朋友，即使短的假期也会很方便的可以进入大山，甚至走向更远的地方，若是喜欢辽阔静谧的地方，这里会再合适不过了，但若是讲求发展，这里却也与几个大城市相隔甚远，又何尝不是一种取舍了呢。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;「青甘大环线：&lt;/strong&gt; 青海湖、茶卡盐湖、东台吉乃尔湖、黑独山、敦煌、张掖、祁连大草原 &lt;strong&gt;」&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;恰逢一位朋友博士毕业，有些意外的促成了这次旅行，也算是某种意义上未曾有过的毕业旅行了，青甘附近甘南已经基本上都逛完了，青海这边去年曾途径门源以及青海湖，而后直接转向甘南红原九寨，所以这是我第一次完整的青甘环线，总体来讲还是非常满意的一次行程。&lt;/p&gt;
+&lt;p&gt;恰如去小川西是从三星堆门票开始的，青甘环线的核心必然是莫高窟了，从结果来看，若是抢不到莫高窟的正票，一定不要去买临时票，体验是完全不同的，甚至可以讲是白来了，这里若是没有细致的讲解，丝毫无法感受到其奥妙，另外若是青甘环线没有莫高窟，似乎又缺少了一份独有的韵味。&lt;/p&gt;
+&lt;p&gt;去青海湖的那天，原想着闯一趟哈拉湖，拐到去往天峻县的小路上走了几公里之后看着沿路的崎岖道路断然放弃，原路返回了，终究无论是能力还是时间都有些无法满足，即使真的去了最终似乎也多少有些得不偿失，只能说有时临时的抉择还是非常的重要。&lt;/p&gt;
+&lt;p&gt;青海湖、茶卡盐湖、黑独山、鸣沙山、七彩丹霞、祁连大草原这些地方多少也就是应有的样式，放在一起算得上是非常的有特点，但并算不上让人意外，整个行程上意外的惊喜是突发奇想去寻找的东台吉乃尔湖，东台出来后经冷湖镇往敦煌方向S215 那百来公里的长直路，以及途中偶遇的苏干湖。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;「东台吉乃尔湖」&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;现在网上绝大部分东台绚烂的视屏都是前几年的样子，虽然当下的地图仍然显示着一个几十公里长的大湖，但若真的走到这里，哪里还有什么湖，两侧只剩下了长长的施工路段以及围栏。&lt;/p&gt;
+&lt;p&gt;在小红书上搜了很久没有找到到底在哪里进入，穷尽办法最后是在抖音上找到了最近的描述，沿途看着路碑数公里数，生怕错过，但真的到了其实反而是好找的，前面的路都是漫长的围栏与施工，唯独有一段是放开的。我们去的时候算的上运气非常好，恰逢一个大哥从里面出来，问了两句，后来直到我们出来的一个多小时里，未曾见第二辆车进入。&lt;/p&gt;
+&lt;p&gt;现在想想，以其如今的景色，确实也不值得，但景色这种东西看的多了，也会只道是平常，但在寻找东台的过程中，似乎有一种追寻即将消逝之物的探索之心与急迫之感，真的走上湖床枯竭的土地上，临近着即将枯竭的小溪流时，一种悲然感慨之情油然而生，只会觉得多花一点点的时间寻到这里确实是太好了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;「苏干湖」&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;从冷湖镇附近看完黑独山后，经G215前往敦煌，在那一望无际的笔直路线上，远观一开始以为是一大片光伏面板，越是走近越感觉不对，看了地图后发现这里竟然有这么大的一个湖，一开始甚至想着是否找个野路下去，但看着离湖边太远也就没有尝试，幸而最终找到了一条通往湖边的正规道路，因为这里在 82 年就已经是国家级的候鸟保护区，几十年来基本上没有开发，站在湖边无论是看着远方的 G215 国道，还是望向辽阔的苏干湖，乘着湖风，心情骤然的舒畅起来。&lt;/p&gt;
+&lt;p&gt;苏干湖的形状看起来其实和赛里木湖有些类似，但因为保护区以及生态本身的缘故，无法像赛湖一样做环湖的道路，但能在 G215 这在无尽广袤的视野里出现的这样一个庞然大物，那种意外与惊喜自不必多说了。&lt;/p&gt;
+&lt;p&gt;这次去青甘或许一是因为还未到暑假人正多的时候，又或许是恰逢大柴旦地震许多人取消了计划，除了莫高窟还是人山人海，其他的人流算得上这几年旅游里非常舒适的一档，若要说略微的遗憾，大概是时间和能力上还是无法满足走哈拉湖，但中途的退出改道从结果来看还是较为明智的，恰是这决然的退出让我们有时间找到了东台，走了 G215 偶遇了苏干湖，这种抉择与偶遇恰似这日常的生活，常常充满了各处的未知。&lt;/p&gt;
+&lt;p&gt;以上大体上就是我上半年的足迹了，当然北上深杭因为工作原因总是会去的，这里也就不做单独赘述，总体来讲，于我个人言，一直是非常喜欢在路上的感觉，我不那么喜欢在一个地方驻足过久，无论走到哪里，来过，见过，足矣。&lt;/p&gt;
+&lt;h1 id="02-一些行动半分思考"&gt;02 一些行动半分思考
+&lt;/h1&gt;&lt;h2 id="减肥"&gt;减肥
+&lt;/h2&gt;&lt;p&gt;我是个有些喜欢盲干的人，说好听点叫喜欢自己探索，说不好听叫不喜欢学习，但是万事万物都是有其本身逻辑，事做不对，做不好，一定是哪里的道理没有理解清楚，一定是哪里的绳索结头没有解开，其实有很多道理是很简单清晰的，尤其是在这个AI时代，但真的愿意去搞清楚道理并理解的人终究还是少数。&lt;/p&gt;
+&lt;p&gt;今年在减肥这个事上，我又一次验证了这个情况。&lt;/p&gt;
+&lt;p&gt;我一直都明白说少吃点就好了，多运动就好了，但明白和把这种道理刻在脑子里是不同的，往年的我总会偶发的去多跑跑步，但因为无法坚持与成体系的控制，也没有特别的想法去坚持，减肥这个事一直没有什么进展，唯独庆幸的是在 80kg 多维持了两年左右未发生大的变化。今年的2月份，不知怎么的一直在重感冒，年前年饭上心率120让我印象深刻，稍微好了几天，刚到年后又是一顿不适，等到 2 月底一看已经78kg了，似乎是突然的想法就开始控制饮食，只是单纯的控制，也算不上挨饿，四周的时间就已经有了天翻地覆的变化，让我非常意外的是，就是如此的简单，不需要经过任何额外的体育锻炼就可以有非常确切的进展，若是对自己再狠点另外加点运动或许效果会好更多（当然个人并不推荐了）。&lt;/p&gt;
+&lt;p&gt;只是单纯的控制一定饮食，就能够每天看到体重称的变化时，这种感触是非常明显的，意外又觉得有些可笑，可笑之处在于真的想要做一个事，就要搞清楚原理，明白了原理按照原理去做不会有太多的困难就可以做的很好了，而不需要自己平白无故的去浪费大量的时间内耗，至少对于我这样水平的人，绝大部分的事都是有现成的好答案的。&lt;/p&gt;
+&lt;h2 id="转变"&gt;转变
+&lt;/h2&gt;&lt;p&gt;也是临近三十而立的年纪。&lt;/p&gt;
+&lt;p&gt;人们时常会讲时间过的很快，到底快吗？总的来讲还是很快的，毕竟我也到了三十而立的年纪，这几年的经历总的来看是相当充实的，各种方面上都有明显的改变。&lt;/p&gt;
+&lt;p&gt;回看这几年，似乎都是在一步步中踏上了一些机遇，真要说自己做出来什么惊为天人的成果，倒是也真没什么，只是一步一个脚印的把手头上的事做好，遇到了机遇，无论是被动还是主动，从结果看都是超出最初预期的。&lt;/p&gt;
+&lt;p&gt;回望的时候才发现，我其实在24年杂记与25年杂记均有提到30岁这个节点，如此想来在这里再一次提到，似乎也是理所应当，总的来讲我是个对节点观念比较重的人。&lt;/p&gt;
+&lt;p&gt;在对应的时间如有客观条件就要去做对应的事，这对我来讲是一种理所应当的理念，无论是婚恋还是孩子，我看到了很多朋友是因为客观条件不具备导致的延时，但如果条件具备，我的观念里还是认为应当尽量按期，恰如黑夜应当休息，白日就要劳作一样简单的道理。即使客观条件不那么具备，至少也要有相对目的性的去推进一些应当完成的事，三十也是如此，这重要吗？重要但也不重要，恰如婚恋早了与晚了又真的怎么了呢，其实没做也就没有做了，只是一种选择罢了，所以我并不会强求别人，但于我自己而言的意义却还是存在的，大抵是这样的理解。&lt;/p&gt;
+&lt;p&gt;恰如我在2025年杂记里所言，即使那时交出答卷我已觉得满意，那么放在当下这个节点，这半年的变化更是让我意外。在这个节点里，更是会感到时不我待，抓住机遇的紧迫感，在这个唯有AI盛放的短暂时代，找到属于自己的位置，乘风而行，尽己所能。&lt;/p&gt;
+&lt;p&gt;这大抵是我对于未来十年伊始的宣告，不知若干年后回望起来，是否会有一些回响呢？&lt;/p&gt;
+&lt;h1 id="03-我看过的"&gt;03 我看过的
+&lt;/h1&gt;&lt;p&gt;直到这个时候，我才惊奇的发现，这半年的时间我一部日漫都没有看过，不，这也不准确，上一次都是25年4月，其实已经一年有余了，离开一个事物恰是如此的平静且自然。&lt;/p&gt;
+&lt;p&gt;这半年的时间基本上零星的继续补着之前看的国漫，除了年初的《飞驰人生3》，似乎也没有更多电影或剧集的关注了，放在这几年的时间里要说都有些罕见，或许应该还是要抽点时间看点什么，补充一些新鲜的想法与见解，总归还是有意义的，这么看看似乎频繁的回看下多少还是有些意义，否则今年的年终杂记，似乎都不知道写什么了（笑）。&lt;/p&gt;
+&lt;h1 id="04-眼看着路走着"&gt;04 眼看着，路走着
+&lt;/h1&gt;&lt;p&gt;去年底的时候，我其实做了很多的规划与想法，真要拿出来，除了减肥有些进展，似乎其他的事进展都不明显，我时常在想的是，我只做了手头这些事就已经有当下的改变，是否再努力点，再提高一些对自己的要求，把想法中的事物变为现实，我的生活会改善的更好呢？想来也是必然的，但现实却总非想象了。&lt;/p&gt;
+&lt;p&gt;三十而立，并不是一句空话，但年龄这种东西也并没有那么重要，十年以前的我和当前必然变化了太多，但那时的我也是清晰可见的，并不朦胧如幻影飘渺，一切皆为真实，时光在身上留下痕迹，是如此的鲜明，如此的透彻。&lt;/p&gt;
+&lt;p&gt;无论是风口上的猪还是脚踏实地的路，飞起来的一有不慎更是容易跌落谷底，脚踏实地终为根本。&lt;/p&gt;
+&lt;p&gt;越是这样的时代，越应该看清本心与生活，走应走之路，得适得之物，方可真得大道。&lt;/p&gt;
+&lt;h1 id="05-结"&gt;05 结
+&lt;/h1&gt;&lt;p&gt;写这一篇的开始，并没太想到这一篇大部分的内容均是在写上半年的足迹，但想来也是，旅途这种事总归是让人怀念，走到哪里，思绪汇聚到哪里，也是让人高兴的事。&lt;/p&gt;
+&lt;p&gt;对于下半年，我大概会更频繁的写一些东西，真的输出一些内容，深入一些事物，把上半年没有做到的事，真的去做一些，让生活变得更宽广一点，让视野不局限于当前的一方田地之中，大抵能够真的有一些深入的变化，我想这是我的初心，也是必然要走的路。&lt;/p&gt;
+&lt;p&gt;要想抓住机遇，亦是需要不断的精进与努力，在持续不断的变革与探索中，看清未来。&lt;/p&gt;
+&lt;p&gt;起稿于 2026/07/12&lt;/p&gt;
+&lt;p&gt;主要拟稿于 2026/07/26-28&lt;/p&gt;
+&lt;p&gt;初稿于 2026/07/30 23:39&lt;/p&gt;</description></item><item><title>Hugo Stack主题装修记录（三）</title><link>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95%E4%B8%89/</link><pubDate>Wed, 29 Jul 2026 22:29:00 +0800</pubDate><guid>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95%E4%B8%89/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;本次主要记录最近对 Hugo Stack 模板做的又一轮整理，主要集中在：首页时间轴、Archive 页面响应式、左右侧栏细节、文章阅读体验、搜索页空状态，以及模板配置和样式文件结构。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p class="article-update"&gt;最后更新 · 2026-07-29&lt;/p&gt;
+&lt;h2 id="01-给首页补一条连续的时间轴"&gt;01 给首页补一条连续的时间轴
+&lt;/h2&gt;&lt;p&gt;前面已经把首页文章按年份做了分组，但只有年份标题时，各组内容之间还是稍微有些松散。&lt;br&gt;
+这次在年份标题左侧增加了一条纵向时间轴，并用圆点标记每一个年份，让首页从上到下更像一段连续的写作记录。&lt;/p&gt;
+&lt;p&gt;时间轴本身没有增加新的信息，只是把原有的年份分组重新串了起来。&lt;br&gt;
+颜色也没有做得很重，仍然沿用站点的 accent 色，并通过透明度拉开线条、节点和背景之间的层次。&lt;/p&gt;
+&lt;p&gt;对应修改文件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom/_home.scss&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="02-修正首页时间轴的对齐"&gt;02 修正首页时间轴的对齐
+&lt;/h2&gt;&lt;p&gt;时间轴完成以后，又对年份圆点和竖线的位置做了一轮微调。&lt;br&gt;
+原本圆点和线条分别使用自己的偏移值，在不同年份标题字号和不同屏幕宽度下，视觉上会有一点没有落在同一条轴线上的感觉。&lt;/p&gt;
+&lt;p&gt;这次把左侧缩进和时间轴位置统一成两组变量：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-scss" data-lang="scss"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="na"&gt;--home-timeline-indent&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;24&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="na"&gt;--home-timeline-axis&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;年份圆点、竖线和文章列表都基于同一套坐标计算，移动端只需要缩小整体缩进，不再分别修正每个元素。&lt;br&gt;
+这样桌面端和手机端的轴线位置会稳定一些，后面继续调整卡片宽度时也不容易再次错位。&lt;/p&gt;
+&lt;p&gt;对应修改文件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom/_home.scss&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="03-调整首页卡片的分类色反馈"&gt;03 调整首页卡片的分类色反馈
+&lt;/h2&gt;&lt;p&gt;首页文章卡片原本使用统一的 accent 色作为 hover 反馈，单独看没有问题，但和卡片上方的分类标签并没有太强的联系。&lt;/p&gt;
+&lt;p&gt;这次把每篇文章第一个分类的颜色变量传到卡片容器上。&lt;br&gt;
+鼠标移入卡片时，左侧高亮线和边框会跟随当前文章的分类颜色变化，而不是所有文章都使用同一种颜色。&lt;/p&gt;
+&lt;p&gt;整体动画仍然保持得比较轻：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;卡片只向上移动一点&lt;/li&gt;
+&lt;li&gt;左侧增加一条分类色细线&lt;/li&gt;
+&lt;li&gt;阴影和边框轻微变化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这样既能让不同分类有一点辨识度，也不会让首页变成颜色过多的数据面板。&lt;/p&gt;
+&lt;p&gt;对应修改文件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;layouts/partials/article-list/home-grouped.html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom/_home.scss&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom/_motion.scss&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="04-重新整理首页卡片的信息排布"&gt;04 重新整理首页卡片的信息排布
+&lt;/h2&gt;&lt;p&gt;首页卡片中的日期、字数、阅读时间和浏览次数这次都继续保留，没有减少信息项。&lt;br&gt;
+主要调整的是桌面端的排列方式：分类、标题和元信息重新回到从上到下的阅读顺序，避免右侧信息区看起来过于独立。&lt;/p&gt;
+&lt;p&gt;手机端仍然会隐藏字数统计，给标题和其他信息留出空间；桌面端则完整显示四项内容。&lt;br&gt;
+同时也重新收了一遍卡片内边距、标题字号、图标间距和分页样式，让信息虽然完整，但整体不会显得太挤。&lt;/p&gt;
+&lt;p&gt;对应修改文件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom/_editorial-layout.scss&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom/_legacy.scss&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="05-调整-archive-页的年份顺序"&gt;05 调整 Archive 页的年份顺序
+&lt;/h2&gt;&lt;p&gt;Archive 页面前面已经增加了年度概览和年份导航，但年份顺序还是从较早年份开始。&lt;br&gt;
+对于日常查看来说，最近写的内容通常更常用，所以这次把顶部年份导航和下面的文章分组都改成了从新到旧排列。&lt;/p&gt;
+&lt;p&gt;这次只调整展示顺序，没有改变文章统计方式。&lt;br&gt;
+页面上的总文章数、总字数，以及每一年的文章数和字数仍然沿用原来的计算逻辑。&lt;/p&gt;
+&lt;p&gt;对应修改文件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;layouts/_default/archives.html&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="06-重做-archive-年份导航的响应式布局"&gt;06 重做 Archive 年份导航的响应式布局
+&lt;/h2&gt;&lt;p&gt;之前的年度导航更接近横向时间轴，每个年份宽度还会根据文章数量变化。&lt;br&gt;
+实际使用以后发现，这种方式在桌面端不够整齐，在手机端也不容易一眼看出后面还有内容。&lt;/p&gt;
+&lt;p&gt;这次改成了三种布局：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;宽屏下每行显示五个年份&lt;/li&gt;
+&lt;li&gt;中等宽度下每行显示四个年份&lt;/li&gt;
+&lt;li&gt;手机端改成横向滑动&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;手机端同时增加了右侧渐隐和“横向滑动查看更多年份”的提示，并使用 scroll snap 让每个年份卡片停靠得更自然。&lt;br&gt;
+桌面端则保持等宽网格，年份数量变化时仍然能够对齐。&lt;/p&gt;
+&lt;p&gt;对应修改文件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;layouts/_default/archives.html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom/_archive.scss&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="07-修正-archive-顶部标签和分类高度"&gt;07 修正 Archive 顶部标签和分类高度
+&lt;/h2&gt;&lt;p&gt;Archive 顶部的标签和分类使用的是同一套卡片，但标签区之前还保留了主题 &lt;code&gt;widget tagCloud&lt;/code&gt; 的类名。&lt;br&gt;
+这组主题样式会额外影响内部间距，所以两个区块虽然结构相同，实际显示时高度并不完全一致。&lt;/p&gt;
+&lt;p&gt;这次去掉了标签区多余的 widget 类，让标签和分类都只使用 Archive 自己的布局规则。&lt;br&gt;
+同时在手机端固定为两列，并统一卡片高度、内边距和数量文字的位置。&lt;/p&gt;
+&lt;p&gt;对应修改文件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;layouts/_default/archives.html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom/_archive.scss&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="08-收紧-archive-页的整体节奏"&gt;08 收紧 Archive 页的整体节奏
+&lt;/h2&gt;&lt;p&gt;除了年份导航和分类卡片，这次也重新检查了 Archive 页面几个区块之间的距离。&lt;br&gt;
+顶部标签、分类、总览文字、年份导航和文章列表原本各自留白都比较充足，叠在一起后会让页面上半部分显得偏长。&lt;/p&gt;
+&lt;p&gt;这次主要收紧了区块间距和移动端留白，没有继续增加新的装饰。&lt;br&gt;
+现在顶部信息仍然完整，但从分类区进入年度文章列表会更连贯一些。&lt;/p&gt;
+&lt;p&gt;对应修改文件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom/_archive.scss&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="09-整理左侧栏的站点身份区"&gt;09 整理左侧栏的站点身份区
+&lt;/h2&gt;&lt;p&gt;左侧栏里的 GitHub 链接原本单独占据一行，在图标数量较少时会显得有些零散。&lt;br&gt;
+这次把社交链接移动到站点名称旁边，并做成一个较小的圆形按钮，让名称、简介和外部链接形成一个更紧凑的身份区。&lt;/p&gt;
+&lt;p&gt;同时补上了社交链接的 &lt;code&gt;aria-label&lt;/code&gt;，并继续尊重菜单中的 &lt;code&gt;newTab&lt;/code&gt; 配置。&lt;br&gt;
+手机端不再用绝对定位放置图标，避免标题长度变化以后产生错位。&lt;/p&gt;
+&lt;p&gt;对应修改文件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;layouts/partials/sidebar/left.html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom/_sidebar.scss&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="10-调整导航对比度和移动端菜单按钮"&gt;10 调整导航对比度和移动端菜单按钮
+&lt;/h2&gt;&lt;p&gt;左侧导航中未选中的项目原本颜色偏浅，在浅色背景下看起来有些弱。&lt;br&gt;
+这次把普通导航文字调整为一组更稳定的灰蓝色，当前页面仍然通过主题的强调色区分，不额外增加背景块。&lt;/p&gt;
+&lt;p&gt;移动端的汉堡按钮也改成了较深的蓝灰色。&lt;br&gt;
+这部分没有改变菜单结构，只是让导航入口在浅色模式下更容易识别一点。&lt;/p&gt;
+&lt;p&gt;对应修改文件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom/_sidebar.scss&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom/_tokens.scss&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="11-统一右侧组件标题和目录样式"&gt;11 统一右侧组件标题和目录样式
+&lt;/h2&gt;&lt;p&gt;右侧搜索、归档和文章目录之前都有自己的图标和标题结构，放在一起时稍微有些重复。&lt;br&gt;
+这次隐藏了 widget 自带的大图标，只保留统一的短线标记和文字标题，让右侧栏更像同一组辅助阅读工具。&lt;/p&gt;
+&lt;p&gt;文章目录也一起做了调整：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;普通目录项降低字重和对比度&lt;/li&gt;
+&lt;li&gt;当前章节增加左侧强调线&lt;/li&gt;
+&lt;li&gt;hover 位移缩小&lt;/li&gt;
+&lt;li&gt;内容过长时允许内部滚动&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这样目录仍然能明确提示当前阅读位置，但不会一直抢正文的注意力。&lt;/p&gt;
+&lt;p&gt;对应修改文件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom/_sidebar.scss&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom/_motion.scss&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom/_legacy.scss&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="12-调整文章开头的摘要和更新时间"&gt;12 调整文章开头的摘要和更新时间
+&lt;/h2&gt;&lt;p&gt;这两篇装修记录开头都有一段说明本次改动范围的引用文字。&lt;br&gt;
+之前普通 blockquote 的字重和背景比较明显，用作摘要时会稍微有些重，所以这次单独给文章第一段引用增加了一套更轻的样式。&lt;/p&gt;
+&lt;p&gt;同时把“最后更新”改成了一个较小的 pill，放在摘要和正文之间。&lt;br&gt;
+它仍然是正文内容的一部分，不需要额外修改 Hugo 模板，需要时只要在 Markdown 中加入：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;article-update&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;最后更新 · 2026-07-29&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;对应修改文件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom/_article.scss&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;content/post/Hugo Stack主题装修记录.md&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;content/post/Hugo Stack主题装修记录（二）.md&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="13-补齐搜索页的空状态"&gt;13 补齐搜索页的空状态
+&lt;/h2&gt;&lt;p&gt;搜索页在没有输入关键词时，结果标题和结果列表都是空的，但仍然会占据一部分页面结构，footer 也会停在页面中间。&lt;br&gt;
+这次增加了一个项目级搜索页模板，并为无结果状态补了单独样式。&lt;/p&gt;
+&lt;p&gt;现在空的结果标题和列表会直接隐藏，footer 会自然落到页面底部。&lt;br&gt;
+搜索产生结果以后，原有的列表逻辑仍然照常使用，不影响搜索脚本本身。&lt;/p&gt;
+&lt;p&gt;对应修改文件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;layouts/page/search.html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom/_search.scss&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="14-补充模板中的语义和无障碍信息"&gt;14 补充模板中的语义和无障碍信息
+&lt;/h2&gt;&lt;p&gt;这次在整理页面结构时，也顺手补了一些不太显眼的语义细节。&lt;/p&gt;
+&lt;p&gt;主要包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;搜索框使用 &lt;code&gt;type=&amp;quot;search&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;搜索表单增加 &lt;code&gt;role=&amp;quot;search&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;搜索按钮补充 &lt;code&gt;aria-label&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;搜索结果区增加 &lt;code&gt;aria-live&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;文章封面优先使用 &lt;code&gt;imageAlt&lt;/code&gt;，没有时再回退到标题&lt;/li&gt;
+&lt;li&gt;只有首页、Archive 和搜索页使用站点名称 &lt;code&gt;h1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;社交链接补充可访问名称&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这些调整不会明显改变页面外观，但能让标题层级、键盘操作和辅助技术读取更完整一些。&lt;/p&gt;
+&lt;p&gt;对应修改文件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;layouts/page/search.html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;layouts/partials/widget/search.html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;layouts/partials/article/components/header-entry.html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;layouts/partials/sidebar/left.html&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="15-修正配置中-false-开关失效的问题"&gt;15 修正配置中 false 开关失效的问题
+&lt;/h2&gt;&lt;p&gt;前面关闭相关文章和部分元信息时，发现 Hugo 模板里的 &lt;code&gt;default&lt;/code&gt; 对布尔值有一个容易忽略的问题：显式写入的 &lt;code&gt;false&lt;/code&gt; 也可能被当成空值，再回退到默认的 &lt;code&gt;true&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;这次把相关文章、阅读时间、头像和社交链接新窗口等开关，都改成先判断配置项是否存在，再读取它的实际布尔值。&lt;br&gt;
+这样在配置中明确写下：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;relatedContent&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;模板就会真正关闭对应功能，不会再被默认值覆盖。&lt;/p&gt;
+&lt;p&gt;对应修改文件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;layouts/_default/single.html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;layouts/partials/article/components/details-entry.html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;layouts/partials/sidebar/left.html&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="16-清理没有继续使用的评论和统计配置"&gt;16 清理没有继续使用的评论和统计配置
+&lt;/h2&gt;&lt;p&gt;评论已经切换到 Twikoo，访问统计也已经使用 GoatCounter，所以配置文件里原来保留的 Disqus、Waline、Google Analytics 等空配置已经没有实际作用。&lt;/p&gt;
+&lt;p&gt;这次把这些未使用的 provider 配置一起清理掉，只保留当前真正启用的服务。&lt;br&gt;
+这样 &lt;code&gt;hugo.yaml&lt;/code&gt; 会更短一些，也能减少以后排查配置时的干扰。&lt;/p&gt;
+&lt;p&gt;对应修改文件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;hugo.yaml&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="17-按页面加载脚本并调整-partial-缓存"&gt;17 按页面加载脚本并调整 partial 缓存
+&lt;/h2&gt;&lt;p&gt;主题的分类配色需要 Vibrant 读取图片颜色，但并不是每个页面都会用到这套逻辑。&lt;br&gt;
+这次把脚本限制在首页、分类页和列表页加载，文章正文等不需要取色的页面不再重复引入。&lt;/p&gt;
+&lt;p&gt;同时给 footer 的 partial cache 增加页面 Kind 作为缓存键。&lt;br&gt;
+不同类型页面会使用各自正确的渲染结果，避免因为缓存范围过大而出现页面内容不一致。&lt;/p&gt;
+&lt;p&gt;对应修改文件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;layouts/partials/footer/components/script.html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;layouts/partials/footer/include.html&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="18-调整-github-actions-的构建和发布流程"&gt;18 调整 GitHub Actions 的构建和发布流程
+&lt;/h2&gt;&lt;p&gt;最后也整理了一遍站点的自动构建流程。&lt;br&gt;
+现在 pull request 会执行完整构建检查，但不会触发部署；只有 &lt;code&gt;master&lt;/code&gt; 分支推送后才会发布站点。&lt;/p&gt;
+&lt;p&gt;Hugo 构建同时打开了路径、翻译和 warning 检查，并在遇到 warning 时直接失败。&lt;br&gt;
+另外补上了并发取消，连续推送时旧任务会自动停止，减少重复构建。&lt;/p&gt;
+&lt;p&gt;对应修改文件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;.github/workflows/hugo.yml&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="19-拆分-customscss-的样式结构"&gt;19 拆分 custom.scss 的样式结构
+&lt;/h2&gt;&lt;p&gt;随着首页、Archive、侧栏和文章页的样式越来越多，原来的 &lt;code&gt;custom.scss&lt;/code&gt; 已经超过一千行，继续把所有调整写在同一个文件里会越来越难定位。&lt;/p&gt;
+&lt;p&gt;这次先保留原有样式作为 &lt;code&gt;_legacy.scss&lt;/code&gt;，再把最近这轮调整按职责拆成：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;_tokens.scss&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;_article.scss&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;_archive.scss&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;_sidebar.scss&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;_home.scss&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;_search.scss&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;_motion.scss&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;_editorial-layout.scss&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;入口文件 &lt;code&gt;custom.scss&lt;/code&gt; 现在只负责按顺序引入这些模块。&lt;br&gt;
+同时增加了一组很小的设计变量，用来统一表面颜色、边框、弱文字、圆角和阴影。后面继续装修时，可以先复用这组变量，不用每个页面重新写一套近似值。&lt;/p&gt;
+&lt;p&gt;对应修改文件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom.scss&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom/_tokens.scss&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom/_legacy.scss&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom/_article.scss&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom/_archive.scss&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom/_sidebar.scss&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom/_home.scss&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom/_search.scss&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom/_motion.scss&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;assets/scss/custom/_editorial-layout.scss&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Hugo Stack主题装修记录（二）</title><link>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95%E4%BA%8C/</link><pubDate>Thu, 26 Mar 2026 23:26:08 +0800</pubDate><guid>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95%E4%BA%8C/</guid><description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;本次主要记录这两天对 Hugo Stack 模板做的一轮整理，主要集中在：首页结构、Archive 页面重做、文章页统一、评论与访问统计，以及 footer 统计修正。&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p class="article-update"&gt;最后更新 · 2026-03-26&lt;/p&gt;
@@ -222,7 +550,7 @@
 &lt;p&gt;对应修改：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;layouts/partials/footer/footer.html&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Bangumi 2025年杂记</title><link>https://Shik1R.github.io/p/bgm-2025%E5%B9%B4%E6%9D%82%E8%AE%B0/</link><pubDate>Sun, 14 Dec 2025 20:50:00 +0000</pubDate><guid>https://Shik1R.github.io/p/bgm-2025%E5%B9%B4%E6%9D%82%E8%AE%B0/</guid><description>&lt;h2 id="序-1"&gt;序 1
+&lt;/ul&gt;</description></item><item><title>Bangumi 2025年杂记</title><link>https://Shik1R.github.io/p/bgm-2025%E5%B9%B4%E6%9D%82%E8%AE%B0/</link><pubDate>Sun, 14 Dec 2025 20:50:00 +0800</pubDate><guid>https://Shik1R.github.io/p/bgm-2025%E5%B9%B4%E6%9D%82%E8%AE%B0/</guid><description>&lt;h2 id="序-1"&gt;序 1
 &lt;/h2&gt;&lt;p&gt;回想前两年，想起要写年终杂记的时候，差不多已是夏去冬至，寒风日渐凌冽之时，临近冬天的寒风不断提醒着冬日的到来，甚至想要起笔之时都会觉得是不是太早了些，今年倒是极为反常了，11 月初时本来也就想着要开始写，但那时竟仍然偶尔穿着短袖，似乎夏天都未完全过去，秋日正值当头，从生理上自然就不会有着想要一年要结束之感，想着要不再等等，哪料到这 12 月中旬，寒风依旧未至，秋日正值此时，这种感觉在往年是完全没有的。&lt;/p&gt;
 &lt;h2 id="序-2"&gt;序 2
 &lt;/h2&gt;&lt;p&gt;24 年时我曾写到是最为扎实精进的一年，从今年看，整个 25 年较 24 年像是把一切探索与精进落地，让一切井然有序逐渐开花落地的一年，回望过去的好多年，25 年的探索与迷茫是最少的，似乎从开年之时许多事情就已经想清楚了，而这一年却是这几年来获得的成果最多的，减少了“变化”，工作与生活从实质上也有了显著的提升。&lt;/p&gt;
@@ -266,7 +594,7 @@
 &lt;/h3&gt;&lt;p&gt;07.05 F1 狂飙飞车&lt;/p&gt;
 &lt;h3 id="tv"&gt;TV
 &lt;/h3&gt;&lt;p&gt;03.18 大明王朝 1566&lt;/p&gt;
-&lt;p&gt;初稿于 2025.12.14 20:50&lt;/p&gt;</description></item><item><title>Hugo Stack主题装修记录</title><link>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95/</link><pubDate>Mon, 24 Mar 2025 02:00:41 +0000</pubDate><guid>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;初稿于 2025.12.14 20:50&lt;/p&gt;</description></item><item><title>Hugo Stack主题装修记录</title><link>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95/</link><pubDate>Mon, 24 Mar 2025 02:00:41 +0800</pubDate><guid>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95/</guid><description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;本修改主要参考如下：
 &lt;a class="link" href="https://thirdshire.com/hugo-stack-renovation-part-three/" target="_blank" rel="noopener"
 &gt;Hugo Stack 主题装修笔记- 第三夏尔 &lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -996,7 +1324,7 @@ loading="lazy"
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; {{ end }}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Bangumi 2024年杂记</title><link>https://Shik1R.github.io/p/bangumi-2024%E5%B9%B4%E6%9D%82%E8%AE%B0/</link><pubDate>Mon, 11 Nov 2024 19:25:00 +0000</pubDate><guid>https://Shik1R.github.io/p/bangumi-2024%E5%B9%B4%E6%9D%82%E8%AE%B0/</guid><description>&lt;h2 id="序-1"&gt;序 1
+&lt;/div&gt;</description></item><item><title>Bangumi 2024年杂记</title><link>https://Shik1R.github.io/p/bangumi-2024%E5%B9%B4%E6%9D%82%E8%AE%B0/</link><pubDate>Mon, 11 Nov 2024 19:25:00 +0800</pubDate><guid>https://Shik1R.github.io/p/bangumi-2024%E5%B9%B4%E6%9D%82%E8%AE%B0/</guid><description>&lt;h2 id="序-1"&gt;序 1
 &lt;/h2&gt;&lt;p&gt;既是在注视着，也是在恍然间，11月到来了，10月出游的记忆尚历历在目，在这晨光不算太晚，树叶亦未挂满金黄的时刻下，总是会想起学校向着学生中心的那条金色大道，那是我脑海里11月不变的记忆。&lt;/p&gt;
 &lt;p&gt;提前一点开始一年的总结，是去年起始的想法，去年虽是月初 3号就开始想要着笔，但拖拖拉拉最后仍是到了11月底，反倒是今年，日历跨过11月，就似乎立刻想起了要做的事。&lt;/p&gt;
 &lt;p&gt;想法这种事情，放在年末最是适合，若有有完成的不好的仍有些努力的时机，以免真的当时间跨过了1月的门槛，积压的事情就好似催命的令牌，要赶着这一年往前走。&lt;/p&gt;
@@ -1050,7 +1378,7 @@ loading="lazy"
 02.12 飞驰人生 2 &lt;br&gt;
 03.03 周处除三害&lt;/p&gt;
 &lt;p&gt;起笔于 2024.11.05 &lt;br&gt;
-初稿于 2024.11.11 19:25&lt;/p&gt;</description></item><item><title>Bangumi 2023年杂记</title><link>https://Shik1R.github.io/p/bgm-2023%E5%B9%B4%E6%9D%82%E8%AE%B0/</link><pubDate>Fri, 24 Nov 2023 01:54:00 +0000</pubDate><guid>https://Shik1R.github.io/p/bgm-2023%E5%B9%B4%E6%9D%82%E8%AE%B0/</guid><description>&lt;h2 id="序-1"&gt;序 1
+初稿于 2024.11.11 19:25&lt;/p&gt;</description></item><item><title>Bangumi 2023年杂记</title><link>https://Shik1R.github.io/p/bgm-2023%E5%B9%B4%E6%9D%82%E8%AE%B0/</link><pubDate>Fri, 24 Nov 2023 01:54:00 +0800</pubDate><guid>https://Shik1R.github.io/p/bgm-2023%E5%B9%B4%E6%9D%82%E8%AE%B0/</guid><description>&lt;h2 id="序-1"&gt;序 1
 &lt;/h2&gt;&lt;p&gt;恍然的来到了 11 月初，往年的此时薄一点的外套已无法抵挡清晨的寒风，而今年穿着短袖却仍感闷热，时光虽说似乎留在了晚夏，但一年终末将至，滴答的时钟仍催促着一切的前行。&lt;/p&gt;
 &lt;p&gt;去年就曾想过将每年的杂记提早一些，但最终还是拖到了 12 月底，今年又有了这样的想法，所以仍旧是 11 月初便开始起笔，汇总下今年看过的作品，对于现在的我只剩一两个月区别也并会太大了，直到写完之时，若是后续还有当年看完的番剧，就放在下一年吧。&lt;/p&gt;
 &lt;p&gt;22 年是特殊而又复杂的一年，23 年不一样，随着疫情的结束，一切重新获得了生机，从现在来看对于我这是转变与定型的一年，许多的意料之外，但终究得到了我所认为最好的答案，临近年尾，我又开始思索着前方，在看似大部分事物都已定型的情况下，在未来的几年里我还能做到什么，走到哪里，在螺旋的生活中成为了下一个阶段的问题。&lt;/p&gt;
@@ -1130,7 +1458,7 @@ loading="lazy"
 08.24 孤注一掷 &lt;br&gt;
 09.17 奥本海默 Oppenheimer&lt;/p&gt;
 &lt;p&gt;起笔于 2023.11.03 &lt;br&gt;
-初稿于 2023.11.24 01:54&lt;/p&gt;</description></item><item><title>关于</title><link>https://Shik1R.github.io/%E5%85%B3%E4%BA%8E/</link><pubDate>Fri, 24 Mar 2023 16:51:18 +0000</pubDate><guid>https://Shik1R.github.io/%E5%85%B3%E4%BA%8E/</guid><description>&lt;p&gt;这里是 M1ka 的个人博客，用来保存一些生活、兴趣与技术实践中的长期记录。&lt;/p&gt;
+初稿于 2023.11.24 01:54&lt;/p&gt;</description></item><item><title>关于</title><link>https://Shik1R.github.io/%E5%85%B3%E4%BA%8E/</link><pubDate>Fri, 24 Mar 2023 16:51:18 +0800</pubDate><guid>https://Shik1R.github.io/%E5%85%B3%E4%BA%8E/</guid><description>&lt;p&gt;这里是 M1ka 的个人博客，用来保存一些生活、兴趣与技术实践中的长期记录。&lt;/p&gt;
 &lt;p&gt;相比即时的信息流，我更喜欢把值得回看的内容整理成文章。它们未必都是完整的教程或结论，也可能只是某个阶段真实留下的思考与经验。&lt;/p&gt;
 &lt;h2 id="主要内容"&gt;主要内容
 &lt;/h2&gt;&lt;ul&gt;
@@ -1145,7 +1473,7 @@ loading="lazy"
 &lt;li&gt;&lt;a class="link" href="https://github.com/Shik1R" target="_blank" rel="noopener"
 &gt;GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="link" href="https://Shik1R.github.io/index.xml" &gt;RSS 订阅&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Bangumi 2022年杂记</title><link>https://Shik1R.github.io/p/bgm-2022%E5%B9%B4%E6%9D%82%E8%AE%B0/</link><pubDate>Sun, 25 Dec 2022 23:39:00 +0000</pubDate><guid>https://Shik1R.github.io/p/bgm-2022%E5%B9%B4%E6%9D%82%E8%AE%B0/</guid><description>&lt;h2 id="序"&gt;&lt;strong&gt;序&lt;/strong&gt;
+&lt;/ul&gt;</description></item><item><title>Bangumi 2022年杂记</title><link>https://Shik1R.github.io/p/bgm-2022%E5%B9%B4%E6%9D%82%E8%AE%B0/</link><pubDate>Sun, 25 Dec 2022 23:39:00 +0800</pubDate><guid>https://Shik1R.github.io/p/bgm-2022%E5%B9%B4%E6%9D%82%E8%AE%B0/</guid><description>&lt;h2 id="序"&gt;&lt;strong&gt;序&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;若是多年后回望，2022年无疑是特殊而又复杂的一年。&lt;/p&gt;
 &lt;p&gt;与2018到2019年时的困苦转变不同，已然活在现实的我，在这一年里无论是生活上还是工作上，都根本性的往前走了一步。&lt;/p&gt;
 &lt;p&gt;但望着这一年国内形势的变化，尤其是临近年底周遭的环境情况，波云诡谲，无法看清，即使早就明白我们已经身处危机之中，但真的在面临到各种因素叠加的困境时，即使抛开当前的短暂困境，这种无法明显改变的形势究竟会让未来如何，总是不免隐隐的对未来生忧，只是亦是未曾料到，在急转之中变化来得如此之快，如此的彻底，闯关固然是会有牺牲的，只是如果这是必须要走的路，那我会始终相信着并走向前方。&lt;/p&gt;
@@ -1217,13 +1545,13 @@ loading="lazy"
 07.31 白色巨塔 &lt;br&gt;
 08.07 火花&lt;/p&gt;
 &lt;p&gt;起笔于 2022.11.01 &lt;br&gt;
-完笔于 2022.12.25 23:39&lt;/p&gt;</description></item><item><title>苹果美区账号注册记录</title><link>https://Shik1R.github.io/p/%E8%8B%B9%E6%9E%9C%E7%BE%8E%E5%8C%BA%E8%B4%A6%E5%8F%B7%E6%B3%A8%E5%86%8C%E8%AE%B0%E5%BD%95/</link><pubDate>Sat, 27 Aug 2022 23:31:00 +0000</pubDate><guid>https://Shik1R.github.io/p/%E8%8B%B9%E6%9E%9C%E7%BE%8E%E5%8C%BA%E8%B4%A6%E5%8F%B7%E6%B3%A8%E5%86%8C%E8%AE%B0%E5%BD%95/</guid><description>&lt;h2 id="账号申请"&gt;账号申请
+完笔于 2022.12.25 23:39&lt;/p&gt;</description></item><item><title>苹果美区账号注册记录</title><link>https://Shik1R.github.io/p/%E8%8B%B9%E6%9E%9C%E7%BE%8E%E5%8C%BA%E8%B4%A6%E5%8F%B7%E6%B3%A8%E5%86%8C%E8%AE%B0%E5%BD%95/</link><pubDate>Sat, 27 Aug 2022 23:31:00 +0800</pubDate><guid>https://Shik1R.github.io/p/%E8%8B%B9%E6%9E%9C%E7%BE%8E%E5%8C%BA%E8%B4%A6%E5%8F%B7%E6%B3%A8%E5%86%8C%E8%AE%B0%E5%BD%95/</guid><description>&lt;h2 id="账号申请"&gt;账号申请
 &lt;/h2&gt;&lt;p&gt;按流程直接申请即可。&lt;/p&gt;
 &lt;h2 id="apple-store申请"&gt;Apple Store申请
 &lt;/h2&gt;&lt;p&gt;仅注册了账号还无法使用Apple Store，主要难点在于没有美区的信用卡，需要先完成申请，再通过GiftCard去完成充值。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;解决方案&lt;/strong&gt;：&lt;code&gt;一定要挂美区梯子再申请Apple Store&lt;/code&gt;，在申请Apple Store时才可以直接跳过信用卡阶段，否则会一定要求通过PayPal或者信用卡注册。&lt;/p&gt;
 &lt;h2 id="apple-giftcard"&gt;Apple Giftcard
-&lt;/h2&gt;&lt;p&gt;最开始我也是在TB上买，后来发现挂梯子是可以直接购买美区Apple Gift Card的，此处购买使用&lt;code&gt;非美区 Visa/MasterCard ​&lt;/code&gt;就可以，地址信息网上查询一个即可。&lt;/p&gt;</description></item><item><title>Bangumi 2021年杂记</title><link>https://Shik1R.github.io/p/bgm-2021%E5%B9%B4%E6%9D%82%E8%AE%B0/</link><pubDate>Sat, 18 Dec 2021 00:06:00 +0000</pubDate><guid>https://Shik1R.github.io/p/bgm-2021%E5%B9%B4%E6%9D%82%E8%AE%B0/</guid><description>&lt;h2 id="序"&gt;&lt;strong&gt;序&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;最开始我也是在TB上买，后来发现挂梯子是可以直接购买美区Apple Gift Card的，此处购买使用&lt;code&gt;非美区 Visa/MasterCard ​&lt;/code&gt;就可以，地址信息网上查询一个即可。&lt;/p&gt;</description></item><item><title>Bangumi 2021年杂记</title><link>https://Shik1R.github.io/p/bgm-2021%E5%B9%B4%E6%9D%82%E8%AE%B0/</link><pubDate>Sat, 18 Dec 2021 00:06:00 +0800</pubDate><guid>https://Shik1R.github.io/p/bgm-2021%E5%B9%B4%E6%9D%82%E8%AE%B0/</guid><description>&lt;h2 id="序"&gt;&lt;strong&gt;序&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;不知是为什么，今年写杂记的想法来的很早。&lt;/p&gt;
 &lt;p&gt;并不是想尽早的过完 2021 年，但所有的事情在发生之后才去慢悠悠的记录，却也总是不好，多少是会忘却那些想法的，那么何不能早一点开始做准备呢？或许是前两年拖的太晚，也或许是今年的冬天来的太突然，也或许只是我已经没有在此处停留罢了。&lt;/p&gt;
 &lt;p&gt;回望整个 2021 年，我已然活在现实了。&lt;/p&gt;
@@ -1293,7 +1621,7 @@ loading="lazy"
 11.20 星际穿越 Interstellar &lt;br&gt;
 11.28 流浪地球&lt;/p&gt;
 &lt;p&gt;Part1. 2021/11/13 &lt;br&gt;
-Part2. 2021/12/18 00:06&lt;/p&gt;</description></item><item><title>Typecho方案&amp;坑</title><link>https://Shik1R.github.io/p/typecho%E6%96%B9%E6%A1%88-%E5%9D%91/</link><pubDate>Wed, 30 Jun 2021 03:58:00 +0000</pubDate><guid>https://Shik1R.github.io/p/typecho%E6%96%B9%E6%A1%88-%E5%9D%91/</guid><description>&lt;h2 id="安装"&gt;安装
+Part2. 2021/12/18 00:06&lt;/p&gt;</description></item><item><title>Typecho方案&amp;坑</title><link>https://Shik1R.github.io/p/typecho%E6%96%B9%E6%A1%88-%E5%9D%91/</link><pubDate>Wed, 30 Jun 2021 03:58:00 +0800</pubDate><guid>https://Shik1R.github.io/p/typecho%E6%96%B9%E6%A1%88-%E5%9D%91/</guid><description>&lt;h2 id="安装"&gt;安装
 &lt;/h2&gt;&lt;h2 id="模板插件"&gt;模板&amp;amp;插件
 &lt;/h2&gt;&lt;h3 id="typecho-的-echo-模板文件名"&gt;Typecho 的 Echo 模板文件名
 &lt;/h3&gt;&lt;p&gt;从 GitHub 下载后，需要将文件名称从“&lt;code&gt;echo-master&lt;/code&gt;”修改为“&lt;code&gt;echo&lt;/code&gt;”才能正确配置。&lt;/p&gt;
@@ -1324,7 +1652,7 @@ Part2. 2021/12/18 00:06&lt;/p&gt;</description></item><item><title>Typecho方案
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;请在服务器上安装以下PHP扩展中的至少一个: &lt;code&gt;mysqli&lt;/code&gt;, &lt;code&gt;sqlite3&lt;/code&gt;,&lt;code&gt;​ pgsql&lt;/code&gt;, &lt;code&gt;pdo_mysql&lt;/code&gt;, &lt;code&gt;pdo_sqlite,&lt;/code&gt; &lt;code&gt;pdo_pgsql&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Typecho nginx会出现404问题，需要配置修改，建议直接用&lt;code&gt;apache 2.4&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Bangumi 2020年杂记</title><link>https://Shik1R.github.io/p/bgm-2020%E5%B9%B4%E6%9D%82%E8%AE%B0/</link><pubDate>Sat, 06 Feb 2021 18:35:00 +0000</pubDate><guid>https://Shik1R.github.io/p/bgm-2020%E5%B9%B4%E6%9D%82%E8%AE%B0/</guid><description>&lt;p&gt;&lt;strong&gt;序&lt;/strong&gt;&lt;/p&gt;
+&lt;/ul&gt;</description></item><item><title>Bangumi 2020年杂记</title><link>https://Shik1R.github.io/p/bgm-2020%E5%B9%B4%E6%9D%82%E8%AE%B0/</link><pubDate>Sat, 06 Feb 2021 18:35:00 +0800</pubDate><guid>https://Shik1R.github.io/p/bgm-2020%E5%B9%B4%E6%9D%82%E8%AE%B0/</guid><description>&lt;p&gt;&lt;strong&gt;序&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;一晃之间，又到了要写杂记的时候了。&lt;/p&gt;
 &lt;p&gt;正如大多数人的感受一样，2020 年过去的很快，只是在忙碌着与忙碌之中，这一年我做了几件事情，买了几样东西，去了几个地方，也就这么匆匆的结束了。即使年初身处武汉，却也未如大多数人一样感到焦虑，或许是幸运，一切的不幸没有降临在我身边。这一年，少了一些糅杂的念想，也少了一些烦恼，总倒是在匆忙之中更趋于稳定了。&lt;/p&gt;
 &lt;p&gt;这一年，该去的地方，该见的人，一段段关系，回想起来这是近几年的时间里，我与现实里的人们走的最近的一年。若有念想，我便前行，只是做着单纯的事情，也未曾夹杂着太多的想法，尽是向前。&lt;/p&gt;
@@ -1428,7 +1756,7 @@ Part2. 2021/12/18 00:06&lt;/p&gt;</description></item><item><title>Typecho方案
 &lt;p&gt;合计 21 部番剧，6 部电视剧&amp;amp;电影。&lt;/p&gt;
 &lt;p&gt;构思于 2020/12 &lt;br&gt;
 起笔于 2021/01/10 &lt;br&gt;
-初稿于 2021/02/06 18:35&lt;/p&gt;</description></item><item><title>火车驶向云外 梦安魂于九霄</title><link>https://Shik1R.github.io/p/%E7%81%AB%E8%BD%A6%E9%A9%B6%E5%90%91%E4%BA%91%E5%A4%96-%E6%A2%A6%E5%AE%89%E9%AD%82%E4%BA%8E%E4%B9%9D%E9%9C%84/</link><pubDate>Wed, 28 Oct 2020 00:54:00 +0000</pubDate><guid>https://Shik1R.github.io/p/%E7%81%AB%E8%BD%A6%E9%A9%B6%E5%90%91%E4%BA%91%E5%A4%96-%E6%A2%A6%E5%AE%89%E9%AD%82%E4%BA%8E%E4%B9%9D%E9%9C%84/</guid><description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;记一点往事，一点回忆以及秒五&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+初稿于 2021/02/06 18:35&lt;/p&gt;</description></item><item><title>火车驶向云外 梦安魂于九霄</title><link>https://Shik1R.github.io/p/%E7%81%AB%E8%BD%A6%E9%A9%B6%E5%90%91%E4%BA%91%E5%A4%96-%E6%A2%A6%E5%AE%89%E9%AD%82%E4%BA%8E%E4%B9%9D%E9%9C%84/</link><pubDate>Wed, 28 Oct 2020 00:54:00 +0800</pubDate><guid>https://Shik1R.github.io/p/%E7%81%AB%E8%BD%A6%E9%A9%B6%E5%90%91%E4%BA%91%E5%A4%96-%E6%A2%A6%E5%AE%89%E9%AD%82%E4%BA%8E%E4%B9%9D%E9%9C%84/</guid><description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;记一点往事，一点回忆以及秒五&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id="序"&gt;「序」
 &lt;/h2&gt;&lt;p&gt;&lt;em&gt;&lt;strong&gt;这是一篇写不出来的秒五杂记。&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
@@ -1509,7 +1837,7 @@ Part2. 2021/12/18 00:06&lt;/p&gt;</description></item><item><title>Typecho方案
 2020/10/25&lt;/p&gt;
 &lt;p&gt;念想于2020/10/10 &lt;br&gt;
 起笔于2020/10/25 &lt;br&gt;
-初稿于2020/10/28 00:54&lt;/p&gt;</description></item><item><title>Bangumi 2019年杂记</title><link>https://Shik1R.github.io/p/bgm-2019%E5%B9%B4%E6%9D%82%E8%AE%B0/</link><pubDate>Wed, 29 Jan 2020 14:37:25 +0000</pubDate><guid>https://Shik1R.github.io/p/bgm-2019%E5%B9%B4%E6%9D%82%E8%AE%B0/</guid><description>&lt;h2 id="序"&gt;序
+初稿于2020/10/28 00:54&lt;/p&gt;</description></item><item><title>Bangumi 2019年杂记</title><link>https://Shik1R.github.io/p/bgm-2019%E5%B9%B4%E6%9D%82%E8%AE%B0/</link><pubDate>Wed, 29 Jan 2020 14:37:25 +0800</pubDate><guid>https://Shik1R.github.io/p/bgm-2019%E5%B9%B4%E6%9D%82%E8%AE%B0/</guid><description>&lt;h2 id="序"&gt;序
 &lt;/h2&gt;&lt;p&gt;只是忽然，看着时间表时，便已然是年末了，回望18年写下的杂记，总是觉得恍然。只是恍然之间，也才意识到我已经和18年离得那么远了，也才意识到我已经走到了大抵不同的地方了。&lt;/p&gt;
 &lt;p&gt;每年年初，总会笑着说今年又是脱宅的一年啊，但回望起来，却总会想起那一年同Anime所交织的故事，由Anime串起来的日常，即使再怎么说着离开，实际也还是存在于那里了，只是这一切似乎在这一年真的有些不同了。&lt;/p&gt;
 &lt;h2 id="1"&gt;1
@@ -1586,7 +1914,7 @@ Part2. 2021/12/18 00:06&lt;/p&gt;</description></item><item><title>Typecho方案
 3.31 “文学少女”-恋爱插画集3、4、“文学少女”与渴望死亡的小丑 &lt;br&gt;
 4.6 半熟作家与文学少女编辑&lt;/p&gt;
 &lt;p&gt;2020.1.29 14:37 初稿完&lt;br&gt;
-2020.4.12 11:12 V1.1 补充文学少女小说阅读Timeline&lt;/p&gt;</description></item><item><title>归档</title><link>https://Shik1R.github.io/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://Shik1R.github.io/archives/</guid><description/></item><item><title>Bangumi 2018年杂记</title><link>https://Shik1R.github.io/p/bgm-2018%E5%B9%B4%E6%9D%82%E8%AE%B0/</link><pubDate>Sat, 05 Jan 2019 06:43:00 +0000</pubDate><guid>https://Shik1R.github.io/p/bgm-2018%E5%B9%B4%E6%9D%82%E8%AE%B0/</guid><description>&lt;h2 id="序"&gt;序
+2020.4.12 11:12 V1.1 补充文学少女小说阅读Timeline&lt;/p&gt;</description></item><item><title>归档</title><link>https://Shik1R.github.io/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://Shik1R.github.io/archives/</guid><description/></item><item><title>Bangumi 2018年杂记</title><link>https://Shik1R.github.io/p/bgm-2018%E5%B9%B4%E6%9D%82%E8%AE%B0/</link><pubDate>Sat, 05 Jan 2019 06:43:00 +0800</pubDate><guid>https://Shik1R.github.io/p/bgm-2018%E5%B9%B4%E6%9D%82%E8%AE%B0/</guid><description>&lt;h2 id="序"&gt;序
 &lt;/h2&gt;&lt;p&gt;一直在想着，如果年末的时候能回顾一下，那总归是好的，虽然bgm注册的不晚，但真正开用却是去年年中了，今年年中的时候似乎就起了每年写一篇的想法，这个想法也延续到了年末，于是就有了这个，不知道能写多少，也不知道明年的这个时候会怎么想，但至少今年开个头吧，不过是一点很个人化的东西，本质上也只是写给我自己的记录罢了。若有人无意中看到了，能多少有点共鸣那已是再好不过了。&lt;/p&gt;
 &lt;h2 id="1"&gt;1
 &lt;/h2&gt;&lt;p&gt;每到年末时，总是觉得今年又是日渐脱宅的一年，可是回想起2017整个上半年只看过寥寥数部的时候，今年多少是有些回暖的迹象的，上半年的数量并不少，只是越往年末，倒是越少了，回想起一路发生的事情，也自是了然。不管如何，这漫长又糅杂着些许苦涩的2018年即将落下帷幕，亦是些许叹息，亦是些许无奈，只是我也早就明白，很多事情即使让我再来一次，世界线也终将收束于一处，唯有这一点却是不可变的。既然已经过去了，便随之去吧，只愿来年能看到一点新的东西，能看到一点新的希望，来填补或隐埋这&amp;quot;伽蓝之洞&amp;quot;。&lt;/p&gt;
@@ -1731,7 +2059,7 @@ citrus citrus～柑橘味香气～ &lt;br&gt;
 4.白い巨塔&lt;br&gt;
 5.JIN-仁- 仁医
 JIN-仁- 完結編&lt;/p&gt;
-&lt;p&gt;2019.1.5 06:43 初稿完&lt;/p&gt;</description></item><item><title>Hexo 搭建记录</title><link>https://Shik1R.github.io/p/hexo-%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</link><pubDate>Sun, 23 Sep 2018 18:43:26 +0000</pubDate><guid>https://Shik1R.github.io/p/hexo-%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</guid><description>&lt;h2 id="github-repository"&gt;GitHub Repository
+&lt;p&gt;2019.1.5 06:43 初稿完&lt;/p&gt;</description></item><item><title>Hexo 搭建记录</title><link>https://Shik1R.github.io/p/hexo-%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</link><pubDate>Sun, 23 Sep 2018 18:43:26 +0800</pubDate><guid>https://Shik1R.github.io/p/hexo-%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</guid><description>&lt;h2 id="github-repository"&gt;GitHub Repository
 &lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;创建名为name.github.io的repository&lt;/li&gt;
 &lt;li&gt;启用GitHub Pages，会显示相应网页地址。&lt;/li&gt;
@@ -1931,7 +2259,7 @@ JIN-仁- 完結編&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;具体样式设置在&lt;code&gt;\themes\next\layout\_macro\post-swig&lt;/code&gt;。&lt;/li&gt;
 &lt;li&gt;在&lt;code&gt;\next\_config.yml&lt;/code&gt;中开启同时包括其他各项设定。&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>VMware ubuntu虚拟机添加容量</title><link>https://Shik1R.github.io/p/vmware-ubuntu%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%B7%BB%E5%8A%A0%E5%AE%B9%E9%87%8F/</link><pubDate>Wed, 25 Apr 2018 15:24:36 +0000</pubDate><guid>https://Shik1R.github.io/p/vmware-ubuntu%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%B7%BB%E5%8A%A0%E5%AE%B9%E9%87%8F/</guid><description>&lt;ol&gt;
+&lt;/ul&gt;</description></item><item><title>VMware ubuntu虚拟机添加容量</title><link>https://Shik1R.github.io/p/vmware-ubuntu%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%B7%BB%E5%8A%A0%E5%AE%B9%E9%87%8F/</link><pubDate>Wed, 25 Apr 2018 15:24:36 +0800</pubDate><guid>https://Shik1R.github.io/p/vmware-ubuntu%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%B7%BB%E5%8A%A0%E5%AE%B9%E9%87%8F/</guid><description>&lt;ol&gt;
 &lt;li&gt;命令行 &lt;code&gt;vmware-vdiskmanager -x 80Gb &amp;quot;D:\VMware\...\..vmdk(disk address)&amp;quot;&lt;/code&gt; 添加大小或者通过UI界面直接添加&lt;/li&gt;
 &lt;li&gt;reboot vmware，进入Ubuntu系统后，&lt;code&gt;df -ah&lt;/code&gt;发现硬盘大小并未改变，要进行分区和指定文件系统，ubuntu 才能识别。&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;fdisk -l&lt;/code&gt; 显示当前磁盘分区表&lt;/li&gt;
@@ -1951,7 +2279,7 @@ JIN-仁- 完結編&lt;/p&gt;
 &lt;li&gt;添加开机自行 &lt;code&gt;sudo gedit /etc/fstab&lt;/code&gt;
 最后一行添加&lt;code&gt;/dev/sda3 /mnt/sda3 ext4 defaults, 0 1&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;使用&lt;code&gt;df -ah&lt;/code&gt;查看分区结果&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Apache服务器本地浏览配置</title><link>https://Shik1R.github.io/p/apache%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%9C%AC%E5%9C%B0%E6%B5%8F%E8%A7%88%E9%85%8D%E7%BD%AE/</link><pubDate>Tue, 10 Apr 2018 20:14:08 +0000</pubDate><guid>https://Shik1R.github.io/p/apache%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%9C%AC%E5%9C%B0%E6%B5%8F%E8%A7%88%E9%85%8D%E7%BD%AE/</guid><description>&lt;p&gt;很久以前也遇到过这个问题,弄了好久才弄出来,这次又弄了很久,问题其实很简单,记录一下备忘。&lt;/p&gt;
+&lt;/ul&gt;</description></item><item><title>Apache服务器本地浏览配置</title><link>https://Shik1R.github.io/p/apache%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%9C%AC%E5%9C%B0%E6%B5%8F%E8%A7%88%E9%85%8D%E7%BD%AE/</link><pubDate>Tue, 10 Apr 2018 20:14:08 +0800</pubDate><guid>https://Shik1R.github.io/p/apache%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%9C%AC%E5%9C%B0%E6%B5%8F%E8%A7%88%E9%85%8D%E7%BD%AE/</guid><description>&lt;p&gt;很久以前也遇到过这个问题,弄了好久才弄出来,这次又弄了很久,问题其实很简单,记录一下备忘。&lt;/p&gt;
 &lt;h2 id="注意以下问题即可"&gt;注意以下问题即可
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;windows下防火墙的80端口是否打开&lt;/li&gt;
@@ -1982,7 +2310,7 @@ JIN-仁- 完結編&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;修改&lt;code&gt;httpd.conf&lt;/code&gt;和&lt;code&gt;httpd-vhosts.conf&lt;/code&gt;两个文件&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>关于双拼</title><link>https://Shik1R.github.io/p/%E5%85%B3%E4%BA%8E%E5%8F%8C%E6%8B%BC/</link><pubDate>Wed, 19 Jul 2017 07:35:00 +0000</pubDate><guid>https://Shik1R.github.io/p/%E5%85%B3%E4%BA%8E%E5%8F%8C%E6%8B%BC/</guid><description>&lt;p&gt;有段时间一直在想着双拼、全拼、五笔的一些问题，此文为看到《数学之美》第21章“拼音输入法的数学原理”后有感所写。&lt;/p&gt;
+&lt;/ul&gt;</description></item><item><title>关于双拼</title><link>https://Shik1R.github.io/p/%E5%85%B3%E4%BA%8E%E5%8F%8C%E6%8B%BC/</link><pubDate>Wed, 19 Jul 2017 07:35:00 +0800</pubDate><guid>https://Shik1R.github.io/p/%E5%85%B3%E4%BA%8E%E5%8F%8C%E6%8B%BC/</guid><description>&lt;p&gt;有段时间一直在想着双拼、全拼、五笔的一些问题，此文为看到《数学之美》第21章“拼音输入法的数学原理”后有感所写。&lt;/p&gt;
 &lt;p&gt;以前是不知道双拼这个东西的，偶然从知乎了解之后，觉得可以尝试一下，便选取了好评很多的小鹤双拼，直到今天也两年了。如果有兴趣，希望各位也能了解一下双拼输入，我认为是最少的成本花费下最高效的输入方式。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;输入速率是一个击键次数与重码率的问题，从《数学之美》中了解到其本质上是一个信息论的问题，击键次数是可以通过香农的第一理论计算出来的。而重码率的问题是可以通过数学模型来解决的。文中提到拼音输入法早期甚至是双拼早于全拼的，中间流行了五笔，最后还是回到了全拼，并提到了双拼关于重码率，击键时间，容错率的问题。&lt;/p&gt;
