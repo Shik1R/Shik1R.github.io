@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>技术工具 on M1ka's Blog</title><link>https://Shik1R.github.io/categories/%E6%8A%80%E6%9C%AF%E5%B7%A5%E5%85%B7/</link><description>Recent content in 技术工具 on M1ka's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>M1ka</copyright><lastBuildDate>Thu, 26 Mar 2026 23:26:08 +0800</lastBuildDate><atom:link href="https://Shik1R.github.io/categories/%E6%8A%80%E6%9C%AF%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Stack主题装修记录（二）</title><link>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95%E4%BA%8C/</link><pubDate>Thu, 26 Mar 2026 23:26:08 +0800</pubDate><guid>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95%E4%BA%8C/</guid><description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;本次主要记录这两天对 Hugo Stack 模板做的一轮整理，主要集中在：首页结构、Archive 页面重做、文章页统一、评论与访问统计，以及 footer 统计修正。&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Update 2026.03.26&lt;/p&gt;
+&lt;p class="article-update"&gt;最后更新 · 2026-03-26&lt;/p&gt;
 &lt;h2 id="01-重做-archive-页面结构"&gt;01 重做 Archive 页面结构
 &lt;/h2&gt;&lt;p&gt;这次对 Archive 页面做了一轮比较完整的调整，不再只是简单按年份往下列文章，而是在页面顶部补了一层更清晰的结构。&lt;/p&gt;
 &lt;p&gt;目前 Archive 页面主要分成三部分：&lt;/p&gt;
@@ -227,9 +227,9 @@
 &lt;a class="link" href="https://thirdshire.com/hugo-stack-renovation-part-three/" target="_blank" rel="noopener"
 &gt;Hugo Stack 主题装修笔记- 第三夏尔 &lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Update 2025.03.21&lt;/p&gt;
-&lt;h2 id="01-在归档页增加标签云tags"&gt;01 在归档页增加标签云Tags
-&lt;/h2&gt;&lt;p&gt;在layouts/_default/archives.html里的&lt;/header&gt;后面加上如下代码&lt;/p&gt;
+&lt;p class="article-update"&gt;最后更新 · 2025-03-21&lt;/p&gt;
+## 01 在归档页增加标签云Tags
+&lt;p&gt;在layouts/_default/archives.html里的&lt;/header&gt;后面加上如下代码&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
@@ -780,7 +780,7 @@ loading="lazy"
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;hr&gt;
-&lt;p&gt;Update 2025.03.24&lt;/p&gt;
+&lt;p class="article-update"&gt;补充更新 · 2025-03-24&lt;/p&gt;
 &lt;h2 id="07-代码框圆角效果"&gt;07 代码框圆角效果
 &lt;/h2&gt;&lt;p&gt;在assets/scss/partials/layout/article.scss里，对应增加5-8行的圆角代码&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
