@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>M1ka's Blog</title><link>https://Shik1R.github.io/</link><description>Recent content on M1ka's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>M1ka</copyright><lastBuildDate>Thu, 30 Jul 2026 23:39:05 +0800</lastBuildDate><atom:link href="https://Shik1R.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>2026H1半年拾遗</title><link>https://Shik1R.github.io/p/2026h1%E5%8D%8A%E5%B9%B4%E6%8B%BE%E9%81%97/</link><pubDate>Thu, 30 Jul 2026 23:39:05 +0800</pubDate><guid>https://Shik1R.github.io/p/2026h1%E5%8D%8A%E5%B9%B4%E6%8B%BE%E9%81%97/</guid><description>&lt;h2 id="序"&gt;序
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>M1ka's Blog</title><link>https://Shik1R.github.io/</link><description>Recent content on M1ka's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>M1ka</copyright><lastBuildDate>Mon, 02 Nov 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://Shik1R.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>2026H1半年拾遗</title><link>https://Shik1R.github.io/p/2026h1%E5%8D%8A%E5%B9%B4%E6%8B%BE%E9%81%97/</link><pubDate>Thu, 30 Jul 2026 23:39:05 +0800</pubDate><guid>https://Shik1R.github.io/p/2026h1%E5%8D%8A%E5%B9%B4%E6%8B%BE%E9%81%97/</guid><description>&lt;h2 id="序"&gt;序
 &lt;/h2&gt;&lt;p&gt;总结这个事，这半年来的时间一直在想着，但总没有真的去切入落地。&lt;/p&gt;
 &lt;p&gt;就像许多想要做的事也一直未开始一样，但念想总归是在的，倒也并不是因为忙的没有时间，只是单纯的没有开始而已。&lt;/p&gt;
 &lt;p&gt;人总是如此，知道要做什么并不等同于会去做什么，空闲的时候以为自己会多花些时间去研究点什么，但更多的大抵只是被娱乐消耗，并非娱乐不好，只是陈述这样一个事实罢了。&lt;/p&gt;
@@ -63,10 +63,10 @@
 &lt;p&gt;要想抓住机遇，亦是需要不断的精进与努力，在持续不断的变革与探索中，看清未来。&lt;/p&gt;
 &lt;p&gt;起稿于 2026/07/12&lt;/p&gt;
 &lt;p&gt;主要拟稿于 2026/07/26-28&lt;/p&gt;
-&lt;p&gt;初稿于 2026/07/30 23:39&lt;/p&gt;</description></item><item><title>Hugo Stack主题装修记录（三）</title><link>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95%E4%B8%89/</link><pubDate>Wed, 29 Jul 2026 22:29:00 +0800</pubDate><guid>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95%E4%B8%89/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;初稿于 2026/07/30 23:39&lt;/p&gt;</description></item><item><title>Hugo Stack主题装修记录（三）</title><link>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95%E4%B8%89/</link><pubDate>Wed, 29 Jul 2026 22:29:00 +0800</pubDate><guid>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95%E4%B8%89/</guid><description>
+&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;本次主要记录最近对 Hugo Stack 模板做的又一轮整理，主要集中在：首页时间轴、Archive 页面响应式、左右侧栏细节、文章阅读体验、搜索页空状态，以及模板配置和样式文件结构。&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p class="article-update"&gt;最后更新 · 2026-07-29&lt;/p&gt;
 &lt;h2 id="01-给首页补一条连续的时间轴"&gt;01 给首页补一条连续的时间轴
 &lt;/h2&gt;&lt;p&gt;前面已经把首页文章按年份做了分组，但只有年份标题时，各组内容之间还是稍微有些松散。&lt;br&gt;
 这次在年份标题左侧增加了一条纵向时间轴，并用圆点标记每一个年份，让首页从上到下更像一段连续的写作记录。&lt;/p&gt;
@@ -207,17 +207,17 @@
 &lt;h2 id="12-调整文章开头的摘要和更新时间"&gt;12 调整文章开头的摘要和更新时间
 &lt;/h2&gt;&lt;p&gt;这两篇装修记录开头都有一段说明本次改动范围的引用文字。&lt;br&gt;
 之前普通 blockquote 的字重和背景比较明显，用作摘要时会稍微有些重，所以这次单独给文章第一段引用增加了一套更轻的样式。&lt;/p&gt;
-&lt;p&gt;同时把“最后更新”改成了一个较小的 pill，放在摘要和正文之间。&lt;br&gt;
-它仍然是正文内容的一部分，不需要额外修改 Hugo 模板，需要时只要在 Markdown 中加入：&lt;/p&gt;
+&lt;p&gt;“最后更新”现在统一由文章 front matter 的 &lt;code&gt;lastmod&lt;/code&gt; 字段生成，不需要在正文维护 HTML 日期。发布日期当天的修改不重复显示；跨日更新时，文章标题下会自动显示更新日期。&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;article-update&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;最后更新 · 2026-07-29&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;lastmod&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ld"&gt;2026-07-30T12:00:00&lt;/span&gt;&lt;span class="m"&gt;+08&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="m"&gt;00&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;对应修改文件：&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;正文中用于记录历史阶段的“补充更新”等注记仍然保留，使用 &lt;code&gt;article-note-date&lt;/code&gt; 样式。&lt;/p&gt;
+&lt;p&gt;对应修改文件：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;assets/scss/custom/_article.scss&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;content/post/Hugo Stack主题装修记录.md&lt;/code&gt;&lt;/li&gt;
@@ -326,10 +326,10 @@
 &lt;li&gt;&lt;code&gt;assets/scss/custom/_search.scss&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;assets/scss/custom/_motion.scss&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;assets/scss/custom/_editorial-layout.scss&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Hugo Stack主题装修记录（二）</title><link>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95%E4%BA%8C/</link><pubDate>Thu, 26 Mar 2026 23:26:08 +0800</pubDate><guid>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95%E4%BA%8C/</guid><description>&lt;blockquote&gt;
+&lt;/ul&gt;</description></item><item><title>Hugo Stack主题装修记录（二）</title><link>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95%E4%BA%8C/</link><pubDate>Thu, 26 Mar 2026 23:26:08 +0800</pubDate><guid>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95%E4%BA%8C/</guid><description>
+&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;本次主要记录这两天对 Hugo Stack 模板做的一轮整理，主要集中在：首页结构、Archive 页面重做、文章页统一、评论与访问统计，以及 footer 统计修正。&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p class="article-update"&gt;最后更新 · 2026-03-26&lt;/p&gt;
 &lt;h2 id="01-重做-archive-页面结构"&gt;01 重做 Archive 页面结构
 &lt;/h2&gt;&lt;p&gt;这次对 Archive 页面做了一轮比较完整的调整，不再只是简单按年份往下列文章，而是在页面顶部补了一层更清晰的结构。&lt;/p&gt;
 &lt;p&gt;目前 Archive 页面主要分成三部分：&lt;/p&gt;
@@ -594,14 +594,14 @@
 &lt;/h3&gt;&lt;p&gt;07.05 F1 狂飙飞车&lt;/p&gt;
 &lt;h3 id="tv"&gt;TV
 &lt;/h3&gt;&lt;p&gt;03.18 大明王朝 1566&lt;/p&gt;
-&lt;p&gt;初稿于 2025.12.14 20:50&lt;/p&gt;</description></item><item><title>Hugo Stack主题装修记录</title><link>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95/</link><pubDate>Mon, 24 Mar 2025 02:00:41 +0800</pubDate><guid>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;初稿于 2025.12.14 20:50&lt;/p&gt;</description></item><item><title>Hugo Stack主题装修记录</title><link>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95/</link><pubDate>Mon, 24 Mar 2025 02:00:41 +0800</pubDate><guid>https://Shik1R.github.io/p/hugo-stack%E4%B8%BB%E9%A2%98%E8%A3%85%E4%BF%AE%E8%AE%B0%E5%BD%95/</guid><description>
+&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;本修改主要参考如下：
 &lt;a class="link" href="https://thirdshire.com/hugo-stack-renovation-part-three/" target="_blank" rel="noopener"
 &gt;Hugo Stack 主题装修笔记- 第三夏尔 &lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p class="article-update"&gt;最后更新 · 2025-03-21&lt;/p&gt;
-## 01 在归档页增加标签云Tags
-&lt;p&gt;在layouts/_default/archives.html里的&lt;/header&gt;后面加上如下代码&lt;/p&gt;
+&lt;h2 id="01-在归档页增加标签云tags"&gt;01 在归档页增加标签云Tags
+&lt;/h2&gt;&lt;p&gt;在layouts/_default/archives.html里的&lt;/header&gt;后面加上如下代码&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
@@ -659,10 +659,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="err"&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src="https://Shik1R.github.io/pictures/image123.png"
-loading="lazy"
-alt="alt text"
-&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img alt="alt text" class="gallery-image" data-flex-basis="682px" data-flex-grow="284" data-original="/pictures/image123.png" decoding="async" height="166" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://Shik1R.github.io/pictures/image123.png" width="472"&gt;
+&lt;/p&gt;
 &lt;h2 id="02-首页标签云显示数目"&gt;02 首页标签云显示数目
 &lt;/h2&gt;&lt;p&gt;在前情提要 Part.1 在归档页增加标签云 tags 里，已经在归档页增加了标签云及其数目，但首页的标签云还没有显示数量，这里也补充一下。在下述文件增加代码：&lt;/p&gt;
 &lt;p&gt;assets/scss/partials/widgets.scss&lt;/p&gt;
@@ -683,10 +681,8 @@ alt="alt text"
 &lt;/div&gt;&lt;p&gt;layouts/partials/widget/tag-cloud.html
 在{{ .Page.Title }}后增加&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;&amp;lt;span class=&amp;quot;tagCloud-count-main&amp;quot;&amp;gt;{{ .Count }}&amp;lt;/span&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://Shik1R.github.io/pictures/%e5%be%ae%e4%bf%a1%e6%88%aa%e5%9b%be_20250324095843.png"
-loading="lazy"
-alt="123"
-&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="123" data-original="/pictures/微信截图_20250324095843.png" decoding="async" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://Shik1R.github.io/pictures/微信截图_20250324095843.png"&gt;
+&lt;/p&gt;
 &lt;h2 id="03-字数统计"&gt;03 字数统计
 &lt;/h2&gt;&lt;p&gt;在layouts/partials/footer/footer.html里增加以下代码，其中文章篇数统计参考了这篇&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
@@ -863,9 +859,8 @@ hugo 默认统计的是英文的字符，如果有中文需要在 config.toml �
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src="https://Shik1R.github.io/pictures/%e5%be%ae%e4%bf%a1%e6%88%aa%e5%9b%be_20250324110143.png"
-loading="lazy"
-&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img data-original="/pictures/微信截图_20250324110143.png" decoding="async" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://Shik1R.github.io/pictures/微信截图_20250324110143.png"&gt;
+&lt;/p&gt;
 &lt;h2 id="05-修改archive页的分类样式"&gt;05 修改Archive页的分类样式
 &lt;/h2&gt;&lt;p&gt;默认的卡片有些太大了,且无动画效果，在assets/scss/partials/layout/list.scss更改样式，去掉了背景图片，基于另外一个风格AI出来了一段效果&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
@@ -1152,7 +1147,7 @@ loading="lazy"
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;hr&gt;
-&lt;p class="article-update"&gt;补充更新 · 2025-03-24&lt;/p&gt;
+&lt;p class="article-note-date"&gt;补充更新 · 2025-03-24&lt;/p&gt;
 &lt;h2 id="07-代码框圆角效果"&gt;07 代码框圆角效果
 &lt;/h2&gt;&lt;p&gt;在assets/scss/partials/layout/article.scss里，对应增加5-8行的圆角代码&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
