@@ -2,8 +2,8 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;本次主要记录最近对 Hugo Stack 模板做的又一轮整理，主要集中在：首页时间轴、Archive 页面响应式、左右侧栏细节、文章阅读体验、搜索页空状态，以及模板配置和样式文件结构。&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id="01-给首页补一条连续的时间轴"&gt;01 给首页补一条连续的时间轴
-&lt;/h2&gt;&lt;p&gt;前面已经把首页文章按年份做了分组，但只有年份标题时，各组内容之间还是稍微有些松散。&lt;br&gt;
+&lt;h2 id="01-给首页补一条连续的时间轴"&gt;&lt;span class="chapter-title"&gt;01 给首页补一条连续的时间轴&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;前面已经把首页文章按年份做了分组，但只有年份标题时，各组内容之间还是稍微有些松散。&lt;br&gt;
 这次在年份标题左侧增加了一条纵向时间轴，并用圆点标记每一个年份，让首页从上到下更像一段连续的写作记录。&lt;/p&gt;
 &lt;p&gt;时间轴本身没有增加新的信息，只是把原有的年份分组重新串了起来。&lt;br&gt;
 颜色也没有做得很重，仍然沿用站点的 accent 色，并通过透明度拉开线条、节点和背景之间的层次。&lt;/p&gt;
@@ -11,8 +11,8 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;assets/scss/custom/_home.scss&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="02-修正首页时间轴的对齐"&gt;02 修正首页时间轴的对齐
-&lt;/h2&gt;&lt;p&gt;时间轴完成以后，又对年份圆点和竖线的位置做了一轮微调。&lt;br&gt;
+&lt;h2 id="02-修正首页时间轴的对齐"&gt;&lt;span class="chapter-title"&gt;02 修正首页时间轴的对齐&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;时间轴完成以后，又对年份圆点和竖线的位置做了一轮微调。&lt;br&gt;
 原本圆点和线条分别使用自己的偏移值，在不同年份标题字号和不同屏幕宽度下，视觉上会有一点没有落在同一条轴线上的感觉。&lt;/p&gt;
 &lt;p&gt;这次把左侧缩进和时间轴位置统一成两组变量：&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
@@ -31,8 +31,8 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;assets/scss/custom/_home.scss&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="03-调整首页卡片的分类色反馈"&gt;03 调整首页卡片的分类色反馈
-&lt;/h2&gt;&lt;p&gt;首页文章卡片原本使用统一的 accent 色作为 hover 反馈，单独看没有问题，但和卡片上方的分类标签并没有太强的联系。&lt;/p&gt;
+&lt;h2 id="03-调整首页卡片的分类色反馈"&gt;&lt;span class="chapter-title"&gt;03 调整首页卡片的分类色反馈&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;首页文章卡片原本使用统一的 accent 色作为 hover 反馈，单独看没有问题，但和卡片上方的分类标签并没有太强的联系。&lt;/p&gt;
 &lt;p&gt;这次把每篇文章第一个分类的颜色变量传到卡片容器上。&lt;br&gt;
 鼠标移入卡片时，左侧高亮线和边框会跟随当前文章的分类颜色变化，而不是所有文章都使用同一种颜色。&lt;/p&gt;
 &lt;p&gt;整体动画仍然保持得比较轻：&lt;/p&gt;
@@ -48,8 +48,8 @@
 &lt;li&gt;&lt;code&gt;assets/scss/custom/_home.scss&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;assets/scss/custom/_motion.scss&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="04-重新整理首页卡片的信息排布"&gt;04 重新整理首页卡片的信息排布
-&lt;/h2&gt;&lt;p&gt;首页卡片中的日期、字数、阅读时间和浏览次数这次都继续保留，没有减少信息项。&lt;br&gt;
+&lt;h2 id="04-重新整理首页卡片的信息排布"&gt;&lt;span class="chapter-title"&gt;04 重新整理首页卡片的信息排布&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;首页卡片中的日期、字数、阅读时间和浏览次数这次都继续保留，没有减少信息项。&lt;br&gt;
 主要调整的是桌面端的排列方式：分类、标题和元信息重新回到从上到下的阅读顺序，避免右侧信息区看起来过于独立。&lt;/p&gt;
 &lt;p&gt;手机端仍然会隐藏字数统计，给标题和其他信息留出空间；桌面端则完整显示四项内容。&lt;br&gt;
 同时也重新收了一遍卡片内边距、标题字号、图标间距和分页样式，让信息虽然完整，但整体不会显得太挤。&lt;/p&gt;
@@ -58,8 +58,8 @@
 &lt;li&gt;&lt;code&gt;assets/scss/custom/_editorial-layout.scss&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;assets/scss/custom/_legacy.scss&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="05-调整-archive-页的年份顺序"&gt;05 调整 Archive 页的年份顺序
-&lt;/h2&gt;&lt;p&gt;Archive 页面前面已经增加了年度概览和年份导航，但年份顺序还是从较早年份开始。&lt;br&gt;
+&lt;h2 id="05-调整-archive-页的年份顺序"&gt;&lt;span class="chapter-title"&gt;05 调整 Archive 页的年份顺序&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Archive 页面前面已经增加了年度概览和年份导航，但年份顺序还是从较早年份开始。&lt;br&gt;
 对于日常查看来说，最近写的内容通常更常用，所以这次把顶部年份导航和下面的文章分组都改成了从新到旧排列。&lt;/p&gt;
 &lt;p&gt;这次只调整展示顺序，没有改变文章统计方式。&lt;br&gt;
 页面上的总文章数、总字数，以及每一年的文章数和字数仍然沿用原来的计算逻辑。&lt;/p&gt;
@@ -67,8 +67,8 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;layouts/_default/archives.html&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="06-重做-archive-年份导航的响应式布局"&gt;06 重做 Archive 年份导航的响应式布局
-&lt;/h2&gt;&lt;p&gt;之前的年度导航更接近横向时间轴，每个年份宽度还会根据文章数量变化。&lt;br&gt;
+&lt;h2 id="06-重做-archive-年份导航的响应式布局"&gt;&lt;span class="chapter-title"&gt;06 重做 Archive 年份导航的响应式布局&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;之前的年度导航更接近横向时间轴，每个年份宽度还会根据文章数量变化。&lt;br&gt;
 实际使用以后发现，这种方式在桌面端不够整齐，在手机端也不容易一眼看出后面还有内容。&lt;/p&gt;
 &lt;p&gt;这次改成了三种布局：&lt;/p&gt;
 &lt;ul&gt;
@@ -83,8 +83,8 @@
 &lt;li&gt;&lt;code&gt;layouts/_default/archives.html&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;assets/scss/custom/_archive.scss&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="07-修正-archive-顶部标签和分类高度"&gt;07 修正 Archive 顶部标签和分类高度
-&lt;/h2&gt;&lt;p&gt;Archive 顶部的标签和分类使用的是同一套卡片，但标签区之前还保留了主题 &lt;code&gt;widget tagCloud&lt;/code&gt; 的类名。&lt;br&gt;
+&lt;h2 id="07-修正-archive-顶部标签和分类高度"&gt;&lt;span class="chapter-title"&gt;07 修正 Archive 顶部标签和分类高度&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Archive 顶部的标签和分类使用的是同一套卡片，但标签区之前还保留了主题 &lt;code&gt;widget tagCloud&lt;/code&gt; 的类名。&lt;br&gt;
 这组主题样式会额外影响内部间距，所以两个区块虽然结构相同，实际显示时高度并不完全一致。&lt;/p&gt;
 &lt;p&gt;这次去掉了标签区多余的 widget 类，让标签和分类都只使用 Archive 自己的布局规则。&lt;br&gt;
 同时在手机端固定为两列，并统一卡片高度、内边距和数量文字的位置。&lt;/p&gt;
@@ -93,8 +93,8 @@
 &lt;li&gt;&lt;code&gt;layouts/_default/archives.html&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;assets/scss/custom/_archive.scss&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="08-收紧-archive-页的整体节奏"&gt;08 收紧 Archive 页的整体节奏
-&lt;/h2&gt;&lt;p&gt;除了年份导航和分类卡片，这次也重新检查了 Archive 页面几个区块之间的距离。&lt;br&gt;
+&lt;h2 id="08-收紧-archive-页的整体节奏"&gt;&lt;span class="chapter-title"&gt;08 收紧 Archive 页的整体节奏&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;除了年份导航和分类卡片，这次也重新检查了 Archive 页面几个区块之间的距离。&lt;br&gt;
 顶部标签、分类、总览文字、年份导航和文章列表原本各自留白都比较充足，叠在一起后会让页面上半部分显得偏长。&lt;/p&gt;
 &lt;p&gt;这次主要收紧了区块间距和移动端留白，没有继续增加新的装饰。&lt;br&gt;
 现在顶部信息仍然完整，但从分类区进入年度文章列表会更连贯一些。&lt;/p&gt;
@@ -102,8 +102,8 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;assets/scss/custom/_archive.scss&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="09-整理左侧栏的站点身份区"&gt;09 整理左侧栏的站点身份区
-&lt;/h2&gt;&lt;p&gt;左侧栏里的 GitHub 链接原本单独占据一行，在图标数量较少时会显得有些零散。&lt;br&gt;
+&lt;h2 id="09-整理左侧栏的站点身份区"&gt;&lt;span class="chapter-title"&gt;09 整理左侧栏的站点身份区&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;左侧栏里的 GitHub 链接原本单独占据一行，在图标数量较少时会显得有些零散。&lt;br&gt;
 这次把社交链接移动到站点名称旁边，并做成一个较小的圆形按钮，让名称、简介和外部链接形成一个更紧凑的身份区。&lt;/p&gt;
 &lt;p&gt;同时补上了社交链接的 &lt;code&gt;aria-label&lt;/code&gt;，并继续尊重菜单中的 &lt;code&gt;newTab&lt;/code&gt; 配置。&lt;br&gt;
 手机端不再用绝对定位放置图标，避免标题长度变化以后产生错位。&lt;/p&gt;
@@ -112,8 +112,8 @@
 &lt;li&gt;&lt;code&gt;layouts/partials/sidebar/left.html&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;assets/scss/custom/_sidebar.scss&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="10-调整导航对比度和移动端菜单按钮"&gt;10 调整导航对比度和移动端菜单按钮
-&lt;/h2&gt;&lt;p&gt;左侧导航中未选中的项目原本颜色偏浅，在浅色背景下看起来有些弱。&lt;br&gt;
+&lt;h2 id="10-调整导航对比度和移动端菜单按钮"&gt;&lt;span class="chapter-title"&gt;10 调整导航对比度和移动端菜单按钮&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;左侧导航中未选中的项目原本颜色偏浅，在浅色背景下看起来有些弱。&lt;br&gt;
 这次把普通导航文字调整为一组更稳定的灰蓝色，当前页面仍然通过主题的强调色区分，不额外增加背景块。&lt;/p&gt;
 &lt;p&gt;移动端的汉堡按钮也改成了较深的蓝灰色。&lt;br&gt;
 这部分没有改变菜单结构，只是让导航入口在浅色模式下更容易识别一点。&lt;/p&gt;
@@ -122,8 +122,8 @@
 &lt;li&gt;&lt;code&gt;assets/scss/custom/_sidebar.scss&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;assets/scss/custom/_tokens.scss&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="11-统一右侧组件标题和目录样式"&gt;11 统一右侧组件标题和目录样式
-&lt;/h2&gt;&lt;p&gt;右侧搜索、归档和文章目录之前都有自己的图标和标题结构，放在一起时稍微有些重复。&lt;br&gt;
+&lt;h2 id="11-统一右侧组件标题和目录样式"&gt;&lt;span class="chapter-title"&gt;11 统一右侧组件标题和目录样式&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;右侧搜索、归档和文章目录之前都有自己的图标和标题结构，放在一起时稍微有些重复。&lt;br&gt;
 这次隐藏了 widget 自带的大图标，只保留统一的短线标记和文字标题，让右侧栏更像同一组辅助阅读工具。&lt;/p&gt;
 &lt;p&gt;文章目录也一起做了调整：&lt;/p&gt;
 &lt;ul&gt;
@@ -139,8 +139,8 @@
 &lt;li&gt;&lt;code&gt;assets/scss/custom/_motion.scss&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;assets/scss/custom/_legacy.scss&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="12-调整文章开头的摘要和更新时间"&gt;12 调整文章开头的摘要和更新时间
-&lt;/h2&gt;&lt;p&gt;这两篇装修记录开头都有一段说明本次改动范围的引用文字。&lt;br&gt;
+&lt;h2 id="12-调整文章开头的摘要和更新时间"&gt;&lt;span class="chapter-title"&gt;12 调整文章开头的摘要和更新时间&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;这两篇装修记录开头都有一段说明本次改动范围的引用文字。&lt;br&gt;
 之前普通 blockquote 的字重和背景比较明显，用作摘要时会稍微有些重，所以这次单独给文章第一段引用增加了一套更轻的样式。&lt;/p&gt;
 &lt;p&gt;“最后更新”现在统一由文章 front matter 的 &lt;code&gt;lastmod&lt;/code&gt; 字段生成，不需要在正文维护 HTML 日期。发布日期当天的修改不重复显示；跨日更新时，文章标题下会自动显示更新日期。&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
@@ -158,8 +158,8 @@
 &lt;li&gt;&lt;code&gt;content/post/Hugo Stack主题装修记录.md&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;content/post/Hugo Stack主题装修记录（二）.md&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="13-补齐搜索页的空状态"&gt;13 补齐搜索页的空状态
-&lt;/h2&gt;&lt;p&gt;搜索页在没有输入关键词时，结果标题和结果列表都是空的，但仍然会占据一部分页面结构，footer 也会停在页面中间。&lt;br&gt;
+&lt;h2 id="13-补齐搜索页的空状态"&gt;&lt;span class="chapter-title"&gt;13 补齐搜索页的空状态&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;搜索页在没有输入关键词时，结果标题和结果列表都是空的，但仍然会占据一部分页面结构，footer 也会停在页面中间。&lt;br&gt;
 这次增加了一个项目级搜索页模板，并为无结果状态补了单独样式。&lt;/p&gt;
 &lt;p&gt;现在空的结果标题和列表会直接隐藏，footer 会自然落到页面底部。&lt;br&gt;
 搜索产生结果以后，原有的列表逻辑仍然照常使用，不影响搜索脚本本身。&lt;/p&gt;
@@ -168,8 +168,8 @@
 &lt;li&gt;&lt;code&gt;layouts/page/search.html&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;assets/scss/custom/_search.scss&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="14-补充模板中的语义和无障碍信息"&gt;14 补充模板中的语义和无障碍信息
-&lt;/h2&gt;&lt;p&gt;这次在整理页面结构时，也顺手补了一些不太显眼的语义细节。&lt;/p&gt;
+&lt;h2 id="14-补充模板中的语义和无障碍信息"&gt;&lt;span class="chapter-title"&gt;14 补充模板中的语义和无障碍信息&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;这次在整理页面结构时，也顺手补了一些不太显眼的语义细节。&lt;/p&gt;
 &lt;p&gt;主要包括：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;搜索框使用 &lt;code&gt;type=&amp;quot;search&amp;quot;&lt;/code&gt;&lt;/li&gt;
@@ -188,8 +188,8 @@
 &lt;li&gt;&lt;code&gt;layouts/partials/article/components/header-entry.html&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;layouts/partials/sidebar/left.html&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="15-修正配置中-false-开关失效的问题"&gt;15 修正配置中 false 开关失效的问题
-&lt;/h2&gt;&lt;p&gt;前面关闭相关文章和部分元信息时，发现 Hugo 模板里的 &lt;code&gt;default&lt;/code&gt; 对布尔值有一个容易忽略的问题：显式写入的 &lt;code&gt;false&lt;/code&gt; 也可能被当成空值，再回退到默认的 &lt;code&gt;true&lt;/code&gt;。&lt;/p&gt;
+&lt;h2 id="15-修正配置中-false-开关失效的问题"&gt;&lt;span class="chapter-title"&gt;15 修正配置中 false 开关失效的问题&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;前面关闭相关文章和部分元信息时，发现 Hugo 模板里的 &lt;code&gt;default&lt;/code&gt; 对布尔值有一个容易忽略的问题：显式写入的 &lt;code&gt;false&lt;/code&gt; 也可能被当成空值，再回退到默认的 &lt;code&gt;true&lt;/code&gt;。&lt;/p&gt;
 &lt;p&gt;这次把相关文章、阅读时间、头像和社交链接新窗口等开关，都改成先判断配置项是否存在，再读取它的实际布尔值。&lt;br&gt;
 这样在配置中明确写下：&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
@@ -207,16 +207,16 @@
 &lt;li&gt;&lt;code&gt;layouts/partials/article/components/details-entry.html&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;layouts/partials/sidebar/left.html&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="16-清理没有继续使用的评论和统计配置"&gt;16 清理没有继续使用的评论和统计配置
-&lt;/h2&gt;&lt;p&gt;评论已经切换到 Twikoo，访问统计也已经使用 GoatCounter，所以配置文件里原来保留的 Disqus、Waline、Google Analytics 等空配置已经没有实际作用。&lt;/p&gt;
+&lt;h2 id="16-清理没有继续使用的评论和统计配置"&gt;&lt;span class="chapter-title"&gt;16 清理没有继续使用的评论和统计配置&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;评论已经切换到 Twikoo，访问统计也已经使用 GoatCounter，所以配置文件里原来保留的 Disqus、Waline、Google Analytics 等空配置已经没有实际作用。&lt;/p&gt;
 &lt;p&gt;这次把这些未使用的 provider 配置一起清理掉，只保留当前真正启用的服务。&lt;br&gt;
 这样 &lt;code&gt;hugo.yaml&lt;/code&gt; 会更短一些，也能减少以后排查配置时的干扰。&lt;/p&gt;
 &lt;p&gt;对应修改文件：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;hugo.yaml&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="17-按页面加载脚本并调整-partial-缓存"&gt;17 按页面加载脚本并调整 partial 缓存
-&lt;/h2&gt;&lt;p&gt;主题的分类配色需要 Vibrant 读取图片颜色，但并不是每个页面都会用到这套逻辑。&lt;br&gt;
+&lt;h2 id="17-按页面加载脚本并调整-partial-缓存"&gt;&lt;span class="chapter-title"&gt;17 按页面加载脚本并调整 partial 缓存&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;主题的分类配色需要 Vibrant 读取图片颜色，但并不是每个页面都会用到这套逻辑。&lt;br&gt;
 这次把脚本限制在首页、分类页和列表页加载，文章正文等不需要取色的页面不再重复引入。&lt;/p&gt;
 &lt;p&gt;同时给 footer 的 partial cache 增加页面 Kind 作为缓存键。&lt;br&gt;
 不同类型页面会使用各自正确的渲染结果，避免因为缓存范围过大而出现页面内容不一致。&lt;/p&gt;
@@ -225,8 +225,8 @@
 &lt;li&gt;&lt;code&gt;layouts/partials/footer/components/script.html&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;layouts/partials/footer/include.html&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="18-调整-github-actions-的构建和发布流程"&gt;18 调整 GitHub Actions 的构建和发布流程
-&lt;/h2&gt;&lt;p&gt;最后也整理了一遍站点的自动构建流程。&lt;br&gt;
+&lt;h2 id="18-调整-github-actions-的构建和发布流程"&gt;&lt;span class="chapter-title"&gt;18 调整 GitHub Actions 的构建和发布流程&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;最后也整理了一遍站点的自动构建流程。&lt;br&gt;
 现在 pull request 会执行完整构建检查，但不会触发部署；只有 &lt;code&gt;master&lt;/code&gt; 分支推送后才会发布站点。&lt;/p&gt;
 &lt;p&gt;Hugo 构建同时打开了路径、翻译和 warning 检查，并在遇到 warning 时直接失败。&lt;br&gt;
 另外补上了并发取消，连续推送时旧任务会自动停止，减少重复构建。&lt;/p&gt;
@@ -234,8 +234,8 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;.github/workflows/hugo.yml&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="19-拆分-customscss-的样式结构"&gt;19 拆分 custom.scss 的样式结构
-&lt;/h2&gt;&lt;p&gt;随着首页、Archive、侧栏和文章页的样式越来越多，原来的 &lt;code&gt;custom.scss&lt;/code&gt; 已经超过一千行，继续把所有调整写在同一个文件里会越来越难定位。&lt;/p&gt;
+&lt;h2 id="19-拆分-customscss-的样式结构"&gt;&lt;span class="chapter-title"&gt;19 拆分 custom.scss 的样式结构&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;随着首页、Archive、侧栏和文章页的样式越来越多，原来的 &lt;code&gt;custom.scss&lt;/code&gt; 已经超过一千行，继续把所有调整写在同一个文件里会越来越难定位。&lt;/p&gt;
 &lt;p&gt;这次先保留原有样式作为 &lt;code&gt;_legacy.scss&lt;/code&gt;，再把最近这轮调整按职责拆成：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;_tokens.scss&lt;/code&gt;&lt;/li&gt;
@@ -265,8 +265,8 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;本次主要记录这两天对 Hugo Stack 模板做的一轮整理，主要集中在：首页结构、Archive 页面重做、文章页统一、评论与访问统计，以及 footer 统计修正。&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id="01-重做-archive-页面结构"&gt;01 重做 Archive 页面结构
-&lt;/h2&gt;&lt;p&gt;这次对 Archive 页面做了一轮比较完整的调整，不再只是简单按年份往下列文章，而是在页面顶部补了一层更清晰的结构。&lt;/p&gt;
+&lt;h2 id="01-重做-archive-页面结构"&gt;&lt;span class="chapter-title"&gt;01 重做 Archive 页面结构&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;这次对 Archive 页面做了一轮比较完整的调整，不再只是简单按年份往下列文章，而是在页面顶部补了一层更清晰的结构。&lt;/p&gt;
 &lt;p&gt;目前 Archive 页面主要分成三部分：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Tags 区块&lt;/li&gt;
@@ -280,8 +280,8 @@
 &lt;li&gt;&lt;code&gt;layouts/_default/archives.html&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;assets/scss/custom.scss&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="02-在-archive-页面增加年度概览和时间轴"&gt;02 在 Archive 页面增加年度概览和时间轴
-&lt;/h2&gt;&lt;p&gt;除了顶部的分类与标签区，这次也在 Archive 页面正文前增加了一组概览信息，用来汇总整个博客的归档情况。&lt;/p&gt;
+&lt;h2 id="02-在-archive-页面增加年度概览和时间轴"&gt;&lt;span class="chapter-title"&gt;02 在 Archive 页面增加年度概览和时间轴&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;除了顶部的分类与标签区，这次也在 Archive 页面正文前增加了一组概览信息，用来汇总整个博客的归档情况。&lt;/p&gt;
 &lt;p&gt;目前这里会显示：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;最早写作年份到最新年份&lt;/li&gt;
@@ -301,8 +301,8 @@
 &lt;li&gt;&lt;code&gt;assets/scss/custom.scss&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这里算是把原来的 Archive 页，从“简单归档列表”改成了“带概览和快速跳转的归档页”。&lt;/p&gt;
-&lt;h2 id="03-调整-archive-页面文章列表样式"&gt;03 调整 Archive 页面文章列表样式
-&lt;/h2&gt;&lt;p&gt;Archive 页面下面按年份展开的文章列表，这次也一起做了样式整理。&lt;/p&gt;
+&lt;h2 id="03-调整-archive-页面文章列表样式"&gt;&lt;span class="chapter-title"&gt;03 调整 Archive 页面文章列表样式&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Archive 页面下面按年份展开的文章列表，这次也一起做了样式整理。&lt;/p&gt;
 &lt;p&gt;调整后每条文章会显示：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;标题&lt;/li&gt;
@@ -316,8 +316,8 @@
 &lt;li&gt;&lt;code&gt;layouts/_default/archives.html&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;assets/scss/custom.scss&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="04-搜索页样式同步调整"&gt;04 搜索页样式同步调整
-&lt;/h2&gt;&lt;p&gt;除了 Archive 页面，这次也顺手把搜索页的结果列表样式统一整理了一遍。&lt;/p&gt;
+&lt;h2 id="04-搜索页样式同步调整"&gt;&lt;span class="chapter-title"&gt;04 搜索页样式同步调整&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;除了 Archive 页面，这次也顺手把搜索页的结果列表样式统一整理了一遍。&lt;/p&gt;
 &lt;p&gt;原本搜索结果区和 Archive 列表在风格上有些割裂，这次主要把搜索页结果容器、条目 hover 反馈以及列表分隔方式，统一到和 Archive 页接近的视觉逻辑里。&lt;br&gt;
 这样搜索页在使用时，不会再像是另一套独立样式，整体和站点其他列表页面会更协调一些。&lt;/p&gt;
 &lt;p&gt;对应修改文件：&lt;/p&gt;
@@ -325,16 +325,16 @@
 &lt;li&gt;&lt;code&gt;layouts/partials/widget/search.html&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;assets/scss/custom.scss&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="05-toc-组件样式调整"&gt;05 TOC 组件样式调整
-&lt;/h2&gt;&lt;p&gt;这次也一起调整了文章页目录组件的样式，主要是让 TOC 和右侧其他小组件之间的观感更统一一点。&lt;/p&gt;
+&lt;h2 id="05-toc-组件样式调整"&gt;&lt;span class="chapter-title"&gt;05 TOC 组件样式调整&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;这次也一起调整了文章页目录组件的样式，主要是让 TOC 和右侧其他小组件之间的观感更统一一点。&lt;/p&gt;
 &lt;p&gt;这部分改动不算大，主要还是集中在边距、层次和整体块状感的协调上，让目录区不会显得过于突兀，同时也尽量保留 Hugo Stack 原本比较简洁的结构。&lt;/p&gt;
 &lt;p&gt;对应修改文件：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;layouts/partials/widget/toc.html&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;assets/scss/custom.scss&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="06-首页文章按年份分组显示"&gt;06 首页文章按年份分组显示
-&lt;/h2&gt;&lt;p&gt;之前首页文章是直接顺着往下排，文章数量多了以后，不同年份的内容混在一起，看起来没有那么直观。&lt;br&gt;
+&lt;h2 id="06-首页文章按年份分组显示"&gt;&lt;span class="chapter-title"&gt;06 首页文章按年份分组显示&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;之前首页文章是直接顺着往下排，文章数量多了以后，不同年份的内容混在一起，看起来没有那么直观。&lt;br&gt;
 这次把首页文章列表按年份做了分组，在每一组文章左上角增加了年份标题，效果上更接近 Archive 页，但间距和字号会比 Archive 更紧凑一点，避免首页显得太松散。&lt;/p&gt;
 &lt;p&gt;实现上还是基于 Hugo 自带分页，只是在当前分页结果上增加了一层 &lt;code&gt;GroupByDate &amp;quot;2006&amp;quot;&lt;/code&gt;。&lt;br&gt;
 对应修改：&lt;/p&gt;
@@ -343,8 +343,8 @@
 &lt;li&gt;&lt;code&gt;assets/scss/custom.scss&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这样首页在文章数量逐渐变多后，按年份浏览会更清楚一些。&lt;/p&gt;
-&lt;h2 id="07-首页文章卡片点击区域优化"&gt;07 首页文章卡片点击区域优化
-&lt;/h2&gt;&lt;p&gt;原来的首页卡片只有标题可以点击进入文章正文，白色卡片的大部分区域都不能点，交互上有些不自然。&lt;br&gt;
+&lt;h2 id="07-首页文章卡片点击区域优化"&gt;&lt;span class="chapter-title"&gt;07 首页文章卡片点击区域优化&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;原来的首页卡片只有标题可以点击进入文章正文，白色卡片的大部分区域都不能点，交互上有些不自然。&lt;br&gt;
 这次把首页文章卡片的点击区域做了扩大，除了分类标签本身保留独立点击以外，其余白色卡片区域都可以直接进入文章。&lt;/p&gt;
 &lt;p&gt;同时标签区域边缘也稍微留了一点空间，避免误触。&lt;br&gt;
 对应修改：&lt;/p&gt;
@@ -352,8 +352,8 @@
 &lt;li&gt;&lt;code&gt;assets/scss/custom.scss&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这样首页卡片的交互就会更接近常见博客的阅读习惯。&lt;/p&gt;
-&lt;h2 id="08-统一文章页与首页的元信息显示"&gt;08 统一文章页与首页的元信息显示
-&lt;/h2&gt;&lt;p&gt;这次把文章页和首页卡片右侧那一组信息重新整理了一下，统一为：&lt;/p&gt;
+&lt;h2 id="08-统一文章页与首页的元信息显示"&gt;&lt;span class="chapter-title"&gt;08 统一文章页与首页的元信息显示&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;这次把文章页和首页卡片右侧那一组信息重新整理了一下，统一为：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;发布时间&lt;/li&gt;
 &lt;li&gt;字数统计&lt;/li&gt;
@@ -369,8 +369,8 @@
 &lt;li&gt;&lt;code&gt;themes/hugo-theme-stack/assets/icons/eye.svg&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;另外首页这块也反复微调了间距、字号和图标排列，尽量让日期、字数、阅读时间、访问次数在视觉上保持同一节奏。&lt;/p&gt;
-&lt;h2 id="09-合并首页和文章页重复-partial"&gt;09 合并首页和文章页重复 partial
-&lt;/h2&gt;&lt;p&gt;前面在调整首页和文章页信息结构的时候，发现标题区和元信息区有不少重复模板。&lt;br&gt;
+&lt;h2 id="09-合并首页和文章页重复-partial"&gt;&lt;span class="chapter-title"&gt;09 合并首页和文章页重复 partial&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;前面在调整首页和文章页信息结构的时候，发现标题区和元信息区有不少重复模板。&lt;br&gt;
 如果首页一套、文章页一套分别改，后面很容易出现“文章页改了，首页忘了同步”的情况，所以这次顺手做了一次整理。&lt;/p&gt;
 &lt;p&gt;原本拆开的：&lt;/p&gt;
 &lt;ul&gt;
@@ -386,8 +386,8 @@
 &lt;/ul&gt;
 &lt;p&gt;再通过 &lt;code&gt;Mode&lt;/code&gt; 参数区分首页和文章页的差异。&lt;br&gt;
 这样以后如果还要继续改标题区、访问次数、字数、阅读时间，维护起来会更稳一些。&lt;/p&gt;
-&lt;h2 id="10-统一文章页页头分类和页尾标签颜色"&gt;10 统一文章页页头分类和页尾标签颜色
-&lt;/h2&gt;&lt;p&gt;之前文章页页头的分类标签，和正文末尾的 tags 颜色并不是同一套逻辑。&lt;br&gt;
+&lt;h2 id="10-统一文章页页头分类和页尾标签颜色"&gt;&lt;span class="chapter-title"&gt;10 统一文章页页头分类和页尾标签颜色&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;之前文章页页头的分类标签，和正文末尾的 tags 颜色并不是同一套逻辑。&lt;br&gt;
 页头颜色是单独算的，页尾 tags 还是走主题默认 accent 色，所以同一篇文章前后看起来会有一点割裂。&lt;/p&gt;
 &lt;p&gt;这次把页尾 tags 也改成复用页头那套颜色变量，让页头和页尾保持一致。&lt;br&gt;
 对应修改：&lt;/p&gt;
@@ -397,8 +397,8 @@
 &lt;li&gt;&lt;code&gt;assets/scss/custom.scss&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这样一来，同一篇文章前后的标签风格就统一了。&lt;/p&gt;
-&lt;h2 id="11-交互效果优化"&gt;11 交互效果优化
-&lt;/h2&gt;&lt;p&gt;这两天也顺手整理了一些页面交互细节，主要是把 hover 状态下的视觉反馈做得更自然一点。&lt;/p&gt;
+&lt;h2 id="11-交互效果优化"&gt;&lt;span class="chapter-title"&gt;11 交互效果优化&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;这两天也顺手整理了一些页面交互细节，主要是把 hover 状态下的视觉反馈做得更自然一点。&lt;/p&gt;
 &lt;p&gt;前面一度尝试过更明显的背景块和位移动画，但实际效果有点突兀，而且容易影响原本的版面节奏，所以最后收成了一版更克制的写法：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;hover 时文字和图标轻微加深&lt;/li&gt;
@@ -411,8 +411,8 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;assets/scss/custom.scss&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="12-关闭相关文章显示"&gt;12 关闭相关文章显示
-&lt;/h2&gt;&lt;p&gt;原本文章页底部会显示相关文章，但这次整体更想保留一个相对简洁的阅读流，所以先把相关文章这一块关掉了。&lt;/p&gt;
+&lt;h2 id="12-关闭相关文章显示"&gt;&lt;span class="chapter-title"&gt;12 关闭相关文章显示&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;原本文章页底部会显示相关文章，但这次整体更想保留一个相对简洁的阅读流，所以先把相关文章这一块关掉了。&lt;/p&gt;
 &lt;p&gt;修改方式是：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;在配置里增加开关&lt;/li&gt;
@@ -424,8 +424,8 @@
 &lt;li&gt;&lt;code&gt;themes/hugo-theme-stack/layouts/_default/single.html&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这样以后如果还想重新启用，也只需要改一行配置即可。&lt;/p&gt;
-&lt;h2 id="13-评论系统切换为-twikoo"&gt;13 评论系统切换为 Twikoo
-&lt;/h2&gt;&lt;p&gt;原来评论系统使用的是 Waline，但这次因为后端配置和维护上的问题，最后切换成了 Twikoo。&lt;br&gt;
+&lt;h2 id="13-评论系统切换为-twikoo"&gt;&lt;span class="chapter-title"&gt;13 评论系统切换为 Twikoo&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;原来评论系统使用的是 Waline，但这次因为后端配置和维护上的问题，最后切换成了 Twikoo。&lt;br&gt;
 主题本身已经支持 Twikoo，所以这里只需要打开评论、切换 provider，并填入后端地址即可。&lt;/p&gt;
 &lt;p&gt;对应修改：&lt;/p&gt;
 &lt;ul&gt;
@@ -445,8 +445,8 @@
 &lt;li&gt;&lt;code&gt;content/page/about/index.md&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这样最终的效果就是：普通文章页可以显示评论区，About 页面保持关闭。&lt;/p&gt;
-&lt;h2 id="14-访问统计从-twikoo-改为-goatcounter"&gt;14 访问统计从 Twikoo 改为 GoatCounter
-&lt;/h2&gt;&lt;p&gt;一开始也尝试过直接使用 Twikoo 的访问统计，但在首页和文章页统一展示时并不算稳定，所以最后把访问统计单独拆出来，改用 GoatCounter。&lt;/p&gt;
+&lt;h2 id="14-访问统计从-twikoo-改为-goatcounter"&gt;&lt;span class="chapter-title"&gt;14 访问统计从 Twikoo 改为 GoatCounter&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;一开始也尝试过直接使用 Twikoo 的访问统计，但在首页和文章页统一展示时并不算稳定，所以最后把访问统计单独拆出来，改用 GoatCounter。&lt;/p&gt;
 &lt;p&gt;这样评论和访问统计就各做各的：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;评论交给 Twikoo&lt;/li&gt;
@@ -460,8 +460,8 @@
 &lt;li&gt;&lt;code&gt;layouts/partials/footer/footer.html&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;文章页、首页卡片以及 footer 的总访客数字，都改成从 GoatCounter 取值。&lt;/p&gt;
-&lt;h2 id="15-为-goatcounter-增加失败降级"&gt;15 为 GoatCounter 增加失败降级
-&lt;/h2&gt;&lt;p&gt;GoatCounter 这套访客计数，前提是后台要开启 visitor counter 的公开接口。&lt;br&gt;
+&lt;h2 id="15-为-goatcounter-增加失败降级"&gt;&lt;span class="chapter-title"&gt;15 为 GoatCounter 增加失败降级&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;GoatCounter 这套访客计数，前提是后台要开启 visitor counter 的公开接口。&lt;br&gt;
 如果接口没开放，页面就拿不到数字。&lt;/p&gt;
 &lt;p&gt;为了避免页面直接显示 &lt;code&gt;0&lt;/code&gt; 或者 &lt;code&gt;XX&lt;/code&gt; 这种不太自然的占位状态，这里顺手补了一个失败降级逻辑：&lt;/p&gt;
 &lt;ul&gt;
@@ -473,8 +473,8 @@
 &lt;li&gt;&lt;code&gt;assets/ts/custom.ts&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这样即使统计接口暂时不可用，页面也不会显得像坏掉了一样。&lt;/p&gt;
-&lt;h2 id="16-修正-footer-的统计口径"&gt;16 修正 footer 的统计口径
-&lt;/h2&gt;&lt;p&gt;原来 footer 里的文章数和字数统计，直接遍历了站点里所有 &lt;code&gt;Kind = &amp;quot;page&amp;quot;&lt;/code&gt; 的页面，这样 About、Archives 之类页面也会被算进去，口径并不一致。&lt;/p&gt;
+&lt;h2 id="16-修正-footer-的统计口径"&gt;&lt;span class="chapter-title"&gt;16 修正 footer 的统计口径&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;原来 footer 里的文章数和字数统计，直接遍历了站点里所有 &lt;code&gt;Kind = &amp;quot;page&amp;quot;&lt;/code&gt; 的页面，这样 About、Archives 之类页面也会被算进去，口径并不一致。&lt;/p&gt;
 &lt;p&gt;这次把 footer 的统计方式改成了只统计主内容分区中的正文文章，并且排除 &lt;code&gt;hidden&lt;/code&gt; 内容。&lt;br&gt;
 这样 footer 里显示的：&lt;/p&gt;
 &lt;ul&gt;
@@ -491,8 +491,8 @@
 &lt;a class="link" href="https://thirdshire.com/hugo-stack-renovation-part-three/" target="_blank" rel="noopener"
 &gt;Hugo Stack 主题装修笔记- 第三夏尔 &lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id="01-在归档页增加标签云tags"&gt;01 在归档页增加标签云Tags
-&lt;/h2&gt;&lt;p&gt;在layouts/_default/archives.html里的&lt;/header&gt;后面加上如下代码&lt;/p&gt;
+&lt;h2 id="01-在归档页增加标签云tags"&gt;&lt;span class="chapter-title"&gt;01 在归档页增加标签云Tags&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;在layouts/_default/archives.html里的&lt;/header&gt;后面加上如下代码&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
@@ -552,8 +552,8 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;&lt;img alt="alt text" class="gallery-image" data-flex-basis="682px" data-flex-grow="284" data-original="/pictures/image123.png" decoding="async" height="166" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://Shik1R.github.io/pictures/image123.png" width="472"&gt;
 &lt;/p&gt;
-&lt;h2 id="02-首页标签云显示数目"&gt;02 首页标签云显示数目
-&lt;/h2&gt;&lt;p&gt;在前情提要 Part.1 在归档页增加标签云 tags 里，已经在归档页增加了标签云及其数目，但首页的标签云还没有显示数量，这里也补充一下。在下述文件增加代码：&lt;/p&gt;
+&lt;h2 id="02-首页标签云显示数目"&gt;&lt;span class="chapter-title"&gt;02 首页标签云显示数目&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;在前情提要 Part.1 在归档页增加标签云 tags 里，已经在归档页增加了标签云及其数目，但首页的标签云还没有显示数量，这里也补充一下。在下述文件增加代码：&lt;/p&gt;
 &lt;p&gt;assets/scss/partials/widgets.scss&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
@@ -574,8 +574,8 @@
 &lt;p&gt;&lt;code&gt;&amp;lt;span class=&amp;quot;tagCloud-count-main&amp;quot;&amp;gt;{{ .Count }}&amp;lt;/span&amp;gt;&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="123" data-original="/pictures/微信截图_20250324095843.png" decoding="async" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://Shik1R.github.io/pictures/微信截图_20250324095843.png"&gt;
 &lt;/p&gt;
-&lt;h2 id="03-字数统计"&gt;03 字数统计
-&lt;/h2&gt;&lt;p&gt;在layouts/partials/footer/footer.html里增加以下代码，其中文章篇数统计参考了这篇&lt;/p&gt;
+&lt;h2 id="03-字数统计"&gt;&lt;span class="chapter-title"&gt;03 字数统计&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;在layouts/partials/footer/footer.html里增加以下代码，其中文章篇数统计参考了这篇&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
@@ -630,8 +630,8 @@ hugo 默认统计的是英文的字符，如果有中文需要在 config.toml �
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;网站有 CJK 字符（中日韩统一表意文字），设置 &lt;code&gt;hasCJKLanguage = true&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id="04-运行时间统计"&gt;04 运行时间统计
-&lt;/h2&gt;&lt;p&gt;在layouts/partials/footer/custom.html里添加以下JS代码，其中s1是网站创建日期。&lt;/p&gt;
+&lt;h2 id="04-运行时间统计"&gt;&lt;span class="chapter-title"&gt;04 运行时间统计&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;在layouts/partials/footer/custom.html里添加以下JS代码，其中s1是网站创建日期。&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
@@ -752,8 +752,8 @@ hugo 默认统计的是英文的字符，如果有中文需要在 config.toml �
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;&lt;img data-original="/pictures/微信截图_20250324110143.png" decoding="async" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://Shik1R.github.io/pictures/微信截图_20250324110143.png"&gt;
 &lt;/p&gt;
-&lt;h2 id="05-修改archive页的分类样式"&gt;05 修改Archive页的分类样式
-&lt;/h2&gt;&lt;p&gt;默认的卡片有些太大了,且无动画效果，在assets/scss/partials/layout/list.scss更改样式，去掉了背景图片，基于另外一个风格AI出来了一段效果&lt;/p&gt;
+&lt;h2 id="05-修改archive页的分类样式"&gt;&lt;span class="chapter-title"&gt;05 修改Archive页的分类样式&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;默认的卡片有些太大了,且无动画效果，在assets/scss/partials/layout/list.scss更改样式，去掉了背景图片，基于另外一个风格AI出来了一段效果&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
@@ -890,8 +890,8 @@ hugo 默认统计的是英文的字符，如果有中文需要在 config.toml �
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="err"&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id="06-修改tag响应式风格统一分类与tag风格"&gt;06 修改tag响应式风格，统一分类与tag风格
-&lt;/h2&gt;&lt;p&gt;在assets/scss/partials/widgets.scss做如下修改&lt;/p&gt;
+&lt;/div&gt;&lt;h2 id="06-修改tag响应式风格统一分类与tag风格"&gt;&lt;span class="chapter-title"&gt;06 修改tag响应式风格，统一分类与tag风格&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;在assets/scss/partials/widgets.scss做如下修改&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
@@ -1039,8 +1039,8 @@ hugo 默认统计的是英文的字符，如果有中文需要在 config.toml �
 &lt;/div&gt;
 &lt;/div&gt;&lt;hr&gt;
 &lt;p class="article-note-date"&gt;补充更新 · 2025-03-24&lt;/p&gt;
-&lt;h2 id="07-代码框圆角效果"&gt;07 代码框圆角效果
-&lt;/h2&gt;&lt;p&gt;在assets/scss/partials/layout/article.scss里，对应增加5-8行的圆角代码&lt;/p&gt;
+&lt;h2 id="07-代码框圆角效果"&gt;&lt;span class="chapter-title"&gt;07 代码框圆角效果&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;在assets/scss/partials/layout/article.scss里，对应增加5-8行的圆角代码&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
@@ -1063,8 +1063,8 @@ hugo 默认统计的是英文的字符，如果有中文需要在 config.toml �
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;box-shadow&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nf"&gt;var&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="n"&gt;shadow&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;l1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="cp"&gt;!important&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id="08-archive中分类增加计数"&gt;08 Archive中分类增加计数
-&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;/div&gt;&lt;h2 id="08-archive中分类增加计数"&gt;&lt;span class="chapter-title"&gt;08 Archive中分类增加计数&lt;/span&gt;&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
 &lt;/span&gt;&lt;span class="lnt"&gt; 2
@@ -1094,8 +1094,8 @@ hugo 默认统计的是英文的字符，如果有中文需要在 config.toml �
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; {{ end }}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id="09-添加google-analytics"&gt;09 添加Google Analytics
-&lt;/h2&gt;&lt;p&gt;用 Google 账户，按顺序走完 GA 创建流程后，可以拿ID 代码 &lt;code&gt;G-XXXXXXXXXX&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;h2 id="09-添加google-analytics"&gt;&lt;span class="chapter-title"&gt;09 添加Google Analytics&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;用 Google 账户，按顺序走完 GA 创建流程后，可以拿ID 代码 &lt;code&gt;G-XXXXXXXXXX&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Hugo Stack模板本身支持 GA，在&lt;code&gt;hugo.yaml&lt;/code&gt;中添加如下：&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
@@ -1176,12 +1176,12 @@ hugo 默认统计的是英文的字符，如果有中文需要在 config.toml �
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{ end }}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id="10-配置-waline-评论"&gt;10 配置 waline 评论
-&lt;/h2&gt;&lt;p&gt;参考官方文档一步步做即可，由于 Hugo已内置waline，只需要在 yaml 文件中，打开评论，设置为 waline，将最后一步的服务器 URL 写到 yaml 文件中即可。
+&lt;/div&gt;&lt;h2 id="10-配置-waline-评论"&gt;&lt;span class="chapter-title"&gt;10 配置 waline 评论&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;参考官方文档一步步做即可，由于 Hugo已内置waline，只需要在 yaml 文件中，打开评论，设置为 waline，将最后一步的服务器 URL 写到 yaml 文件中即可。
 &lt;a class="link" href="https://waline.js.org/guide/get-started/" target="_blank" rel="noopener"
 &gt;waline 官方文档&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="11-添加每一篇文档的字数统计"&gt;11 添加每一篇文档的字数统计
-&lt;/h2&gt;&lt;p&gt;在 &lt;code&gt;details.html&lt;/code&gt; 中如下部分，增加字数统计，核心是用了自带的 &lt;code&gt;wordcount&lt;/code&gt;,&lt;code&gt;words&lt;/code&gt;是一个网上找的 svg 图标，放在&lt;code&gt;assets/icons&lt;/code&gt;下面&lt;/p&gt;
+&lt;h2 id="11-添加每一篇文档的字数统计"&gt;&lt;span class="chapter-title"&gt;11 添加每一篇文档的字数统计&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;在 &lt;code&gt;details.html&lt;/code&gt; 中如下部分，增加字数统计，核心是用了自带的 &lt;code&gt;wordcount&lt;/code&gt;,&lt;code&gt;words&lt;/code&gt;是一个网上找的 svg 图标，放在&lt;code&gt;assets/icons&lt;/code&gt;下面&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
@@ -1210,20 +1210,20 @@ hugo 默认统计的是英文的字符，如果有中文需要在 config.toml �
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; {{ end }}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>苹果美区账号注册记录</title><link>https://Shik1R.github.io/p/%E8%8B%B9%E6%9E%9C%E7%BE%8E%E5%8C%BA%E8%B4%A6%E5%8F%B7%E6%B3%A8%E5%86%8C%E8%AE%B0%E5%BD%95/</link><pubDate>Sat, 27 Aug 2022 23:31:00 +0800</pubDate><guid>https://Shik1R.github.io/p/%E8%8B%B9%E6%9E%9C%E7%BE%8E%E5%8C%BA%E8%B4%A6%E5%8F%B7%E6%B3%A8%E5%86%8C%E8%AE%B0%E5%BD%95/</guid><description>&lt;h2 id="账号申请"&gt;账号申请
-&lt;/h2&gt;&lt;p&gt;按流程直接申请即可。&lt;/p&gt;
-&lt;h2 id="apple-store申请"&gt;Apple Store申请
-&lt;/h2&gt;&lt;p&gt;仅注册了账号还无法使用Apple Store，主要难点在于没有美区的信用卡，需要先完成申请，再通过GiftCard去完成充值。&lt;/p&gt;
+&lt;/div&gt;</description></item><item><title>苹果美区账号注册记录</title><link>https://Shik1R.github.io/p/%E8%8B%B9%E6%9E%9C%E7%BE%8E%E5%8C%BA%E8%B4%A6%E5%8F%B7%E6%B3%A8%E5%86%8C%E8%AE%B0%E5%BD%95/</link><pubDate>Sat, 27 Aug 2022 23:31:00 +0800</pubDate><guid>https://Shik1R.github.io/p/%E8%8B%B9%E6%9E%9C%E7%BE%8E%E5%8C%BA%E8%B4%A6%E5%8F%B7%E6%B3%A8%E5%86%8C%E8%AE%B0%E5%BD%95/</guid><description>&lt;h2 id="账号申请"&gt;&lt;span class="chapter-title"&gt;账号申请&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;按流程直接申请即可。&lt;/p&gt;
+&lt;h2 id="apple-store申请"&gt;&lt;span class="chapter-title"&gt;Apple Store申请&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;仅注册了账号还无法使用Apple Store，主要难点在于没有美区的信用卡，需要先完成申请，再通过GiftCard去完成充值。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;解决方案&lt;/strong&gt;：&lt;code&gt;一定要挂美区梯子再申请Apple Store&lt;/code&gt;，在申请Apple Store时才可以直接跳过信用卡阶段，否则会一定要求通过PayPal或者信用卡注册。&lt;/p&gt;
-&lt;h2 id="apple-giftcard"&gt;Apple Giftcard
-&lt;/h2&gt;&lt;p&gt;最开始我也是在TB上买，后来发现挂梯子是可以直接购买美区Apple Gift Card的，此处购买使用&lt;code&gt;非美区 Visa/MasterCard ​&lt;/code&gt;就可以，地址信息网上查询一个即可。&lt;/p&gt;</description></item><item><title>Typecho方案&amp;坑</title><link>https://Shik1R.github.io/p/typecho%E6%96%B9%E6%A1%88-%E5%9D%91/</link><pubDate>Wed, 30 Jun 2021 03:58:00 +0800</pubDate><guid>https://Shik1R.github.io/p/typecho%E6%96%B9%E6%A1%88-%E5%9D%91/</guid><description>&lt;h2 id="安装"&gt;安装
-&lt;/h2&gt;&lt;h2 id="模板插件"&gt;模板&amp;amp;插件
-&lt;/h2&gt;&lt;h3 id="typecho-的-echo-模板文件名"&gt;Typecho 的 Echo 模板文件名
-&lt;/h3&gt;&lt;p&gt;从 GitHub 下载后，需要将文件名称从“&lt;code&gt;echo-master&lt;/code&gt;”修改为“&lt;code&gt;echo&lt;/code&gt;”才能正确配置。&lt;/p&gt;
-&lt;h3 id="增加卜算子计数-plugin"&gt;增加卜算子计数 Plugin
-&lt;/h3&gt;&lt;p&gt;待补充&lt;/p&gt;
-&lt;h3 id="在-typecho-中添加文章的最后更新时间功能"&gt;在 typecho 中添加文章的最后更新时间功能
-&lt;/h3&gt;&lt;p&gt;文章发布的时间及最后一次编辑时间都在数据库中，提取即可。&lt;/p&gt;
+&lt;h2 id="apple-giftcard"&gt;&lt;span class="chapter-title"&gt;Apple Giftcard&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;最开始我也是在TB上买，后来发现挂梯子是可以直接购买美区Apple Gift Card的，此处购买使用&lt;code&gt;非美区 Visa/MasterCard ​&lt;/code&gt;就可以，地址信息网上查询一个即可。&lt;/p&gt;</description></item><item><title>Typecho方案&amp;坑</title><link>https://Shik1R.github.io/p/typecho%E6%96%B9%E6%A1%88-%E5%9D%91/</link><pubDate>Wed, 30 Jun 2021 03:58:00 +0800</pubDate><guid>https://Shik1R.github.io/p/typecho%E6%96%B9%E6%A1%88-%E5%9D%91/</guid><description>&lt;h2 id="安装"&gt;&lt;span class="chapter-title"&gt;安装&lt;/span&gt;&lt;/h2&gt;
+&lt;h2 id="模板插件"&gt;&lt;span class="chapter-title"&gt;模板&amp;amp;插件&lt;/span&gt;&lt;/h2&gt;
+&lt;h3 id="typecho-的-echo-模板文件名"&gt;Typecho 的 Echo 模板文件名&lt;/h3&gt;
+&lt;p&gt;从 GitHub 下载后，需要将文件名称从“&lt;code&gt;echo-master&lt;/code&gt;”修改为“&lt;code&gt;echo&lt;/code&gt;”才能正确配置。&lt;/p&gt;
+&lt;h3 id="增加卜算子计数-plugin"&gt;增加卜算子计数 Plugin&lt;/h3&gt;
+&lt;p&gt;待补充&lt;/p&gt;
+&lt;h3 id="在-typecho-中添加文章的最后更新时间功能"&gt;在 typecho 中添加文章的最后更新时间功能&lt;/h3&gt;
+&lt;p&gt;文章发布的时间及最后一次编辑时间都在数据库中，提取即可。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;在需要插入的位置插入如下代码：&lt;/li&gt;
 &lt;/ol&gt;
@@ -1243,17 +1243,17 @@ hugo 默认统计的是英文的字符，如果有中文需要在 config.toml �
 &lt;p&gt;@date_default_timezone_set(&amp;lsquo;UTC&amp;rsquo;); 将其中的 UTC 改成 Asia/Shanghai 或你需要的时区&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id="注意问题"&gt;注意问题
-&lt;/h2&gt;&lt;ul&gt;
+&lt;h2 id="注意问题"&gt;&lt;span class="chapter-title"&gt;注意问题&lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;
 &lt;li&gt;请在服务器上安装以下PHP扩展中的至少一个: &lt;code&gt;mysqli&lt;/code&gt;, &lt;code&gt;sqlite3&lt;/code&gt;,&lt;code&gt;​ pgsql&lt;/code&gt;, &lt;code&gt;pdo_mysql&lt;/code&gt;, &lt;code&gt;pdo_sqlite,&lt;/code&gt; &lt;code&gt;pdo_pgsql&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Typecho nginx会出现404问题，需要配置修改，建议直接用&lt;code&gt;apache 2.4&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Hexo 搭建记录</title><link>https://Shik1R.github.io/p/hexo-%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</link><pubDate>Sun, 23 Sep 2018 18:43:26 +0800</pubDate><guid>https://Shik1R.github.io/p/hexo-%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</guid><description>&lt;h2 id="github-repository"&gt;GitHub Repository
-&lt;/h2&gt;&lt;ol&gt;
+&lt;/ul&gt;</description></item><item><title>Hexo 搭建记录</title><link>https://Shik1R.github.io/p/hexo-%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</link><pubDate>Sun, 23 Sep 2018 18:43:26 +0800</pubDate><guid>https://Shik1R.github.io/p/hexo-%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</guid><description>&lt;h2 id="github-repository"&gt;&lt;span class="chapter-title"&gt;GitHub Repository&lt;/span&gt;&lt;/h2&gt;
+&lt;ol&gt;
 &lt;li&gt;创建名为name.github.io的repository&lt;/li&gt;
 &lt;li&gt;启用GitHub Pages，会显示相应网页地址。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id="hexo本地部署"&gt;Hexo本地部署
-&lt;/h2&gt;&lt;ol&gt;
+&lt;h2 id="hexo本地部署"&gt;&lt;span class="chapter-title"&gt;Hexo本地部署&lt;/span&gt;&lt;/h2&gt;
+&lt;ol&gt;
 &lt;li&gt;Reuqire&lt;/li&gt;
 &lt;/ol&gt;
 &lt;ul&gt;
@@ -1326,8 +1326,8 @@ hugo 默认统计的是英文的字符，如果有中文需要在 config.toml �
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;d 为deploy将.deploy目录部署到GitHub
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id="git与hexo连接同步推送"&gt;Git与Hexo连接（同步推送）
-&lt;/h2&gt;&lt;ol&gt;
+&lt;/div&gt;&lt;h2 id="git与hexo连接同步推送"&gt;&lt;span class="chapter-title"&gt;Git与Hexo连接（同步推送）&lt;/span&gt;&lt;/h2&gt;
+&lt;ol&gt;
 &lt;li&gt;设置Git usrname和email
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
@@ -1399,8 +1399,8 @@ hugo 默认统计的是英文的字符，如果有中文需要在 config.toml �
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;branch: master
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id="插件"&gt;插件
-&lt;/h2&gt;&lt;ol&gt;
+&lt;/div&gt;&lt;h2 id="插件"&gt;&lt;span class="chapter-title"&gt;插件&lt;/span&gt;&lt;/h2&gt;
+&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;搜索插件
 &lt;code&gt;npm install hexo-generator-searchdb --save&lt;/code&gt;&lt;/p&gt;
@@ -1436,12 +1436,12 @@ hugo 默认统计的是英文的字符，如果有中文需要在 config.toml �
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;enable: &lt;span class="nb"&gt;true&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id="坑"&gt;坑
-&lt;/h2&gt;&lt;ol&gt;
+&lt;/div&gt;&lt;h2 id="坑"&gt;&lt;span class="chapter-title"&gt;坑&lt;/span&gt;&lt;/h2&gt;
+&lt;ol&gt;
 &lt;li&gt;bash上传文件时会自动忽略掉大小写的问题，由此容易造成GitHub Pages 404,需要在&lt;code&gt;.deploy_git-.git-&amp;gt;cofnig&lt;/code&gt;中将&lt;code&gt;ignorecase = false&lt;/code&gt;修改为&lt;code&gt;= true&lt;/code&gt;。防止由于大小写问题造成路径无法识别而404。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id="杂"&gt;杂
-&lt;/h2&gt;&lt;ol&gt;
+&lt;h2 id="杂"&gt;&lt;span class="chapter-title"&gt;杂&lt;/span&gt;&lt;/h2&gt;
+&lt;ol&gt;
 &lt;li&gt;update time 和create time 开启&lt;/li&gt;
 &lt;/ol&gt;
 &lt;ul&gt;
@@ -1468,8 +1468,8 @@ hugo 默认统计的是英文的字符，如果有中文需要在 config.toml �
 最后一行添加&lt;code&gt;/dev/sda3 /mnt/sda3 ext4 defaults, 0 1&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;使用&lt;code&gt;df -ah&lt;/code&gt;查看分区结果&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Apache服务器本地浏览配置</title><link>https://Shik1R.github.io/p/apache%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%9C%AC%E5%9C%B0%E6%B5%8F%E8%A7%88%E9%85%8D%E7%BD%AE/</link><pubDate>Tue, 10 Apr 2018 20:14:08 +0800</pubDate><guid>https://Shik1R.github.io/p/apache%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%9C%AC%E5%9C%B0%E6%B5%8F%E8%A7%88%E9%85%8D%E7%BD%AE/</guid><description>&lt;p&gt;很久以前也遇到过这个问题,弄了好久才弄出来,这次又弄了很久,问题其实很简单,记录一下备忘。&lt;/p&gt;
-&lt;h2 id="注意以下问题即可"&gt;注意以下问题即可
-&lt;/h2&gt;&lt;ul&gt;
+&lt;h2 id="注意以下问题即可"&gt;&lt;span class="chapter-title"&gt;注意以下问题即可&lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;
 &lt;li&gt;windows下防火墙的80端口是否打开&lt;/li&gt;
 &lt;li&gt;Apache2.2与2.4版本控制方法不一样,需要修改.
 2.2
@@ -1502,13 +1502,13 @@ hugo 默认统计的是英文的字符，如果有中文需要在 config.toml �
 &lt;p&gt;以前是不知道双拼这个东西的，偶然从知乎了解之后，觉得可以尝试一下，便选取了好评很多的小鹤双拼，直到今天也两年了。如果有兴趣，希望各位也能了解一下双拼输入，我认为是最少的成本花费下最高效的输入方式。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;输入速率是一个击键次数与重码率的问题，从《数学之美》中了解到其本质上是一个信息论的问题，击键次数是可以通过香农的第一理论计算出来的。而重码率的问题是可以通过数学模型来解决的。文中提到拼音输入法早期甚至是双拼早于全拼的，中间流行了五笔，最后还是回到了全拼，并提到了双拼关于重码率，击键时间，容错率的问题。&lt;/p&gt;
-&lt;h2 id="击键时间"&gt;击键时间
-&lt;/h2&gt;&lt;p&gt;《数学之美》中提到双拼的输入方式不自然，拆声母韵母的时候会存在思维变慢。但我对这些并不认同，双拼的思维方式是完全没有改变的，这一点不同于拆字类型的输入方式，只要两三个月对于新键位的熟悉，在输入的时候是完全没有任何影响的。&lt;/p&gt;
-&lt;h2 id="重码率"&gt;重码率
-&lt;/h2&gt;&lt;p&gt;重码率的问题本身是存在，但是对于现在主流的输入法这一点的劣势是的消除了的。语音模型的改进，上下文相关的分析使得重码的问题基本是不存在的（我使用的时候是没有过重码的问题的）。印象最深刻的重码问题就是当开启了“双拼下使用全拼”，即自动识别双拼全拼，输入xian会出现“先”，然而纯双拼是直接显示“西安”的。当然，这其实是全拼的重码问题。&lt;/p&gt;
-&lt;h2 id="容错率"&gt;容错率
-&lt;/h2&gt;&lt;p&gt;容错率的问题是我第一次意识到的，即对于前鼻音和后鼻音分辨不清的时候的问题，如果一个人对于前后鼻音不能快速有效的识别的话，双拼上是会存在问题的（当然全拼也是存在的），但全拼的输入方式使得一部分的错误能掩盖掉，双拼就只能以正确的形式输入。这个问题其实并不是输入法的问题，性质上和手指键位是否标准，击键次数最快多少等主关因素是相同的，但也不可否认这样的问题。&lt;/p&gt;
-&lt;h2 id="感言"&gt;感言
-&lt;/h2&gt;&lt;p&gt;智能输入法的出现使得全拼的重码率变低，普通输入速率大幅上升，但这对于双拼也是一样的，甚至影响更大。&lt;/p&gt;
+&lt;h2 id="击键时间"&gt;&lt;span class="chapter-title"&gt;击键时间&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;《数学之美》中提到双拼的输入方式不自然，拆声母韵母的时候会存在思维变慢。但我对这些并不认同，双拼的思维方式是完全没有改变的，这一点不同于拆字类型的输入方式，只要两三个月对于新键位的熟悉，在输入的时候是完全没有任何影响的。&lt;/p&gt;
+&lt;h2 id="重码率"&gt;&lt;span class="chapter-title"&gt;重码率&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;重码率的问题本身是存在，但是对于现在主流的输入法这一点的劣势是的消除了的。语音模型的改进，上下文相关的分析使得重码的问题基本是不存在的（我使用的时候是没有过重码的问题的）。印象最深刻的重码问题就是当开启了“双拼下使用全拼”，即自动识别双拼全拼，输入xian会出现“先”，然而纯双拼是直接显示“西安”的。当然，这其实是全拼的重码问题。&lt;/p&gt;
+&lt;h2 id="容错率"&gt;&lt;span class="chapter-title"&gt;容错率&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;容错率的问题是我第一次意识到的，即对于前鼻音和后鼻音分辨不清的时候的问题，如果一个人对于前后鼻音不能快速有效的识别的话，双拼上是会存在问题的（当然全拼也是存在的），但全拼的输入方式使得一部分的错误能掩盖掉，双拼就只能以正确的形式输入。这个问题其实并不是输入法的问题，性质上和手指键位是否标准，击键次数最快多少等主关因素是相同的，但也不可否认这样的问题。&lt;/p&gt;
+&lt;h2 id="感言"&gt;&lt;span class="chapter-title"&gt;感言&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;智能输入法的出现使得全拼的重码率变低，普通输入速率大幅上升，但这对于双拼也是一样的，甚至影响更大。&lt;/p&gt;
 &lt;p&gt;字词平台输入法其实是有历史局限性的，理论上很好，上限高。但是是跟不上时代的东西，除非专业人员，并不十分推荐使用，但学习量不大的如“小鹤双形”在一些场合却也十分适用，能掌握基本使用方法也是很好的。&lt;/p&gt;
 &lt;p&gt;日常输入速度在达到一个量的时候（如100字/min），更多的影响其实是思考的速度，而非打字的速度，打字终究还是要自己习惯，自己舒适就行，越是追求着一种极致，最后反而可能在一些方面违背了初心，那样也就不好了。&lt;/p&gt;</description></item></channel></rss>
