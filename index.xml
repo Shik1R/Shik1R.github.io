@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>M1ka's Blog</title><link>https://Shik1R.github.io/</link><description>Recent content on M1ka's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>M1ka</copyright><lastBuildDate>Mon, 02 Nov 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://Shik1R.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>2026H1半年拾遗</title><link>https://Shik1R.github.io/p/2026h1%E5%8D%8A%E5%B9%B4%E6%8B%BE%E9%81%97/</link><pubDate>Thu, 30 Jul 2026 23:39:05 +0800</pubDate><guid>https://Shik1R.github.io/p/2026h1%E5%8D%8A%E5%B9%B4%E6%8B%BE%E9%81%97/</guid><description>&lt;h2 id="序"&gt;&lt;span class="chapter-title"&gt;序&lt;/span&gt;&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>M1ka's Blog</title><link>https://Shik1R.github.io/</link><description>Recent content on M1ka's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>M1ka</copyright><lastBuildDate>Fri, 06 Nov 2026 14:30:00 +0800</lastBuildDate><atom:link href="https://Shik1R.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>2026H1半年拾遗</title><link>https://Shik1R.github.io/p/2026h1%E5%8D%8A%E5%B9%B4%E6%8B%BE%E9%81%97/</link><pubDate>Thu, 30 Jul 2026 23:39:05 +0800</pubDate><guid>https://Shik1R.github.io/p/2026h1%E5%8D%8A%E5%B9%B4%E6%8B%BE%E9%81%97/</guid><description>&lt;h2 id="序"&gt;&lt;span class="chapter-title"&gt;序&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;总结这个事，这半年来的时间一直在想着，但总没有真的去切入落地。&lt;/p&gt;
 &lt;p&gt;就像许多想要做的事也一直未开始一样，但念想总归是在的，倒也并不是因为忙的没有时间，只是单纯的没有开始而已。&lt;/p&gt;
 &lt;p&gt;人总是如此，知道要做什么并不等同于会去做什么，空闲的时候以为自己会多花些时间去研究点什么，但更多的大抵只是被娱乐消耗，并非娱乐不好，只是陈述这样一个事实罢了。&lt;/p&gt;
@@ -659,8 +659,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="err"&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img alt="alt text" class="gallery-image" data-flex-basis="682px" data-flex-grow="284" data-original="/pictures/image123.png" decoding="async" height="166" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://Shik1R.github.io/pictures/image123.png" width="472"&gt;
-&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;&lt;a class="link" href="https://Shik1R.github.io/pictures/image123.png" &gt;&lt;img alt="归档标签的文章数显示在名称右侧，daily 有 5 篇，生活随笔有 1 篇" class="gallery-image" data-flex-basis="682px" data-flex-grow="284" data-original="/pictures/image123.png" decoding="async" height="166" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://Shik1R.github.io/pictures/image123.png" width="472"&gt;
+&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="02-首页标签云显示数目"&gt;&lt;span class="chapter-title"&gt;02 首页标签云显示数目&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;在前情提要 Part.1 在归档页增加标签云 tags 里，已经在归档页增加了标签云及其数目，但首页的标签云还没有显示数量，这里也补充一下。在下述文件增加代码：&lt;/p&gt;
 &lt;p&gt;assets/scss/partials/widgets.scss&lt;/p&gt;
@@ -681,8 +681,8 @@
 &lt;/div&gt;&lt;p&gt;layouts/partials/widget/tag-cloud.html
 在{{ .Page.Title }}后增加&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;&amp;lt;span class=&amp;quot;tagCloud-count-main&amp;quot;&amp;gt;{{ .Count }}&amp;lt;/span&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="123" data-original="/pictures/微信截图_20250324095843.png" decoding="async" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://Shik1R.github.io/pictures/微信截图_20250324095843.png"&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://Shik1R.github.io/pictures/%e5%be%ae%e4%bf%a1%e6%88%aa%e5%9b%be_20250324095843.png" &gt;&lt;img alt="首页侧栏的标签云也显示篇数，箭头指向 Daily 旁的数字 5" class="gallery-image" data-flex-basis="414px" data-flex-grow="172" data-original="/pictures/微信截图_20250324095843.png" decoding="async" height="252" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://Shik1R.github.io/pictures/微信截图_20250324095843.png" width="435"&gt;
+&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="03-字数统计"&gt;&lt;span class="chapter-title"&gt;03 字数统计&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;在layouts/partials/footer/footer.html里增加以下代码，其中文章篇数统计参考了这篇&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
@@ -859,8 +859,8 @@ hugo 默认统计的是英文的字符，如果有中文需要在 config.toml �
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img data-original="/pictures/微信截图_20250324110143.png" decoding="async" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://Shik1R.github.io/pictures/微信截图_20250324110143.png"&gt;
-&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;&lt;a class="link" href="https://Shik1R.github.io/pictures/%e5%be%ae%e4%bf%a1%e6%88%aa%e5%9b%be_20250324110143.png" &gt;&lt;img alt="页脚的运行时间显示为 2年0月13天，时长用粗体突出" class="gallery-image" data-flex-basis="1735px" data-flex-grow="723" data-original="/pictures/微信截图_20250324110143.png" decoding="async" height="130" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://Shik1R.github.io/pictures/微信截图_20250324110143.png" srcset="https://Shik1R.github.io/media/404db889c20a17bbb23537e316943064507551989a4ab38b72573af5e1943f51_hu_ad8496a8747077e5.jpg 480w, https://Shik1R.github.io/media/404db889c20a17bbb23537e316943064507551989a4ab38b72573af5e1943f51_hu_ce4f497e6f377712.jpg 800w, https://Shik1R.github.io/pictures/微信截图_20250324110143.png 940w" width="940"&gt;
+&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="05-修改archive页的分类样式"&gt;&lt;span class="chapter-title"&gt;05 修改Archive页的分类样式&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;默认的卡片有些太大了,且无动画效果，在assets/scss/partials/layout/list.scss更改样式，去掉了背景图片，基于另外一个风格AI出来了一段效果&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
@@ -1453,22 +1453,7 @@ hugo 默认统计的是英文的字符，如果有中文需要在 config.toml �
 08.24 孤注一掷 &lt;br&gt;
 09.17 奥本海默 Oppenheimer&lt;/p&gt;
 &lt;p&gt;起笔于 2023.11.03 &lt;br&gt;
-初稿于 2023.11.24 01:54&lt;/p&gt;</description></item><item><title>关于</title><link>https://Shik1R.github.io/%E5%85%B3%E4%BA%8E/</link><pubDate>Fri, 24 Mar 2023 16:51:18 +0800</pubDate><guid>https://Shik1R.github.io/%E5%85%B3%E4%BA%8E/</guid><description>&lt;p&gt;这里是 M1ka 的个人博客，用来保存一些生活、兴趣与技术实践中的长期记录。&lt;/p&gt;
-&lt;p&gt;相比即时的信息流，我更喜欢把值得回看的内容整理成文章。它们未必都是完整的教程或结论，也可能只是某个阶段真实留下的思考与经验。&lt;/p&gt;
-&lt;h2 id="主要内容"&gt;&lt;span class="chapter-title"&gt;主要内容&lt;/span&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;生活杂记&lt;/strong&gt;：影视、动画与日常生活中的阶段性记录。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;技术工具&lt;/strong&gt;：软件使用、环境搭建，以及维护这个博客时遇到的问题和解决方式。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="关于本站"&gt;&lt;span class="chapter-title"&gt;关于本站&lt;/span&gt;&lt;/h2&gt;
-&lt;p&gt;这个博客最早可以追溯到 2017 年，经历过 Hexo、Typecho，后来迁移到 Hugo，并在 Stack 主题基础上逐步调整成现在的样子。&lt;/p&gt;
-&lt;p&gt;站点仍会随着内容慢慢完善。比起频繁更新，我更希望这里留下的文章在几年后依然值得重新打开。&lt;/p&gt;
-&lt;h2 id="找到我"&gt;&lt;span class="chapter-title"&gt;找到我&lt;/span&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class="link" href="https://github.com/Shik1R" target="_blank" rel="noopener"
-&gt;GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="link" href="https://Shik1R.github.io/index.xml" &gt;RSS 订阅&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Bangumi 2022年杂记</title><link>https://Shik1R.github.io/p/bgm-2022%E5%B9%B4%E6%9D%82%E8%AE%B0/</link><pubDate>Sun, 25 Dec 2022 23:39:00 +0800</pubDate><guid>https://Shik1R.github.io/p/bgm-2022%E5%B9%B4%E6%9D%82%E8%AE%B0/</guid><description>&lt;h2 id="序"&gt;&lt;span class="chapter-title"&gt;&lt;strong&gt;序&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;
+初稿于 2023.11.24 01:54&lt;/p&gt;</description></item><item><title>Bangumi 2022年杂记</title><link>https://Shik1R.github.io/p/bgm-2022%E5%B9%B4%E6%9D%82%E8%AE%B0/</link><pubDate>Sun, 25 Dec 2022 23:39:00 +0800</pubDate><guid>https://Shik1R.github.io/p/bgm-2022%E5%B9%B4%E6%9D%82%E8%AE%B0/</guid><description>&lt;h2 id="序"&gt;&lt;span class="chapter-title"&gt;&lt;strong&gt;序&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;若是多年后回望，2022年无疑是特殊而又复杂的一年。&lt;/p&gt;
 &lt;p&gt;与2018到2019年时的困苦转变不同，已然活在现实的我，在这一年里无论是生活上还是工作上，都根本性的往前走了一步。&lt;/p&gt;
 &lt;p&gt;但望着这一年国内形势的变化，尤其是临近年底周遭的环境情况，波云诡谲，无法看清，即使早就明白我们已经身处危机之中，但真的在面临到各种因素叠加的困境时，即使抛开当前的短暂困境，这种无法明显改变的形势究竟会让未来如何，总是不免隐隐的对未来生忧，只是亦是未曾料到，在急转之中变化来得如此之快，如此的彻底，闯关固然是会有牺牲的，只是如果这是必须要走的路，那我会始终相信着并走向前方。&lt;/p&gt;
@@ -1909,7 +1894,7 @@ Part2. 2021/12/18 00:06&lt;/p&gt;</description></item><item><title>Typecho方案
 3.31 “文学少女”-恋爱插画集3、4、“文学少女”与渴望死亡的小丑 &lt;br&gt;
 4.6 半熟作家与文学少女编辑&lt;/p&gt;
 &lt;p&gt;2020.1.29 14:37 初稿完&lt;br&gt;
-2020.4.12 11:12 V1.1 补充文学少女小说阅读Timeline&lt;/p&gt;</description></item><item><title>归档</title><link>https://Shik1R.github.io/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://Shik1R.github.io/archives/</guid><description/></item><item><title>Bangumi 2018年杂记</title><link>https://Shik1R.github.io/p/bgm-2018%E5%B9%B4%E6%9D%82%E8%AE%B0/</link><pubDate>Sat, 05 Jan 2019 06:43:00 +0800</pubDate><guid>https://Shik1R.github.io/p/bgm-2018%E5%B9%B4%E6%9D%82%E8%AE%B0/</guid><description>&lt;h2 id="序"&gt;&lt;span class="chapter-title"&gt;序&lt;/span&gt;&lt;/h2&gt;
+2020.4.12 11:12 V1.1 补充文学少女小说阅读Timeline&lt;/p&gt;</description></item><item><title>Bangumi 2018年杂记</title><link>https://Shik1R.github.io/p/bgm-2018%E5%B9%B4%E6%9D%82%E8%AE%B0/</link><pubDate>Sat, 05 Jan 2019 06:43:00 +0800</pubDate><guid>https://Shik1R.github.io/p/bgm-2018%E5%B9%B4%E6%9D%82%E8%AE%B0/</guid><description>&lt;h2 id="序"&gt;&lt;span class="chapter-title"&gt;序&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;一直在想着，如果年末的时候能回顾一下，那总归是好的，虽然bgm注册的不晚，但真正开用却是去年年中了，今年年中的时候似乎就起了每年写一篇的想法，这个想法也延续到了年末，于是就有了这个，不知道能写多少，也不知道明年的这个时候会怎么想，但至少今年开个头吧，不过是一点很个人化的东西，本质上也只是写给我自己的记录罢了。若有人无意中看到了，能多少有点共鸣那已是再好不过了。&lt;/p&gt;
 &lt;h2 id="1"&gt;&lt;span class="chapter-title"&gt;1&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;每到年末时，总是觉得今年又是日渐脱宅的一年，可是回想起2017整个上半年只看过寥寥数部的时候，今年多少是有些回暖的迹象的，上半年的数量并不少，只是越往年末，倒是越少了，回想起一路发生的事情，也自是了然。不管如何，这漫长又糅杂着些许苦涩的2018年即将落下帷幕，亦是些许叹息，亦是些许无奈，只是我也早就明白，很多事情即使让我再来一次，世界线也终将收束于一处，唯有这一点却是不可变的。既然已经过去了，便随之去吧，只愿来年能看到一点新的东西，能看到一点新的希望，来填补或隐埋这&amp;quot;伽蓝之洞&amp;quot;。&lt;/p&gt;
@@ -2073,22 +2058,20 @@ JIN-仁- 完結編&lt;/p&gt;
 &lt;li&gt;&lt;del&gt;Windows下以下操作建议在git bash中完成。&lt;/del&gt;、&lt;/li&gt;
 &lt;/ol&gt;
 &lt;ul&gt;
-&lt;li&gt;由于众所周知的原因，npm需要换源,不然速度奇慢&lt;/li&gt;
+&lt;li&gt;如果 npm 下载慢，可以先检查正在使用的源。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
-&lt;/span&gt;&lt;span class="lnt"&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;npm config &lt;span class="nb"&gt;set&lt;/span&gt; registry https://registry.npm.taobao.org
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;npm config get registry
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;npm config get registry
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;安装hexo
-&lt;code&gt;$ npm install -g hexo-cli&lt;/code&gt;&lt;/p&gt;
+&lt;code&gt;npm install -g hexo-cli&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;检查安装是否成功
@@ -2121,47 +2104,44 @@ JIN-仁- 完結編&lt;/p&gt;
 &lt;p&gt;上传&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;完成下一节的 Git 部署配置后，在 Blog 目录执行：&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
-&lt;/span&gt;&lt;span class="lnt"&gt;2
-&lt;/span&gt;&lt;span class="lnt"&gt;3
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hexo d -g
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;-g 为生成静态页面到public目录
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;d 为deploy将.deploy目录部署到GitHub
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hexo d -g
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id="git与hexo连接同步推送"&gt;&lt;span class="chapter-title"&gt;Git与Hexo连接（同步推送）&lt;/span&gt;&lt;/h2&gt;
+&lt;/div&gt;&lt;p&gt;&lt;code&gt;-g&lt;/code&gt; 为生成静态页面到 &lt;code&gt;public&lt;/code&gt; 目录，&lt;code&gt;d&lt;/code&gt; 为部署到 GitHub。&lt;/p&gt;
+&lt;h2 id="git与hexo连接同步推送"&gt;&lt;span class="chapter-title"&gt;Git与Hexo连接（同步推送）&lt;/span&gt;&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;设置Git usrname和email
+&lt;li&gt;设置 Git 用户名和邮箱，先把双引号里的示例值换成自己的名字和邮箱。
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
 &lt;/span&gt;&lt;span class="lnt"&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git config --global user.name &lt;span class="s2"&gt;&amp;#34;`YourName`&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git config --global user.email &lt;span class="s2"&gt;&amp;#34;`YourEmail`&amp;#34;&lt;/span&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git config --global user.name &lt;span class="s2"&gt;&amp;#34;Your Name&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git config --global user.email &lt;span class="s2"&gt;&amp;#34;you@example.com&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;生成秘钥
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;秘钥存储在.ssh文件下
-&lt;code&gt;cd ./.ssh&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;密钥存储在用户目录的 &lt;code&gt;~/.ssh&lt;/code&gt; 下。以下使用 RSA 默认文件名；已有可用密钥可以直接使用。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;生成ssh秘钥&lt;/p&gt;
+&lt;p&gt;生成 SSH 密钥时，把示例邮箱换成自己的邮箱。&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-mysql" data-lang="mysql"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;ssh&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;keygen&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;rsa&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;C&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;`YourEmail`&amp;#34;&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ssh-keygen -t rsa -b 4096 -C &amp;#34;you@example.com&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;
@@ -2177,17 +2157,20 @@ JIN-仁- 完結編&lt;/p&gt;
 &lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;生成的ssh key 添加到ssh-agent
-&lt;code&gt;ssh-add ./.ssh/id_rsa&lt;/code&gt;&lt;/p&gt;
+&lt;code&gt;ssh-add ~/.ssh/id_rsa&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;GitHub -&amp;gt; setting -&amp;gt; SSH and GPGkeys 添加key.&lt;/p&gt;
+&lt;p&gt;将 &lt;code&gt;~/.ssh/id_rsa.pub&lt;/code&gt; 中的公钥添加到 GitHub 的 Settings → SSH and GPG keys。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;测试是否成功
 &lt;code&gt;ssh -T git@github.com&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;code&gt;_config.yml&lt;/code&gt;修改&lt;/p&gt;
+&lt;p&gt;在 Blog 目录安装部署插件：&lt;code&gt;npm install hexo-deployer-git --save&lt;/code&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;_config.yml&lt;/code&gt; 修改如下，把两个 &lt;code&gt;YOUR-USERNAME&lt;/code&gt; 换成自己的 GitHub 用户名。首次推送后，在仓库的 Pages 设置中选择 &lt;code&gt;master&lt;/code&gt; 分支的根目录。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -2200,11 +2183,11 @@ JIN-仁- 完結編&lt;/p&gt;
 &lt;/span&gt;&lt;span class="lnt"&gt;4
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;deploy:
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;type: git
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;repo: git@github.com:gdutxiaoxu/gdutxiaoxu.github.io.git
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;branch: master
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;deploy&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;type&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;git&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;repo&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;git@github.com:YOUR-USERNAME/YOUR-USERNAME.github.io.git&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;branch&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;master&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id="插件"&gt;&lt;span class="chapter-title"&gt;插件&lt;/span&gt;&lt;/h2&gt;
 &lt;ol&gt;
@@ -2220,17 +2203,13 @@ JIN-仁- 完結編&lt;/p&gt;
 &lt;/span&gt;&lt;span class="lnt"&gt;2
 &lt;/span&gt;&lt;span class="lnt"&gt;3
 &lt;/span&gt;&lt;span class="lnt"&gt;4
-&lt;/span&gt;&lt;span class="lnt"&gt;5
-&lt;/span&gt;&lt;span class="lnt"&gt;6
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;#search&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;search:
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;path: search.xml
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;field: post
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;format: html
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;limit: &lt;span class="m"&gt;10000&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;search&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;path&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;search.xml&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;field&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;post&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;format&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;html&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;修改主题配置文件&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
@@ -2239,13 +2218,13 @@ JIN-仁- 完結編&lt;/p&gt;
 &lt;/span&gt;&lt;span class="lnt"&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;local_search:
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;enable: &lt;span class="nb"&gt;true&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;local_search&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;enable&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id="坑"&gt;&lt;span class="chapter-title"&gt;坑&lt;/span&gt;&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;bash上传文件时会自动忽略掉大小写的问题，由此容易造成GitHub Pages 404,需要在&lt;code&gt;.deploy_git-.git-&amp;gt;cofnig&lt;/code&gt;中将&lt;code&gt;ignorecase = false&lt;/code&gt;修改为&lt;code&gt;= true&lt;/code&gt;。防止由于大小写问题造成路径无法识别而404。&lt;/li&gt;
+&lt;li&gt;本地能打开、部署到 GitHub Pages 后却出现 404，可以先检查链接的大小写是否和发布分支里的文件名一致。如果源文件只改了大小写，Git 没有识别到改名，可以用 &lt;code&gt;git mv&lt;/code&gt; 先改成一个临时文件名，再改成目标名，提交后重新部署。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id="杂"&gt;&lt;span class="chapter-title"&gt;杂&lt;/span&gt;&lt;/h2&gt;
 &lt;ol&gt;
@@ -2318,4 +2297,4 @@ JIN-仁- 完結編&lt;/p&gt;
 &lt;h2 id="感言"&gt;&lt;span class="chapter-title"&gt;感言&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;智能输入法的出现使得全拼的重码率变低，普通输入速率大幅上升，但这对于双拼也是一样的，甚至影响更大。&lt;/p&gt;
 &lt;p&gt;字词平台输入法其实是有历史局限性的，理论上很好，上限高。但是是跟不上时代的东西，除非专业人员，并不十分推荐使用，但学习量不大的如“小鹤双形”在一些场合却也十分适用，能掌握基本使用方法也是很好的。&lt;/p&gt;
-&lt;p&gt;日常输入速度在达到一个量的时候（如100字/min），更多的影响其实是思考的速度，而非打字的速度，打字终究还是要自己习惯，自己舒适就行，越是追求着一种极致，最后反而可能在一些方面违背了初心，那样也就不好了。&lt;/p&gt;</description></item><item><title>搜索</title><link>https://Shik1R.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://Shik1R.github.io/search/</guid><description/></item></channel></rss>
+&lt;p&gt;日常输入速度在达到一个量的时候（如100字/min），更多的影响其实是思考的速度，而非打字的速度，打字终究还是要自己习惯，自己舒适就行，越是追求着一种极致，最后反而可能在一些方面违背了初心，那样也就不好了。&lt;/p&gt;</description></item></channel></rss>

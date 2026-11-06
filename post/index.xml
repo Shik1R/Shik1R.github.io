@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on M1ka's Blog</title><link>https://Shik1R.github.io/post/</link><description>Recent content in Posts on M1ka's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>M1ka</copyright><lastBuildDate>Mon, 02 Nov 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://Shik1R.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>2026H1半年拾遗</title><link>https://Shik1R.github.io/p/2026h1%E5%8D%8A%E5%B9%B4%E6%8B%BE%E9%81%97/</link><pubDate>Thu, 30 Jul 2026 23:39:05 +0800</pubDate><guid>https://Shik1R.github.io/p/2026h1%E5%8D%8A%E5%B9%B4%E6%8B%BE%E9%81%97/</guid><description>&lt;h2 id="序"&gt;&lt;span class="chapter-title"&gt;序&lt;/span&gt;&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on M1ka's Blog</title><link>https://Shik1R.github.io/post/</link><description>Recent content in Posts on M1ka's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>M1ka</copyright><lastBuildDate>Fri, 06 Nov 2026 14:30:00 +0800</lastBuildDate><atom:link href="https://Shik1R.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>2026H1半年拾遗</title><link>https://Shik1R.github.io/p/2026h1%E5%8D%8A%E5%B9%B4%E6%8B%BE%E9%81%97/</link><pubDate>Thu, 30 Jul 2026 23:39:05 +0800</pubDate><guid>https://Shik1R.github.io/p/2026h1%E5%8D%8A%E5%B9%B4%E6%8B%BE%E9%81%97/</guid><description>&lt;h2 id="序"&gt;&lt;span class="chapter-title"&gt;序&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;总结这个事，这半年来的时间一直在想着，但总没有真的去切入落地。&lt;/p&gt;
 &lt;p&gt;就像许多想要做的事也一直未开始一样，但念想总归是在的，倒也并不是因为忙的没有时间，只是单纯的没有开始而已。&lt;/p&gt;
 &lt;p&gt;人总是如此，知道要做什么并不等同于会去做什么，空闲的时候以为自己会多花些时间去研究点什么，但更多的大抵只是被娱乐消耗，并非娱乐不好，只是陈述这样一个事实罢了。&lt;/p&gt;
@@ -659,8 +659,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="err"&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img alt="alt text" class="gallery-image" data-flex-basis="682px" data-flex-grow="284" data-original="/pictures/image123.png" decoding="async" height="166" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://Shik1R.github.io/pictures/image123.png" width="472"&gt;
-&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;&lt;a class="link" href="https://Shik1R.github.io/pictures/image123.png" &gt;&lt;img alt="归档标签的文章数显示在名称右侧，daily 有 5 篇，生活随笔有 1 篇" class="gallery-image" data-flex-basis="682px" data-flex-grow="284" data-original="/pictures/image123.png" decoding="async" height="166" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://Shik1R.github.io/pictures/image123.png" width="472"&gt;
+&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="02-首页标签云显示数目"&gt;&lt;span class="chapter-title"&gt;02 首页标签云显示数目&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;在前情提要 Part.1 在归档页增加标签云 tags 里，已经在归档页增加了标签云及其数目，但首页的标签云还没有显示数量，这里也补充一下。在下述文件增加代码：&lt;/p&gt;
 &lt;p&gt;assets/scss/partials/widgets.scss&lt;/p&gt;
@@ -681,8 +681,8 @@
 &lt;/div&gt;&lt;p&gt;layouts/partials/widget/tag-cloud.html
 在{{ .Page.Title }}后增加&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;&amp;lt;span class=&amp;quot;tagCloud-count-main&amp;quot;&amp;gt;{{ .Count }}&amp;lt;/span&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="123" data-original="/pictures/微信截图_20250324095843.png" decoding="async" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://Shik1R.github.io/pictures/微信截图_20250324095843.png"&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://Shik1R.github.io/pictures/%e5%be%ae%e4%bf%a1%e6%88%aa%e5%9b%be_20250324095843.png" &gt;&lt;img alt="首页侧栏的标签云也显示篇数，箭头指向 Daily 旁的数字 5" class="gallery-image" data-flex-basis="414px" data-flex-grow="172" data-original="/pictures/微信截图_20250324095843.png" decoding="async" height="252" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://Shik1R.github.io/pictures/微信截图_20250324095843.png" width="435"&gt;
+&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="03-字数统计"&gt;&lt;span class="chapter-title"&gt;03 字数统计&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;在layouts/partials/footer/footer.html里增加以下代码，其中文章篇数统计参考了这篇&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
@@ -859,8 +859,8 @@ hugo 默认统计的是英文的字符，如果有中文需要在 config.toml �
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img data-original="/pictures/微信截图_20250324110143.png" decoding="async" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://Shik1R.github.io/pictures/微信截图_20250324110143.png"&gt;
-&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;&lt;a class="link" href="https://Shik1R.github.io/pictures/%e5%be%ae%e4%bf%a1%e6%88%aa%e5%9b%be_20250324110143.png" &gt;&lt;img alt="页脚的运行时间显示为 2年0月13天，时长用粗体突出" class="gallery-image" data-flex-basis="1735px" data-flex-grow="723" data-original="/pictures/微信截图_20250324110143.png" decoding="async" height="130" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://Shik1R.github.io/pictures/微信截图_20250324110143.png" srcset="https://Shik1R.github.io/media/404db889c20a17bbb23537e316943064507551989a4ab38b72573af5e1943f51_hu_ad8496a8747077e5.jpg 480w, https://Shik1R.github.io/media/404db889c20a17bbb23537e316943064507551989a4ab38b72573af5e1943f51_hu_ce4f497e6f377712.jpg 800w, https://Shik1R.github.io/pictures/微信截图_20250324110143.png 940w" width="940"&gt;
+&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="05-修改archive页的分类样式"&gt;&lt;span class="chapter-title"&gt;05 修改Archive页的分类样式&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;默认的卡片有些太大了,且无动画效果，在assets/scss/partials/layout/list.scss更改样式，去掉了背景图片，基于另外一个风格AI出来了一段效果&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
@@ -2058,22 +2058,20 @@ JIN-仁- 完結編&lt;/p&gt;
 &lt;li&gt;&lt;del&gt;Windows下以下操作建议在git bash中完成。&lt;/del&gt;、&lt;/li&gt;
 &lt;/ol&gt;
 &lt;ul&gt;
-&lt;li&gt;由于众所周知的原因，npm需要换源,不然速度奇慢&lt;/li&gt;
+&lt;li&gt;如果 npm 下载慢，可以先检查正在使用的源。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
-&lt;/span&gt;&lt;span class="lnt"&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;npm config &lt;span class="nb"&gt;set&lt;/span&gt; registry https://registry.npm.taobao.org
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;npm config get registry
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;npm config get registry
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;安装hexo
-&lt;code&gt;$ npm install -g hexo-cli&lt;/code&gt;&lt;/p&gt;
+&lt;code&gt;npm install -g hexo-cli&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;检查安装是否成功
@@ -2106,47 +2104,44 @@ JIN-仁- 完結編&lt;/p&gt;
 &lt;p&gt;上传&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;完成下一节的 Git 部署配置后，在 Blog 目录执行：&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
-&lt;/span&gt;&lt;span class="lnt"&gt;2
-&lt;/span&gt;&lt;span class="lnt"&gt;3
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hexo d -g
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;-g 为生成静态页面到public目录
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;d 为deploy将.deploy目录部署到GitHub
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hexo d -g
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id="git与hexo连接同步推送"&gt;&lt;span class="chapter-title"&gt;Git与Hexo连接（同步推送）&lt;/span&gt;&lt;/h2&gt;
+&lt;/div&gt;&lt;p&gt;&lt;code&gt;-g&lt;/code&gt; 为生成静态页面到 &lt;code&gt;public&lt;/code&gt; 目录，&lt;code&gt;d&lt;/code&gt; 为部署到 GitHub。&lt;/p&gt;
+&lt;h2 id="git与hexo连接同步推送"&gt;&lt;span class="chapter-title"&gt;Git与Hexo连接（同步推送）&lt;/span&gt;&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;设置Git usrname和email
+&lt;li&gt;设置 Git 用户名和邮箱，先把双引号里的示例值换成自己的名字和邮箱。
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
 &lt;/span&gt;&lt;span class="lnt"&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git config --global user.name &lt;span class="s2"&gt;&amp;#34;`YourName`&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git config --global user.email &lt;span class="s2"&gt;&amp;#34;`YourEmail`&amp;#34;&lt;/span&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git config --global user.name &lt;span class="s2"&gt;&amp;#34;Your Name&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git config --global user.email &lt;span class="s2"&gt;&amp;#34;you@example.com&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;生成秘钥
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;秘钥存储在.ssh文件下
-&lt;code&gt;cd ./.ssh&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;密钥存储在用户目录的 &lt;code&gt;~/.ssh&lt;/code&gt; 下。以下使用 RSA 默认文件名；已有可用密钥可以直接使用。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;生成ssh秘钥&lt;/p&gt;
+&lt;p&gt;生成 SSH 密钥时，把示例邮箱换成自己的邮箱。&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-mysql" data-lang="mysql"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;ssh&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;keygen&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;rsa&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;C&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;`YourEmail`&amp;#34;&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ssh-keygen -t rsa -b 4096 -C &amp;#34;you@example.com&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;
@@ -2162,17 +2157,20 @@ JIN-仁- 完結編&lt;/p&gt;
 &lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;生成的ssh key 添加到ssh-agent
-&lt;code&gt;ssh-add ./.ssh/id_rsa&lt;/code&gt;&lt;/p&gt;
+&lt;code&gt;ssh-add ~/.ssh/id_rsa&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;GitHub -&amp;gt; setting -&amp;gt; SSH and GPGkeys 添加key.&lt;/p&gt;
+&lt;p&gt;将 &lt;code&gt;~/.ssh/id_rsa.pub&lt;/code&gt; 中的公钥添加到 GitHub 的 Settings → SSH and GPG keys。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;测试是否成功
 &lt;code&gt;ssh -T git@github.com&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;code&gt;_config.yml&lt;/code&gt;修改&lt;/p&gt;
+&lt;p&gt;在 Blog 目录安装部署插件：&lt;code&gt;npm install hexo-deployer-git --save&lt;/code&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;_config.yml&lt;/code&gt; 修改如下，把两个 &lt;code&gt;YOUR-USERNAME&lt;/code&gt; 换成自己的 GitHub 用户名。首次推送后，在仓库的 Pages 设置中选择 &lt;code&gt;master&lt;/code&gt; 分支的根目录。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -2185,11 +2183,11 @@ JIN-仁- 完結編&lt;/p&gt;
 &lt;/span&gt;&lt;span class="lnt"&gt;4
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;deploy:
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;type: git
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;repo: git@github.com:gdutxiaoxu/gdutxiaoxu.github.io.git
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;branch: master
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;deploy&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;type&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;git&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;repo&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;git@github.com:YOUR-USERNAME/YOUR-USERNAME.github.io.git&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;branch&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;master&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id="插件"&gt;&lt;span class="chapter-title"&gt;插件&lt;/span&gt;&lt;/h2&gt;
 &lt;ol&gt;
@@ -2205,17 +2203,13 @@ JIN-仁- 完結編&lt;/p&gt;
 &lt;/span&gt;&lt;span class="lnt"&gt;2
 &lt;/span&gt;&lt;span class="lnt"&gt;3
 &lt;/span&gt;&lt;span class="lnt"&gt;4
-&lt;/span&gt;&lt;span class="lnt"&gt;5
-&lt;/span&gt;&lt;span class="lnt"&gt;6
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;#search&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;search:
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;path: search.xml
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;field: post
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;format: html
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;limit: &lt;span class="m"&gt;10000&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;search&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;path&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;search.xml&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;field&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;post&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;format&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;html&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;修改主题配置文件&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
@@ -2224,13 +2218,13 @@ JIN-仁- 完結編&lt;/p&gt;
 &lt;/span&gt;&lt;span class="lnt"&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;local_search:
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;enable: &lt;span class="nb"&gt;true&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;local_search&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;enable&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id="坑"&gt;&lt;span class="chapter-title"&gt;坑&lt;/span&gt;&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;bash上传文件时会自动忽略掉大小写的问题，由此容易造成GitHub Pages 404,需要在&lt;code&gt;.deploy_git-.git-&amp;gt;cofnig&lt;/code&gt;中将&lt;code&gt;ignorecase = false&lt;/code&gt;修改为&lt;code&gt;= true&lt;/code&gt;。防止由于大小写问题造成路径无法识别而404。&lt;/li&gt;
+&lt;li&gt;本地能打开、部署到 GitHub Pages 后却出现 404，可以先检查链接的大小写是否和发布分支里的文件名一致。如果源文件只改了大小写，Git 没有识别到改名，可以用 &lt;code&gt;git mv&lt;/code&gt; 先改成一个临时文件名，再改成目标名，提交后重新部署。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id="杂"&gt;&lt;span class="chapter-title"&gt;杂&lt;/span&gt;&lt;/h2&gt;
 &lt;ol&gt;
